@@ -16,7 +16,7 @@ const Hero = () => {
 
       <div className="flex flex-col p-3 lg:flex-row gap-[100px]">
         {/* Left Section */}
-        <div className="max-w-[500px] flex flex-col mt-[50px]  md:mt-[45px] gap-1 md:gap-4 rounded-md ml-[3px] md:ml-[100px]">
+        <div className="max-w-[500px] flex flex-col mt-[50px]  md:mt-[20px] gap-1 md:gap-4 rounded-md ml-[3px] md:ml-[100px]">
         <h1 className="text-4xl lg:text-7xl font-bold text-white ">
             For God
           </h1>
