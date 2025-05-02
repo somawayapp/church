@@ -35,21 +35,15 @@ const Hero = () => {
            We are a Jesus church and want to gather in worship and scatter to shine His light and love throughout the city and beyond.
           </p>
          
-          <Link
-  to="/about"
-  style={{
-    borderWidth: '2px',
-    borderStyle: 'solid',
-    borderImage: 'linear-gradient(to bottom, #3b82f6, #10b981) 1',
-    borderRadius: '9999px',
-    transition: 'all 0.3s ease',
-    display: 'inline-block',
-    textDecoration: 'none',
-  }}
-  className="mt-3 md:mt-0 px-6 md:px-12 py-3 md:py-3 text-white font-semibold  inline-block "
->
-  New to calvary
-</Link>
+          <div className="inline-block rounded-full p-[2px] bg-gradient-to-b from-blue-500 to-green-500">
+  <Link
+    to="/about"
+    className="block rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl text-white font-semibold bg-black transition-all duration-300"
+  >
+    New to calvary?
+  </Link>
+</div>
+
 
 
            

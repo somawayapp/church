@@ -34,7 +34,7 @@ const Navbar = () => {
 
 <div className="flex items-center justify-between gap-12">
   <Link to="/home" className="flex items-center gap-1 text-xl font-bold md:text-3xl">
-    <img src="/logo.svg" className=" h-20 rounded-lg md:w-9 md:h-9" />
+    <img src="/logo.svg" className=" h-[20px] rounded-lg md:w-9 md:h-9" />
   </Link>
   
   <div className="hidden md:flex flex-1 justify-center space-x-12">
