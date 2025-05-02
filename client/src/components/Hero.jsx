@@ -12,7 +12,7 @@ const Hero = () => {
        text-white  overflow-y-auto"
     style={{ backgroundImage: "url('/church.gif')" }}>
 
-      <div className="flex flex-col lg:flex-row lg:h-[60vh] gap-[100px]">
+      <div className="flex flex-col p-3 lg:flex-row lg:h-[60vh] gap-[100px]">
         {/* Left Section */}
         <div className="max-w-[500px] flex flex-col mt-4 md:mt-[50px] gap-1 md:gap-4 rounded-md ml-[3px] md:ml-[100px]">
         <h1 className="text-4xl lg:text-7xl font-bold text-[var(--textColor)]">
@@ -34,7 +34,7 @@ const Hero = () => {
           </p>
           <Link
             to="/about"
-            className=" max-w-[100px] flex text-center mt-3 md:mt-0 sm:w-auto px-4 md:px-12 py-3 md:py-3 bg-[#0062e3]   text-white font-semibold
+            className=" max-w-[150px] flex text-center mt-3 md:mt-0 sm:w-auto px-4 md:px-12 py-3 md:py-3 bg-[#0062e3]   text-white font-semibold
              rounded-full hover:bg-[#0053bf]   "
           >
             Learn More
