@@ -37,9 +37,15 @@ const Hero = () => {
          
           <Link
   to="/about"
-  className="gradient-border mt-3 md:mt-0 px-6 md:px-12 py-3 md:py-3 text-white font-semibold rounded-full hover:bg-[#0053bf] inline-block w-fit bg-black"
+  style={{
+    borderWidth: '2px',
+    borderStyle: 'solid',
+    borderImage: 'linear-gradient(to bottom, #3b82f6, #10b981) 1',
+    borderRadius: '9999px',
+  }}
+  className="mt-3 md:mt-0 px-6 md:px-12 py-3 md:py-3 text-white font-semibold hover:bg-[#0053bf] inline-block w-fit bg-black"
 >
-  New to calvary?
+  New to calvary
 </Link>
 
 
