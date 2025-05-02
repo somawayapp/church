@@ -136,7 +136,7 @@ const Homepage = () => {
 
 
 
-    <div className="  absolute inset-0 bg-black opacity-50">
+    <div className=" bg-black opacity-50">
   {/* Background Section */}
   <div
     className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col  mt-4
