@@ -93,20 +93,20 @@ const Homepage = () => {
         <Hero />
 
         <div className="flex flex-col px-3 mb-9 md:px-[100px] items-center justify-center">
-      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-9 w-full px-4">
+      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-4 w-full px-4">
         {[
         {
-          service: "First Service",
+          service: "First Service (every sunday) ",
           time: "9:00 AM - 10:30 AM",
           icon: "service2.png",
         },
         {
-          service: "Second Service",
+          service: "Second Service (every sunday) ",
           time: "11:00 AM - 12:30 PM",
           icon: "service3.png",
         },
         {
-          service: "Special Session",
+          service: "Third Service (every sunday) ",
           time: "2:00 PM - 3:30 PM",
           icon: "service4.png",
         }
@@ -139,9 +139,9 @@ const Homepage = () => {
     <div>
   {/* Background Section */}
   <div
-    className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col 
+    className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col  mt-4
       items-center justify-center text-white text-center overflow-y-auto"
-    style={{ backgroundImage: "url('/bgbook.webp')" }}
+    style={{ backgroundImage: "url('/prayers.jpg')" }}
   >
   
   </div>
