@@ -15,7 +15,7 @@ const StoryLine = () => {
   <div
     className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col 
       items-center justify-center text-white text-center overflow-y-auto"
-    style={{ backgroundImage: "url('/bgbook.webp')" }}
+    style={{ backgroundImage: "url('/prayers.jpg')" }}
   >
   
   </div>
