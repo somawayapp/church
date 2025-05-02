@@ -144,8 +144,10 @@ const Homepage = () => {
   <div
     className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col  mt-4 
       items-center justify-center text-white text-center overflow-y-auto"
-    style={{ backgroundImage: "url('/prayers2.jpg') ", opacity:"50" }}
+    style={{ backgroundImage: "url('/prayers2.jpg') " }}
   >
+        <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
+
  
   </div>
  
@@ -199,8 +201,8 @@ const Homepage = () => {
 </div>
 
 
-<div className="flex flex-col px-3 mb-9 md:px-[100px] items-center justify-center">
-      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-9 w-full px-4">
+<div className="flex flex-col px-3 mb-[50px] md:px-[100px] items-center justify-center">
+      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-[50px] w-full px-4">
         {[
         {
           service: "First Service (every sunday) ",
