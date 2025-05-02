@@ -93,10 +93,10 @@ const Homepage = () => {
         <Hero />
 
         
-   <div className=" animate-fadeIn flex flex-col items-center justify-center"
+   <div className=" animate-fadeIn flex flex-col px-3 md:px-[100px] items-center justify-center"
        >
   
-       <div className="flex  flex-col max-w-full  m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
+       <div className="flex  flex-col max-w-full  mgap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
   <p className="text-6xl md:text-9xl mt-5 md:mt-9   md:text-md">Join US</p>
@@ -131,46 +131,7 @@ const Homepage = () => {
 
 
 
-        <div className="flex flex-col px-3 mb-9 md:px-[100px] items-center justify-center">
-      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-4 w-full px-4">
-        {[
-        {
-          service: "First Service (every sunday) ",
-          time: "9:00 AM - 10:30 AM",
-          icon: "service2.png",
-        },
-        {
-          service: "Second Service (every sunday) ",
-          time: "11:00 AM - 12:30 PM",
-          icon: "service3.png",
-        },
-        {
-          service: "Third Service (every sunday) ",
-          time: "2:00 PM - 3:30 PM",
-          icon: "service4.png",
-        }
-        
-        ].map((item, index) => (
-          <div
-            key={index}
-            className="bg-[var(--bd)] shadow-2xl rounded-2xl md:rounded-[20px] p-4  flex flex-col items-start text-left relative"
-          >
-            {/* Icon */}
-            <img
-              src={item.icon}
-              className="absolute top-4 left-4 w-12 h-18 md:w-20 md;h-30"
-            />
-            {/* Text */}
-            <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[50px] md:mt-[100px] ">
-              {item.service}
-            </p>
-             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[10px] ">
-              {item.time}
-            </p>
-          </div>
-        ))}
-      </div>
-    </div>
+      
 
 
 
@@ -180,7 +141,7 @@ const Homepage = () => {
   <div
     className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col  mt-4 bg-black opacity-40
       items-center justify-center text-white text-center overflow-y-auto"
-    style={{ backgroundImage: "url('/prayers.jpg')" }}
+    style={{ backgroundImage: "url('/prayers2.jpg')" }}
   >
  
   </div>
@@ -235,7 +196,46 @@ const Homepage = () => {
 </div>
 
 
-
+<div className="flex flex-col px-3 mb-9 md:px-[100px] items-center justify-center">
+      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-4 w-full px-4">
+        {[
+        {
+          service: "First Service (every sunday) ",
+          time: "9:00 AM - 10:30 AM",
+          icon: "service2.png",
+        },
+        {
+          service: "Second Service (every sunday) ",
+          time: "11:00 AM - 12:30 PM",
+          icon: "service3.png",
+        },
+        {
+          service: "Third Service (every sunday) ",
+          time: "2:00 PM - 3:30 PM",
+          icon: "service4.png",
+        }
+        
+        ].map((item, index) => (
+          <div
+            key={index}
+            className="bg-[var(--bd)] shadow-2xl rounded-2xl md:rounded-[20px] p-4  flex flex-col items-start text-left relative"
+          >
+            {/* Icon */}
+            <img
+              src={item.icon}
+              className="absolute top-4 left-4 w-12 h-18 md:w-20 md;h-30"
+            />
+            {/* Text */}
+            <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[50px] md:mt-[100px] ">
+              {item.service}
+            </p>
+             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[10px] ">
+              {item.time}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
 
 
    <div className=" animate-fadeIn flex flex-col items-center justify-center"
