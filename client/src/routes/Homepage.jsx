@@ -192,10 +192,8 @@ const Homepage = () => {
           30 titles/month
         </button>
       </div>
-    </div>
 
-
-
+      
 
 
 
@@ -240,6 +238,10 @@ const Homepage = () => {
         ))}
       </div>
     </div>
+    </div>
+
+
+
   </div>
 
 </div>
