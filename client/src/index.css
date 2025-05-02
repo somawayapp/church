@@ -73,7 +73,7 @@ a {
   --bd2:#fcfeff ;
 
   --transparentBg: rgba(1, 1, 2, 0.7);
-  --bodyBg: rgba(240, 240, 240);
+  --bodyBg: rgba(34, 34, 34);
 
 
   --softBg1: rgb(85, 86, 87);
@@ -112,7 +112,7 @@ a {
   --textColore2: #ffffff;
   --navBg: rgba(252, 246, 241);
   --bgs: rgb(255, 255, 255);
-  --bodyBg: rgba(34, 34, 34);
+  --bodyBg: rgba(240, 240, 240);
   --softTextColor: #3e3f3f;
 
 

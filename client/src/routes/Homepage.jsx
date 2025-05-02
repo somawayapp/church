@@ -96,7 +96,7 @@ const Homepage = () => {
         <div className=" animate-fadeIn flex flex-col px-3 md:px-[100px] items-center justify-center"
        >
   
-       <div className="flex  bg-[var(--bd)] flex-col max-w-full  m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
+       <div className="flex bg-[var(--bodyBg)] flex-col max-w-full  m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
   <p className="text-6xl md:text-9xl mt-5 md:mt-9   md:text-md">Join US</p>
@@ -222,7 +222,7 @@ const Homepage = () => {
         ].map((item, index) => (
           <div
             key={index}
-            className="bg-[var(--bd)] shadow-2xl rounded-2xl md:rounded-[20px] p-4  flex flex-col items-start text-left relative"
+            className="bg-[var(--bodyBg)] shadow-2xl rounded-2xl md:rounded-[20px] p-4  flex flex-col items-start text-left relative"
           >
             {/* Icon */}
             <img
@@ -355,7 +355,7 @@ const Homepage = () => {
            text-white text-center animate-fadeIn flex flex-col items-center justify-center"
        >
          <div className="h-full max-w-full md:max-w-[700px] mx-auto box-border">
-         <h1 className="text-2xl md:text-5xl mt-[15px] text-[var(--bg)] px-2 md:mt-[50px] font-bold">
+         <h1 className="text-2xl md:text-5xl mt-[15px] text-[var(--softTextColor)] px-2 md:mt-[50px] font-bold">
          Join our church ministries
                    </h1>
                    <div className="flex gap-2 items-center justify-center md:gap-4 flex-row">
@@ -371,7 +371,7 @@ const Homepage = () => {
   </button>
 
   <button
-    className="mt-5 mb-5 flex items-center border border-[var(--textColore)] bg-[var(--bd)] text-[var(--textColor)]
+    className="mt-5 mb-5 flex items-center border border-[var(--textColore)] bg-[var(--bd2)] text-[var(--textColor)]
      font-semibold text-xs md:text-sm  py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer hover:bg-blue-500"
   >
     <img
@@ -382,7 +382,7 @@ const Homepage = () => {
   </button>
 
   <button
-    className="mt-5 mb-5 flex items-center border border-[var(--softTextColor)] bg-[var(--bd2)] text-[var(--bg)] py-2 px-2 md:px-6 md:py-3
+    className="mt-5 mb-5 flex items-center border border-[var(--softTextColor)] bg-[var(--bd)] text-[var(--bg)] py-2 px-2 md:px-6 md:py-3
      font-semibold text-xs md:text-sm  gap-2 rounded-[10px] cursor-pointer hover:bg-blue-500"
   >
     <img
@@ -398,17 +398,17 @@ const Homepage = () => {
          
          </div >
 
-         <div className="flex bg-[var(--bd2)] flex-col max-w-full md:max-w-[900px] m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
+         <div className="flex bg-[var(--bd)] flex-col max-w-full md:max-w-[900px] m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
   <img
     src="/heropic.jpg"
     className="w-[200px] rounded-lg md:rounded-[20px] md:w-2/5 mx-auto md:mx-0"
   />
   <div className="md:w-3/5 items-start justify-start md:text-left">
-    <p className="text-xs mt-5 md:mt-9 text-[var(--bg2)]  md:text-md">ABOUT US</p>
-    <p className="text-md mt-1 md:mt-2 text-[var(--bg)] md:text-2xl font-semibold">
+    <p className="text-xs mt-5 md:mt-9 text-[var(--softTextColor)] md:text-md">ABOUT US</p>
+    <p className="text-md mt-1 md:mt-2 text-[var(--softTextColor)] md:text-2xl font-semibold">
       Still wondering what is Somaway app?
     </p>
-    <p className="text-sm text-[var(--bg)] mt-1 md:mt-2 md:text-lg">
+    <p className="text-sm text-[var(--softTextColor)] mt-1 md:mt-2 md:text-lg">
       Somaway is a global EdTech startup with Kenyan roots. Somaway app offers
       15-minute bite-sized non-fiction book summaries catered to your everyday
       needs. We are mission-driven and passionate about self-improvement.
