@@ -42,8 +42,11 @@ const Hero = () => {
     borderStyle: 'solid',
     borderImage: 'linear-gradient(to bottom, #3b82f6, #10b981) 1',
     borderRadius: '9999px',
+    transition: 'all 0.3s ease',
+    display: 'inline-block',
+    textDecoration: 'none',
   }}
-  className="mt-3 md:mt-0 px-6 md:px-12 py-3 md:py-3 text-white font-semibold hover:bg-[#0053bf] inline-block w-fit bg-black"
+  className="mt-3 md:mt-0 px-6 md:px-12 py-3 md:py-3 text-white font-semibold  inline-block "
 >
   New to calvary
 </Link>
