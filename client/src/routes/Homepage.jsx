@@ -94,39 +94,43 @@ const Homepage = () => {
 
 
 
-
+   <div
+         className=" animate-fadeIn flex flex-col items-center justify-center"
+       >
        
 
-         <div className="flex  bg-[var(--bd)] flex-col max-w-full md:max-w-[900px] m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
+      
+       <div className="flex  bg-[var(--bd)] flex-col max-w-full md:max-w-[1100px] m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
 
-  <div className="md:w-1/2 items-start justify-start md:text-left">
-    <p className="text-6xl md:text-9xl mt-5 md:mt-9   md:text-md">Join US</p>
-    <p className="text-3xl md:text-6xl mt-4 md:mt-2 :text-2xl font-semibold">
-      this Sunday
-    </p>
-    <p className="text-sm  mt-1 md:mt-2 md:text-lg">
-    Join us every Sunday at 9:30a and 11:45a for our
-     Atlanta Gatherings or 9:30a and 11:30a for our
-     Washington DC Gatherings at passioncity.online.
-    </p>
-
-
-      <Link
-      to="/about"
-      className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl text-white font-semibold transition-all duration-300 inline-block w-fit"
-    >
-      Watch Online
-    </Link>
-  </div>
+<div className="md:w-1/2 items-start justify-start md:text-left">
+  <p className="text-6xl md:text-9xl mt-5 md:mt-9   md:text-md">Join US</p>
+  <p className="text-3xl md:text-6xl mt-4 md:mt-2 :text-2xl font-semibold">
+    this Sunday
+  </p>
+  <p className="text-sm  mt-1 md:mt-2 md:text-lg">
+  Join us every Sunday at 9:30a and 11:45a for our
+   Atlanta Gatherings or 9:30a and 11:30a for our
+   Washington DC Gatherings at passioncity.online.
+  </p>
 
 
-  <img
-    src="/sunday.jpg"
-    className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
-  />
+    <Link
+    to="/about"
+    className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl text-white font-semibold transition-all duration-300 inline-block w-fit"
+  >
+    Watch Online
+  </Link>
+</div>
+
+
+<img
+  src="/sunday.jpg"
+  className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
+/>
 </div>
 
        
+       </div>
 
 
 
