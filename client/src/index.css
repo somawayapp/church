@@ -379,3 +379,22 @@ body {
     font-size: 20px;
   }
 }
+.gradient-border {
+  position: relative;
+  z-index: 0;
+}
+
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px; /* Border thickness */
+  background: linear-gradient(to bottom, #3b82f6 0%, #10b981 100%); /* blue to green */
+  border-radius: 9999px; /* Full round */
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  z-index: -1;
+}
