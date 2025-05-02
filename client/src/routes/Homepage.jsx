@@ -94,7 +94,7 @@ const Homepage = () => {
 
 
    <div
-         className="bg-[var(--bodyBg)] p-4 md:p-9 mt-[10px] mx-3 md:mx-[100px] rounded-lg md:rounded-[30px]
+         className="bg-[var(--bd)] p-4 md:p-9 mt-[10px] mx-3 md:mx-[100px] rounded-lg md:rounded-[30px]
            text-white text-center animate-fadeIn flex flex-col items-center justify-center"
        >
        
