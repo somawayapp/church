@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom"; // Use NavLink for active link styling
 import { Home, Compass, User, Search, Settings } from "lucide-react";
-
 const MobileControls = () => {
   return (
 <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 flex justify-between bg-[var(--bg)] 

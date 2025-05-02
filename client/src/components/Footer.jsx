@@ -1,4 +1,6 @@
 import React from 'react';
+import ThemeToggler from "./Theme";
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -67,6 +69,8 @@ const Footer = () => {
           <a href="mailto:support@soma.ia.com" className="text-[var(--softTextColor)] pl-1 hover:text-[var(--softTextColor)]">
             support@ makesomaway@gmail.com
           </a>
+          <ThemeToggler />
+
         </p>
       </div>
     </footer>
