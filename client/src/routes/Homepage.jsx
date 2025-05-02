@@ -125,7 +125,7 @@ const Homepage = () => {
             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[50px] md:mt-[100px] ">
               {item.service}
             </p>
-             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[20px] md:mt-[40px] ">
+             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[10px] ">
               {item.time}
             </p>
           </div>
