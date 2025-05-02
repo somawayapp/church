@@ -53,12 +53,12 @@ const Hero = () => {
     </div>
 
 
-<div className="overflow-hidden relative w-full p-6  
+<div className="overflow-hidden relative w-full p-6 border-b border-b-[var(--softBg4)]
 whitespace-nowrap  ">
  <div className="flex  gap-9  md:gap-[80px] animate-scroll">
-   <h1 className="text-xl md:text-3xl">Everyone is welcome to the house of the lord Everyone is welcome to the house of the lord</h1>
+   <h1 className="text-xl md:text-3xl"> John 3:16 "For God so loved the world that He gave His only begotten Son, that whoever believes in Him shall not perish but have everlasting life." </h1>
 
-   <h1 className="text-xl md:text-3xl">Everyone is welcome to the house of the lord Everyone is welcome to the house of the lord</h1>
+   <h1 className="text-xl md:text-3xl"> John 3:16 "For God so loved the world that He gave His only begotten Son, that whoever believes in Him shall not perish but have everlasting life." </h1>
 
  </div>
  </div>
