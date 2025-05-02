@@ -163,7 +163,9 @@ const Homepage = () => {
       <p className="mt-2 text-md md:text-xl">
         Grasp the book’s key ideas in less than 5 minutes
       </p>
-      <button className="mt-9 bg-white text-black py-3 text-bold px-6 rounded-lg cursor-pointer hover:bg-gray-200">
+      <button className="mt-9 bg-white text-black py-4 text-bold px-8 cursor-pointer hover:bg-gray-200
+       text-2xl md:text-5xl rounded-[40px]   "
+        >
         Get Started
       </button>
     </div>
@@ -172,8 +174,8 @@ const Homepage = () => {
   {/* Scrolling Content */}
   <div className="p-2 md:p-[30px] md:mb-[20px] mt-[120px]">
     <div
-      className="relative bg-white w-full rounded-3xl md:rounded-[30px] shadow-md 
-        text-black text-center animate-fadeIn flex flex-col items-center justify-center"
+      className="relative text-[var(--textColor)] w-full rounded-3xl md:rounded-[30px] shadow-md 
+        bg-[var(--bg)] text-center animate-fadeIn flex flex-col items-center justify-center"
     >
       <div className="h-full p-2  box-border">
         <h1 className="text-3xl md:text-6xl mt-[20px] md:mt-[70px] font-bold">
@@ -186,8 +188,8 @@ const Homepage = () => {
           much time you’d like to spend on reading:
         </p>
         <button
-          className="mt-9 bg-black text-white py-4 text-extrabold text-2xl md:text-5xl 
-            px-8 rounded-[40px] cursor-pointer hover:bg-[#0053bf]   "
+          className="mt-9 text-[var(--bg)] bg-[var(--textColor)] py-4 text-extrabold text-2xl md:text-5xl 
+            px-8 rounded-[40px] cursor-pointer hover:bg-[var(--bd)]  "
         >
           30 titles/month
         </button>
@@ -198,7 +200,7 @@ const Homepage = () => {
 
 
 
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col mb-[75px]  items-center justify-center">
       <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-[75px] w-full px-4">
         {[
         {
