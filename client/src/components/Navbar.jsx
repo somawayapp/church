@@ -34,13 +34,16 @@ const Navbar = () => {
 
 <div className="flex items-center justify-between gap-12">
   <Link to="/home" className="flex items-center gap-1 text-xl font-bold md:text-3xl">
-    <img src="/somawaylogo.png" className="w-7 h-7 rounded-lg md:w-9 md:h-9" />
+    <img src="/logo.svg" className="w-7 h-7 rounded-lg md:w-9 md:h-9" />
     <span className="bg-clip-text text-[#0062e3] pl-1 text-xl md:text-2xl font-extrabold">Somaway</span>
   </Link>
   
   <div className="hidden md:flex flex-1 justify-center space-x-12">
     <Link className="hover:text-[#0053bf] font-bold" to="/" onClick={() => setOpen(false)}>Home</Link>
-    <Link className="hover:text-[#0053bf] font-bold" to="/" onClick={() => setOpen(false)}>Discover</Link>
+    <Link className="hover:text-[#0053bf] font-bold" to="/ministries" onClick={() => setOpen(false)}>Ministries</Link>
+    <Link className="hover:text-[#0053bf] font-bold" to="/about" onClick={() => setOpen(false)}>About Us</Link>
+    <Link className="hover:text-[#0053bf] font-bold" to="/give" onClick={() => setOpen(false)}>Give</Link>
+
   </div>
 </div>
 
