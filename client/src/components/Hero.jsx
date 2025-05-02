@@ -34,8 +34,8 @@ const Hero = () => {
           </p>
           <Link
             to="/about"
-            className="w-full max-w-[80px] flex text-center mt-3 md:mt-0 sm:w-auto px-4 md:px-12 py-3 md:py-3 bg-[#0062e3]   text-white font-semibold
-             rounded-6xl hover:bg-[#0053bf]   "
+            className=" max-w-[100px] flex text-center mt-3 md:mt-0 sm:w-auto px-4 md:px-12 py-3 md:py-3 bg-[#0062e3]   text-white font-semibold
+             rounded-full hover:bg-[#0053bf]   "
           >
             Learn More
           </Link>
