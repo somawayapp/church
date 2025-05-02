@@ -94,17 +94,14 @@ const Homepage = () => {
 
 
 
-   <div
-         className="bg-[var(--bd2)] p-4 md:p-9 mt-[10px] mx-3 md:mx-[100px] rounded-lg md:rounded-[30px]
-           text-white text-center animate-fadeIn flex flex-col items-center justify-center"
-       >
+
        
 
          <div className="flex  bg-[var(--bd)] flex-col max-w-full md:max-w-[900px] m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
 
   <div className="md:w-3/5 items-start justify-start md:text-left">
-    <p className="text-9xl md:text-[80px] mt-5 md:mt-9   md:text-md">Join US</p>
-    <p className="text-6xl md:text-9xl mt-4 md:mt-2 :text-2xl font-semibold">
+    <p className="text-6xl md:text-9xl mt-5 md:mt-9   md:text-md">Join US</p>
+    <p className="text-3xl md:text-6xl mt-4 md:mt-2 :text-2xl font-semibold">
       this Sunday
     </p>
     <p className="text-sm  mt-1 md:mt-2 md:text-lg">
@@ -116,7 +113,7 @@ const Homepage = () => {
 
       <Link
       to="/about"
-      className="gradient-border mt-2 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl text-white font-semibold transition-all duration-300 inline-block w-fit"
+      className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl text-white font-semibold transition-all duration-300 inline-block w-fit"
     >
       Watch Online
     </Link>
@@ -130,7 +127,6 @@ const Homepage = () => {
 </div>
 
        
-       </div>
 
 
 
