@@ -192,17 +192,16 @@ const Homepage = () => {
           30 titles/month
         </button>
       </div>
-      <img
-        src="/pic3.svg"
-        className="max-w-full h-auto mx-auto mt-8"
-      />
     </div>
   </div>
 </div>
 
 
-<div className="flex flex-col px-3 mb-[50px] md:px-[100px] items-center justify-center">
-      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-[50px] w-full px-4">
+
+
+
+<div className="flex flex-col px-3 mb-[75px] md:px-[100px] items-center justify-center">
+      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-[75px] w-full px-4">
         {[
         {
           service: "First Service (every sunday) ",
@@ -243,10 +242,21 @@ const Homepage = () => {
     </div>
 
 
-   <div className=" animate-fadeIn flex flex-col items-center justify-center"
+
+
+
+
+
+    <div className=" animate-fadeIn flex flex-col items-center px-3 md:px-[100px] justify-center"
        >
+
+<img
+  src="/sunday.jpg"
+  className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
+/>
+
   
-       <div className="flex  bg-[var(--bd)] flex-col max-w-full md:max-w-[1100px] m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
+       <div className="flex   flex-col max-w-full  m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
   <p className="text-6xl md:text-9xl mt-5 md:mt-9   md:text-md">Join US</p>
@@ -262,7 +272,48 @@ const Homepage = () => {
 
     <Link
     to="/about"
-    className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl text-white font-semibold transition-all duration-300 inline-block w-fit"
+    className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl
+    font-semibold transition-all duration-300 inline-block w-fit"
+  >
+    Watch Online
+  </Link>
+</div>
+
+
+
+</div>
+
+       
+       </div>
+
+
+
+
+
+
+
+
+   <div className=" animate-fadeIn flex flex-col items-center px-3 md:px-[100px] justify-center"
+       >
+  
+       <div className="flex   flex-col max-w-full  m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
+
+<div className="md:w-1/2 items-start justify-start md:text-left">
+  <p className="text-6xl md:text-9xl mt-5 md:mt-9   md:text-md">Join US</p>
+  <p className="text-3xl md:text-6xl mt-4 md:mt-2 :text-2xl font-semibold">
+    this Sunday
+  </p>
+  <p className="text-sm  mt-1 md:mt-2 md:text-lg">
+  Join us every Sunday at 9:30a and 11:45a for our
+   Atlanta Gatherings or 9:30a and 11:30a for our
+   Washington DC Gatherings at passioncity.online.
+  </p>
+
+
+    <Link
+    to="/about"
+    className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl
+    font-semibold transition-all duration-300 inline-block w-fit"
   >
     Watch Online
   </Link>
@@ -277,6 +328,11 @@ const Homepage = () => {
 
        
        </div>
+
+
+
+
+
 
 
 
