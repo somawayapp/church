@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div className=" mb-9 ">
 
-       <div  className=" bg-cover bg-center h-[80vh] w-full flex flex-col 
+       <div  className=" bg-cover bg-center h-[78vh] w-full flex flex-col 
        text-white  overflow-y-auto"
     style={{ backgroundImage: "url('/church.gif')" }}>
 
@@ -53,7 +53,7 @@ const Hero = () => {
     </div>
 
 
-<div className="overflow-hidden relative w-full p-6 md:p-9 
+<div className="overflow-hidden relative w-full p-6  
 whitespace-nowrap  ">
  <div className="flex  gap-9  md:gap-[80px] animate-scroll">
    <h1 className="text-xl md:text-3xl">Everyone is welcome to the house of the lord Everyone is welcome to the house of the lord</h1>
