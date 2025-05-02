@@ -95,19 +95,19 @@ const Homepage = () => {
 
 
    <div
-         className="bg-[var(--bd)] p-4 md:p-9 mt-[10px] mx-3 md:mx-[100px] rounded-lg md:rounded-[30px]
+         className="bg-[var(--bd2)] p-4 md:p-9 mt-[10px] mx-3 md:mx-[100px] rounded-lg md:rounded-[30px]
            text-white text-center animate-fadeIn flex flex-col items-center justify-center"
        >
        
 
-         <div className="flex bg-[var(--bd2)] flex-col max-w-full md:max-w-[900px] m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
+         <div className="flex  bg-[var(--bd)] flex-col max-w-full md:max-w-[900px] m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
 
   <div className="md:w-3/5 items-start justify-start md:text-left">
-    <p className="text-4xl md:text-8xl mt-5 md:mt-9   md:text-md">Join US</p>
-    <p className="text-2xl md:text-4xl mt-4 md:mt-2 text-[var(--bg)] md:text-2xl font-semibold">
+    <p className="text-9xl md:text-[80px] mt-5 md:mt-9   md:text-md">Join US</p>
+    <p className="text-6xl md:text-9xl mt-4 md:mt-2 :text-2xl font-semibold">
       this Sunday
     </p>
-    <p className="text-sm text-[var(--bg)] mt-1 md:mt-2 md:text-lg">
+    <p className="text-sm  mt-1 md:mt-2 md:text-lg">
     Join us every Sunday at 9:30a and 11:45a for our
      Atlanta Gatherings or 9:30a and 11:30a for our
      Washington DC Gatherings at passioncity.online.
