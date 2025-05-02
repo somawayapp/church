@@ -8,7 +8,10 @@ const Hero = () => {
 
 
   return (
-    <div className="flex mb-0 md:mb-[100px] px-3 md:px-9 flex-col mt-0 md:mt-4">
+       <div  className=" bg-cover bg-center h-screen w-full flex flex-col  mt-0 md:mt-4
+      items-center justify-center text-white text-center overflow-y-auto"
+    style={{ backgroundImage: "url('/church.gif')" }}>
+
       <div className="flex flex-col lg:flex-row lg:h-[60vh] gap-[100px] mt-4">
         {/* Left Section */}
         <div className="lg:w-4/9 flex flex-col mt-0 md:mt-9 items-start gap-1 md:gap-4 rounded-md">
@@ -37,16 +40,7 @@ const Hero = () => {
         {/* Right Section */}
         <div className="lg:w-4/9 flex mt-[-53px] md:mt-[-40px] flex-col">
           {/* First Featured Post */}
-          <div className="flex mb-8 md:mb-[50px] top-0">
-              <img
-                src="/desktop.webp"
-                className="hidden sm:block w-full object-cover rounded-lg"
-              />
-              <img
-                src="/mobile.webp"
-                className="block sm:hidden w-full object-cover rounded-lg"
-              />
-          </div>
+    
         </div>
       </div>
 
