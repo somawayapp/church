@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { FaStar } from 'react-icons/fa';
-import PlanCard from "../components/PlanCard";
 import { useEffect } from "react";
 
 const AboutPage = () => {
