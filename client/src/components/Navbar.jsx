@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 import "../index.css";
-import Search from "./Search";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -193,7 +192,7 @@ onClick={() => setOpen(false)}          > Book summaries          </Link>
           >
           Login     
                </Link>
-          </SignedOut>
+          </SignedOut> 
 
         </div>
 
