@@ -34,21 +34,13 @@ const Hero = () => {
           Welcome to a place where the gospel is central and Jesus is always the lead story.
            We are a Jesus church and want to gather in worship and scatter to shine His light and love throughout the city and beyond.
           </p>
-      
-
-
-          <Link
-  to="/about"
-  className="relative inline-block px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl text-white font-semibold rounded-full border-2 border-transparent bg-transparent z-10
-             before:content-[''] before:absolute before:inset-0 before:rounded-full before:p-[2px]
-             before:bg-gradient-to-b before:from-blue-500 before:to-green-500 before:z-[-1]
-             before:mask before:mask-composite-x before:bg-white"
->
-  New to calvary?
-</Link>
-
-
-
+         
+  <Link
+    to="/about"
+    className=" rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl text-white font-semibold  border border-gradient-to-b from-blue-500 to-green-500 transition-all duration-300"
+  >
+    New to calvary?
+  </Link>
 
 
 
