@@ -32,15 +32,15 @@ const Hero = () => {
           Welcome to a place where the gospel is central and Jesus is always the lead story.
            We are a Jesus church and want to gather in worship and scatter to shine His light and love throughout the city and beyond.
           </p>
-          <button
-           to="/about"
-            className="inline-block text-center mt-3 md:mt-0 px-4 md:px-12 py-3 bg-[#0062e3] text-white font-semibold rounded-full 
-            hover:bg-[#0053bf]"
-              >
-            Learn More
-          </button>
+         
+          <Link
+  to="/about"
+  className="inline-block text-center mt-3 md:mt-0 px-6 md:px-12 py-3 bg-[#0062e3] text-white font-semibold
+    rounded-full hover:bg-[#0053bf]"
+>
+  Learn More
+</Link>
 
-        
         </div>
       
       
