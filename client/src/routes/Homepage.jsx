@@ -193,14 +193,14 @@ const Homepage = () => {
         </button>
       </div>
     </div>
-  </div>
-</div>
 
 
 
 
 
-<div className="flex flex-col px-3 mb-[75px] md:px-[100px] items-center justify-center">
+
+
+    <div className="flex flex-col items-center justify-center">
       <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-[75px] w-full px-4">
         {[
         {
@@ -240,6 +240,15 @@ const Homepage = () => {
         ))}
       </div>
     </div>
+  </div>
+
+</div>
+
+
+
+
+
+
 
 
 
@@ -250,13 +259,14 @@ const Homepage = () => {
     <div className=" animate-fadeIn flex flex-col items-center px-3 md:px-[100px] justify-center"
        >
 
-<img
-  src="/sunday.jpg"
-  className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
-/>
+
 
   
        <div className="flex   flex-col max-w-full  m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
+       <img
+  src="/sunday.jpg"
+  className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
+/>
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
   <p className="text-6xl md:text-9xl mt-5 md:mt-9   md:text-md">Join US</p>
