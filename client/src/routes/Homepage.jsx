@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import StoryLine from "../components/StoryLine";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 import MobileControls from "../components/MobileControls";
 import { Helmet } from "react-helmet";
