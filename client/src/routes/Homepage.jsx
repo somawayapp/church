@@ -93,10 +93,10 @@ const Homepage = () => {
         <Hero />
 
         
-   <div className=" animate-fadeIn flex flex-col px-3 md:px-[100px] items-center justify-center"
+        <div className=" animate-fadeIn flex flex-col px-3 md:px-[100px] items-center justify-center"
        >
   
-       <div className="flex  flex-col max-w-full  mgap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
+       <div className="flex  bg-[var(--bd)] flex-col max-w-full  m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
   <p className="text-6xl md:text-9xl mt-5 md:mt-9   md:text-md">Join US</p>
@@ -124,7 +124,9 @@ const Homepage = () => {
   className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
 />
 </div>
- </div>
+
+       
+       </div>
 
 
 
@@ -139,7 +141,7 @@ const Homepage = () => {
     <div className=" ">
   {/* Background Section */}
   <div
-    className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col  mt-4 bg-black opacity-40
+    className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col  mt-4 opacity-40
       items-center justify-center text-white text-center overflow-y-auto"
     style={{ backgroundImage: "url('/prayers2.jpg')" }}
   >
