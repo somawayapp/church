@@ -8,7 +8,7 @@ const Hero = () => {
 
 
   return (
-       <div  className=" bg-cover bg-center h-screen w-full flex flex-col  mt-0 
+       <div  className=" bg-cover bg-center h-[70vh] w-full flex flex-col  mt-0 
        text-white  overflow-y-auto"
     style={{ backgroundImage: "url('/church.gif')" }}>
 
