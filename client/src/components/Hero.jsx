@@ -34,13 +34,14 @@ const Hero = () => {
           Welcome to a place where the gospel is central and Jesus is always the lead story.
            We are a Jesus church and want to gather in worship and scatter to shine His light and love throughout the city and beyond.
           </p>
-         
-          <Link
-  to="/about"
-  className="gradient-border rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl text-white font-semibold transition-all duration-300"
->
-  New to calvary?
-</Link>
+
+          
+          <div class="gradient-border-wrapper">
+  <a href="/about" class="gradient-button">
+    New to calvary?
+  </a>
+</div>
+
 
 
 

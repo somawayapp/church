@@ -379,9 +379,22 @@ body {
     font-size: 20px;
   }
 }
-.gradient-border {
-  border: 2px solid transparent;
-  border-image: linear-gradient(to bottom, #3b82f6, #10b981); /* blue-500 to green-500 */
-  border-image-slice: 1;
+.gradient-border-wrapper {
+  display: inline-block;
+  padding: 2px; /* Thickness of the gradient border */
+  border-radius: 9999px; /* Fully rounded */
+  background: linear-gradient(to bottom, #3b82f6, #10b981);
+}
+
+.gradient-button {
+  display: inline-block;
+  background-color: #000; /* Or match your site's background */
+  color: white;
+  font-weight: 600;
+  font-size: 1.125rem; /* text-lg */
+  padding: 0.75rem 1.5rem; /* py-3 px-6 */
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
