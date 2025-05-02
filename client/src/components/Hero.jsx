@@ -8,9 +8,9 @@ const Hero = () => {
 
 
   return (
-    <div>
+    <div className=" mb-9 ">
 
-       <div  className=" bg-cover bg-center h-[80vh] w-full flex flex-col  mt-0 
+       <div  className=" bg-cover bg-center h-[80vh] w-full flex flex-col 
        text-white  overflow-y-auto"
     style={{ backgroundImage: "url('/church.gif')" }}>
 
@@ -53,8 +53,8 @@ const Hero = () => {
     </div>
 
 
-<div className="overflow-hidden relative w-full h-[40px] md:h-[50px] 
-whitespace-nowrap p-5 md:p-9  ">
+<div className="overflow-hidden relative w-full p-6 md:p-9 
+whitespace-nowrap  ">
  <div className="flex  gap-9  md:gap-[80px] animate-scroll">
    <h1 className="text-xl md:text-3xl">Everyone is welcome to the house of the lord Everyone is welcome to the house of the lord</h1>
 
