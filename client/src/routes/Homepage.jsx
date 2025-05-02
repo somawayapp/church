@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import Partners from "../components/Patners";
 import StoryLine from "../components/StoryLine";
 import Footer from "../components/Footer";
+
 import MobileControls from "../components/MobileControls";
 import { Helmet } from "react-helmet";
 
