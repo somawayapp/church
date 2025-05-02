@@ -97,9 +97,50 @@ const Homepage = () => {
          className="bg-[var(--bodyBg)] p-4 md:p-9 mt-[10px] mx-3 md:mx-[100px] rounded-lg md:rounded-[30px]
            text-white text-center animate-fadeIn flex flex-col items-center justify-center"
        >
+       
+
+         <div className="flex bg-[var(--bd2)] flex-col max-w-full md:max-w-[900px] m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
+
+  <div className="md:w-3/5 items-start justify-start md:text-left">
+    <p className="text-4xl md:text-8xl mt-5 md:mt-9   md:text-md">Join US</p>
+    <p className="text-2xl md:text-4xl mt-4 md:mt-2 text-[var(--bg)] md:text-2xl font-semibold">
+      this Sunday
+    </p>
+    <p className="text-sm text-[var(--bg)] mt-1 md:mt-2 md:text-lg">
+    Join us every Sunday at 9:30a and 11:45a for our
+     Atlanta Gatherings or 9:30a and 11:30a for our
+     Washington DC Gatherings at passioncity.online.
+    </p>
+
+
+      <Link
+      to="/about"
+      className="gradient-border mt-2 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl text-white font-semibold transition-all duration-300 inline-block w-fit"
+    >
+      Watch Online
+    </Link>
+  </div>
+
+
+  <img
+    src="/sunday.jpg"
+    className="w-[200px] rounded-lg md:rounded-[20px] md:w-2/5 mx-auto md:mx-0"
+  />
+</div>
+
+       
+       </div>
+
+
+
+      <StoryLine />
+      <div
+         className="bg-[var(--bodyBg)] p-4 md:p-9 mt-[10px] mx-3 md:mx-[100px] rounded-lg md:rounded-[30px]
+           text-white text-center animate-fadeIn flex flex-col items-center justify-center"
+       >
          <div className="h-full max-w-full md:max-w-[700px] mx-auto box-border">
          <h1 className="text-2xl md:text-5xl mt-[15px] text-[var(--bg)] px-2 md:mt-[50px] font-bold">
-         Set your goal and start your self-growth journey
+         Join our church ministries
                    </h1>
                    <div className="flex gap-2 items-center justify-center md:gap-4 flex-row">
   <button
@@ -161,10 +202,6 @@ const Homepage = () => {
 
        
        </div>
-
-
-
-      <StoryLine />
 
       <Footer />
 

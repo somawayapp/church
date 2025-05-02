@@ -45,8 +45,8 @@ const StoryLine = () => {
     >
       <div className="h-full p-2  box-border">
         <h1 className="text-3xl md:text-6xl mt-[20px] md:mt-[70px] font-bold">
-          Get new knowledge easily
-        </h1>
+          Service Times
+         </h1>
         <p className="mt-2 text-md md:text-xl">
           Let’s check how many titles you can finish in a month with  Somaway! Tell us how
         </p>
