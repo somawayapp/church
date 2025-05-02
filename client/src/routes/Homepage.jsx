@@ -2,7 +2,6 @@ import { useEffect, useState, useRef } from "react";
 import { ThemeProvider } from "../../themecontext";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import Partners from "../components/Patners";
 import StoryLine from "../components/StoryLine";
 import Footer from "../components/Footer";
 
@@ -92,7 +91,6 @@ const Homepage = () => {
      
         <Hero />
 
-   <Partners />
 
 
    <div
