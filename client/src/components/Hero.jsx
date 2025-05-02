@@ -9,22 +9,22 @@ const Hero = () => {
 
   return (
        <div  className=" bg-cover bg-center h-screen w-full flex flex-col  mt-0 
-      items-center justify-center text-white text-center overflow-y-auto"
+       text-white  overflow-y-auto"
     style={{ backgroundImage: "url('/church.gif')" }}>
 
       <div className="flex flex-col lg:flex-row lg:h-[60vh] gap-[100px]">
         {/* Left Section */}
         <div className="max-w-lg flex flex-col mt-4 md:mt-6 gap-1 md:gap-4 rounded-md ml-[9px]">
-        <h1 className="text-4xl lg:text-8xl font-bold text-[var(--textColor)]">
+        <h1 className="text-4xl lg:text-7xl font-bold text-[var(--textColor)]">
             For God
           </h1>
-          <h1 className="text-4xl lg:text-8xl font-bold text-[var(--textColor)]">
+          <h1 className="text-4xl lg:text-7xl font-bold text-[var(--textColor)]">
             For People
           </h1>
-          <h1 className="text-4xl lg:text-8xl font-bold text-[var(--textColor)]">
+          <h1 className="text-4xl lg:text-7xl font-bold text-[var(--textColor)]">
             For the City
           </h1>
-          <h1 className="text-4xl lg:text-8xl font-bold text-[var(--textColor)]">
+          <h1 className="text-4xl lg:text-7xl font-bold text-[var(--textColor)]">
             For The World
           </h1>
          
