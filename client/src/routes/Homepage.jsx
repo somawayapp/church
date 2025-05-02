@@ -136,14 +136,17 @@ const Homepage = () => {
 
 
 
-    <div className=" bg-black opacity-50">
+    <div className=" ">
   {/* Background Section */}
+  <div className="bg-black opacity-40">
   <div
     className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col  mt-4
       items-center justify-center text-white text-center overflow-y-auto"
     style={{ backgroundImage: "url('/prayers.jpg')" }}
   >
   </div>
+  </div>
+ 
 
 
 <div className="items-center justify-center text-white mt-[-500px] md:mt-[-650px] mb-[250px] md:mb-[550px] text-center ">
