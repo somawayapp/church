@@ -35,12 +35,13 @@ const Hero = () => {
            We are a Jesus church and want to gather in worship and scatter to shine His light and love throughout the city and beyond.
           </p>
          
-  <Link
-    to="/about"
-    className=" rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl text-white font-semibold  border border-gradient-to-b from-blue-500 to-green-500 transition-all duration-300"
-  >
-    New to calvary?
-  </Link>
+          <Link
+  to="/about"
+  className="gradient-border rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl text-white font-semibold transition-all duration-300"
+>
+  New to calvary?
+</Link>
+
 
 
 

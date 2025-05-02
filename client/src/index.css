@@ -380,21 +380,8 @@ body {
   }
 }
 .gradient-border {
-  position: relative;
-  z-index: 0;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom, #3b82f6, #10b981); /* blue-500 to green-500 */
+  border-image-slice: 1;
 }
 
-.gradient-border::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  padding: 2px; /* Border thickness */
-  background: linear-gradient(to bottom, #3b82f6 0%, #10b981 100%); /* blue to green */
-  border-radius: 9999px; /* Full round */
-  -webkit-mask: 
-    linear-gradient(#fff 0 0) content-box, 
-    linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-          mask-composite: exclude;
-  z-index: -1;
-}
