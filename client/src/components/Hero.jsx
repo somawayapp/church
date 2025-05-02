@@ -8,7 +8,9 @@ const Hero = () => {
 
 
   return (
-       <div  className=" bg-cover bg-center h-[75vh] md: h-[80vh] w-full flex flex-col  mt-0 
+    <div>
+
+       <div  className=" bg-cover bg-center h-[75vh] w-full flex flex-col  mt-0 
        text-white  overflow-y-auto"
     style={{ backgroundImage: "url('/church.gif')" }}>
 
@@ -34,12 +36,12 @@ const Hero = () => {
           </p>
          
           <Link
-  to="/about"
-  className="mt-3 md:mt-0 px-4 md:px-12 py-3 md:py-3 bg-[#0062e3] text-white font-semibold
-  rounded-full hover:bg-[#0053bf] inline-block w-fit"
->
-  Learn More
-</Link>
+           to="/about"
+           className="mt-3 md:mt-0 px-6 md:px-12 py-3 md:py-3 bg-[#0062e3] text-white font-semibold
+           rounded-full hover:bg-[#0053bf] inline-block w-fit"
+             >
+           Learn More
+           </Link>
 
 
         </div>
@@ -49,6 +51,19 @@ const Hero = () => {
 
 
     </div>
+
+
+<div className="overflow-hidden relative w-full h-[40px] md:h-[50px] 
+whitespace-nowrap p-5 md:p-9  ">
+ <div className="flex  gap-9  md:gap-[80px] animate-scroll">
+   <h1 className="text-xl md:text-3xl">Everyone is welcome to the house of the lord Everyone is welcome to the house of the lord</h1>
+
+   <h1 className="text-xl md:text-3xl">Everyone is welcome to the house of the lord Everyone is welcome to the house of the lord</h1>
+
+ </div>
+ </div>
+
+</div>
   );
 };
 
