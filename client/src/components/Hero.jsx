@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div>
 
-       <div  className=" bg-cover bg-center h-[75vh] w-full flex flex-col  mt-0 
+       <div  className=" bg-cover bg-center h-[80vh] w-full flex flex-col  mt-0 
        text-white  overflow-y-auto"
     style={{ backgroundImage: "url('/church.gif')" }}>
 
