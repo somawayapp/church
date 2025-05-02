@@ -39,7 +39,7 @@ const Navbar = () => {
   </Link>
   
   <div className="hidden md:flex flex-1 justify-center space-x-12">
-    <Link className="hover:text-[#0053bf] font-bold" to="/home" onClick={() => setOpen(false)}>Home</Link>
+    <Link className="hover:text-[#0053bf] font-bold" to="/" onClick={() => setOpen(false)}>Home</Link>
     <Link className="hover:text-[#0053bf] font-bold" to="/" onClick={() => setOpen(false)}>Discover</Link>
   </div>
 </div>
@@ -137,21 +137,13 @@ const Navbar = () => {
 
         <div>
 
-
-        <div >
-        <Link
-            to="/home"
-            className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3] p-2 rounded-xl"
-   onClick={() => setOpen(false)}          > Home           </Link>   
-     <Link
-   to="/"
-   className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
-onClick={() => setOpen(false)}          > Book summaries          </Link>
         <Link
             to="/"
             className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
-   onClick={() => setOpen(false)}          > Discover          </Link>
-          <Link
+   onClick={() => setOpen(false)}              > Home           </Link>
+
+        <div >
+  <Link
             to="/premium"
             className="block py-2 text-[var(--TextColor)] font-bold   hover:text-[#0062e3]  p-2 rounded-xl"
    onClick={() => setOpen(false)}          > Premium          </Link>
@@ -160,15 +152,7 @@ onClick={() => setOpen(false)}          > Book summaries          </Link>
             className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
    onClick={() => setOpen(false)}          > About Us 
           </Link>
-          <Link
-            to="/settings"
-            className="block py-2 text-[var(--TextColor)] font-bold   hover:text-[#0062e3]  p-2 rounded-xl"
-   onClick={() => setOpen(false)}              > Settings          </Link>
-          
-     <Link
-            to="/premium"
-            className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
-   onClick={() => setOpen(false)}              > Pricing           </Link>
+       
         </div>
         
         </div>
