@@ -35,11 +35,12 @@ const Hero = () => {
          
           <Link
   to="/about"
-  className="inline-block text-center mt-3 md:mt-0 px-6 md:px-12 py-3 bg-[#0062e3] text-white font-semibold
-    rounded-full hover:bg-[#0053bf]"
+  className="mt-3 md:mt-0 px-4 md:px-12 py-3 md:py-3 bg-[#0062e3] text-white font-semibold
+  rounded-full hover:bg-[#0053bf] inline-block w-fit"
 >
   Learn More
 </Link>
+
 
         </div>
       
