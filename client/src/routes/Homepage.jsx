@@ -99,7 +99,7 @@ const Homepage = () => {
 
          <div className="flex  bg-[var(--bd)] flex-col max-w-full md:max-w-[900px] m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
 
-  <div className="md:w-3/5 items-start justify-start md:text-left">
+  <div className="md:w-1/2 items-start justify-start md:text-left">
     <p className="text-6xl md:text-9xl mt-5 md:mt-9   md:text-md">Join US</p>
     <p className="text-3xl md:text-6xl mt-4 md:mt-2 :text-2xl font-semibold">
       this Sunday
@@ -122,7 +122,7 @@ const Homepage = () => {
 
   <img
     src="/sunday.jpg"
-    className="w-[200px] rounded-lg md:rounded-[20px] md:w-2/5 mx-auto md:mx-0"
+    className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
   />
 </div>
 
