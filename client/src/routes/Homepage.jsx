@@ -112,7 +112,8 @@ const Homepage = () => {
 
     <Link
     to="/about"
-    className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl text-white font-semibold transition-all duration-300 inline-block w-fit"
+    className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold 
+    transition-all duration-300 inline-block w-fit"
   >
     Watch Online
   </Link>
@@ -141,7 +142,7 @@ const Homepage = () => {
     <div className=" ">
   {/* Background Section */}
   <div
-    className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col  mt-4 opacity-40
+    className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col  mt-4 
       items-center justify-center text-white text-center overflow-y-auto"
     style={{ backgroundImage: "url('/prayers2.jpg')" }}
   >
@@ -199,7 +200,7 @@ const Homepage = () => {
 
 
 <div className="flex flex-col px-3 mb-9 md:px-[100px] items-center justify-center">
-      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-4 w-full px-4">
+      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-9 w-full px-4">
         {[
         {
           service: "First Service (every sunday) ",
@@ -277,7 +278,6 @@ const Homepage = () => {
 
 
 
-      <StoryLine />
       <div
          className="bg-[var(--bodyBg)] p-4 md:p-9 mt-[10px] mx-3 md:mx-[100px] rounded-lg md:rounded-[30px]
            text-white text-center animate-fadeIn flex flex-col items-center justify-center"
