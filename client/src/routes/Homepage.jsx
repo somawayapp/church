@@ -147,8 +147,8 @@ const Homepage = () => {
 
 <div>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-24 z-10">
-  <path fill="#4c1d95" d="M0,0 C 480,225 960,-180 1440,32 L1440,0 L0,0 Z"></path>
-  <path fill="#4c1d95" d="M0,0 C 480,305 960,-180 1440,96 L1440,0 L0,0 Z"></path>
+  <path fill="#4c1d95" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z"></path>
+  <path fill="#4c1d95" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z"></path>
 </svg>
 
 
@@ -200,14 +200,14 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 >
   {/* Wavy Top SVG */}
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-24 z-10">
-  <path fill="#4c1d95" d="M0,0 C 480,225 960,-180 1440,32 L1440,0 L0,0 Z"></path>
-  <path fill="#4c1d95" d="M0,0 C 480,305 960,-180 1440,96 L1440,0 L0,0 Z"></path>
+  <path fill="#4c1d95" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z"></path>
+  <path fill="#4c1d95" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z"></path>
 </svg>
 
 
 
   {/* Dark overlay */}
-  <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
+  <div className="absolute inset-0 bg-black opacity-75 z-0"></div>
 
   {/* Content here */}
   {/* ... */}
@@ -299,7 +299,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
       items-center justify-center text-white text-center overflow-y-auto"
     style={{ backgroundImage: "url('/pics48.jpg') " }}
   >
-        <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
+        <div className="absolute inset-0 bg-black opacity-75 z-0"></div>
 
  
   </div>
