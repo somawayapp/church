@@ -99,8 +99,8 @@ const Homepage = () => {
        <div className="flex bg-purple-900 text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
-  <p className="text-3xl md:text-6xl md:pt-9  font-bold ">Join US</p>
-  <p className="text-3xl md:text-6xl mt-4 md:mt-2 :text-2xl font-semibold">
+  <p className="text-3xl md:text-5xl md:pt-9  font-bold ">Join US</p>
+  <p className="text-3xl md:text-5xl  :text-2xl font-semibold">
     this Sunday
   </p>
   <p className="text-sm  mt-1 md:mt-2 md:text-lg">
@@ -153,7 +153,7 @@ const Homepage = () => {
  
 
 
-<div className="items-center justify-center text-white  top-[200px] text-center ">
+<div className="items-center justify-center text-white  top-[-500px] text-center ">
 
 <div className="h-full px-2 py-[100px] md:py-[200px]   max-w-[800px] mx-auto mr-[20%] box-border">
       <h1 className="text-3xl md:text-6xl  font-bold">
@@ -179,7 +179,7 @@ const Homepage = () => {
 
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
-  <p className="text-3xl md:text-6xl mt-4 md:mt-2 :text-2xl font-semibold">
+  <p className="text-3xl md:text-5xl mt-4 md:mt-2 :text-2xl font-semibold">
   Become A Member of Deliverance International Church
   </p>
   <p className="text-sm  mt-1 md:mt-2 md:text-lg">
