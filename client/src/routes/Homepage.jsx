@@ -198,6 +198,10 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
       the way
     </h1>
 
+
+
+
+    <div >
 <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1440 320"
@@ -209,6 +213,8 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     <path fill="var(--bg)" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
   </svg>
 </div>
+</div>
+
 
 
 </div>
