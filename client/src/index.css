@@ -395,7 +395,7 @@ body {
 }
 
 .animate-scroll-left {
-  animation: scroll-left 200s linear infinite;
+  animation: scroll-left 250s linear infinite;
 }
 
 .w-max {
