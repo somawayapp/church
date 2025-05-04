@@ -96,7 +96,7 @@ const Homepage = () => {
         <div className=" animate-fadeIn flex flex-col  items-center justify-center"
        >
   
-       <div className="flex bg-purple-900 text-white flex-col max-w-full  gap-2 md:gap-4  p-2 px-3 md:px-[100px] md:p-6  py-[20px] md:py-[30px] md:flex-row">
+       <div className="flex bg-purple-900 text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[20px] md:py-[30px] md:flex-row">
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
   <p className="text-4xl md:text-8xl md:pt-9  font-bold ">Join US</p>
@@ -153,11 +153,11 @@ const Homepage = () => {
  
 
 
-<div className="items-center justify-center text-white mt-[-500px] md:mt-[-650px] mb-[250px] md:mb-[550px] text-center ">
+<div className="items-center justify-center text-white  text-center ">
 
 <div className="h-full px-2 py-[75px] md:py-[100px]  max-w-[800px] mx-auto ml-[20%] box-border">
       <h1 className="text-3xl md:text-6xl  font-bold">
-        Enjoy summarized nonfiction
+      God is using your generosity to make a difference
       </h1>
    
     </div>
@@ -167,7 +167,7 @@ const Homepage = () => {
   <div className=" animate-fadeIn flex flex-col  items-center justify-center"
        >
   
-       <div className="flex bg-purple-900 text-white flex-col max-w-full  gap-2 md:gap-4  p-2 px-3 md:px-[100px] md:p-6  py-[20px] md:py-[30px] md:flex-row">
+       <div className="flex bg-purple-900 text-white flex-col max-w-full  gap-2 md:gap-4   px-3 md:px-[100px]   py-[20px] md:py-[30px] md:flex-row">
 
 
 
