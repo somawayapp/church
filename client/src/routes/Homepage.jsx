@@ -93,10 +93,10 @@ const Homepage = () => {
         <Hero />
 
         
-        <div className=" animate-fadeIn flex flex-col px-3 md:px-[100px] items-center justify-center"
+        <div className=" animate-fadeIn flex flex-col  items-center justify-center"
        >
   
-       <div className="flex bg-[var(--bodyBg)] flex-col max-w-full  m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
+       <div className="flex bg-purple-500 text-white flex-col max-w-full  gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6  pb-9 md:flex-row">
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
   <p className="text-6xl md:text-9xl mt-5 md:mt-9   md:text-md">Join US</p>
@@ -142,7 +142,7 @@ const Homepage = () => {
     <div className=" ">
   {/* Background Section */}
   <div
-    className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col  mt-4 
+    className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col 
       items-center justify-center text-white text-center overflow-y-auto"
     style={{ backgroundImage: "url('/pics48.jpg') " }}
   >
