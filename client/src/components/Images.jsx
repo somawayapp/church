@@ -7,14 +7,14 @@ const Images = () => {
 
   return (
     <div className="overflow-hidden w-full">
-      <div className="flex animate-scroll-left gap-4 w-max">
+      <div className="flex animate-scroll-left gap-4 md:gap-6 w-max">
         {images.map((src, index) => {
           const isSquare = index % 2 === 0;
           return (
             <div
             key={index}
-            className={`flex-shrink-0 rounded-lg bg-gray-100 overflow-hidden relative ${
-              isSquare ? "aspect-[3/4] w-48" : "aspect-[3/4] w-48"
+            className={`flex-shrink-0 rounded-lg  overflow-hidden relative ${
+              isSquare ? "aspect-[3/4] w-48 md:w-60 " : "aspect-[3/4] md:w-60 w-48"
             }`}
           >
             <div
@@ -26,7 +26,7 @@ const Images = () => {
                 src={src}
                 alt={`Image ${index + 1}`}
                 className={`object-cover rounded-lg ${
-                  isSquare ? "w-full h-full" : "w-48 h-48"
+                  isSquare ? "w-full h-full" : "w-48 h-48 md:w-60 md:h-60"
                 }`}
               />
             </div>
@@ -40,8 +40,8 @@ const Images = () => {
           return (
             <div
             key={index}
-            className={`flex-shrink-0 rounded-lg bg-gray-100 overflow-hidden relative ${
-              isSquare ? "aspect-[3/4] w-48" : "aspect-[3/4] w-48"
+            className={`flex-shrink-0 rounded-lg overflow-hidden relative ${
+              isSquare ? "aspect-[3/4] md:w-60 w-48" : "aspect-[3/4] md:w-60 w-48"
             }`}
           >
             <div
@@ -53,7 +53,7 @@ const Images = () => {
                 src={src}
                 alt={`Image ${index + 1}`}
                 className={`object-cover rounded-lg ${
-                  isSquare ? "w-full h-full" : "w-48 h-48"
+                  isSquare ? "w-full h-full" : "w-48 md:w-60 md:h-60 h-48"
                 }`}
               />
             </div>
