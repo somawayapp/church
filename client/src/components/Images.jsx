@@ -12,19 +12,26 @@ const Images = () => {
           const isSquare = index % 2 === 0;
           return (
             <div
-              key={index}
-              className={`flex-shrink-0 rounded-lg bg-gray-100 overflow-hidden ${
-                isSquare
-                  ? "h-48 w-48 md:w-64 flex items-center justify-center"
-                  : "aspect-[3/4] w-48 md:w-64"
+            key={index}
+            className={`flex-shrink-0 rounded-lg bg-gray-100 overflow-hidden relative ${
+              isSquare ? "aspect-[3/4] w-48" : "aspect-[3/4] w-48"
+            }`}
+          >
+            <div
+              className={`w-full h-full ${
+                isSquare ? "" : "flex items-center justify-center"
               }`}
             >
               <img
                 src={src}
                 alt={`Image ${index + 1}`}
-                className="w-full h-full object-cover rounded-lg"
+                className={`object-cover rounded-lg ${
+                  isSquare ? "w-full h-full" : "w-48 h-48"
+                }`}
               />
             </div>
+          </div>
+          
           );
         })}
         {/* Duplicate for seamless scroll */}
@@ -32,19 +39,26 @@ const Images = () => {
           const isSquare = index % 2 === 0;
           return (
             <div
-              key={index}
-              className={`flex-shrink-0 rounded-lg bg-gray-100 overflow-hidden ${
-                isSquare
-                  ? "h-48 w-48 md:w-64 flex items-center justify-center"
-                  : "aspect-[3/4] w-48 md:w-64"
+            key={index}
+            className={`flex-shrink-0 rounded-lg bg-gray-100 overflow-hidden relative ${
+              isSquare ? "aspect-[3/4] w-48" : "aspect-[3/4] w-48"
+            }`}
+          >
+            <div
+              className={`w-full h-full ${
+                isSquare ? "" : "flex items-center justify-center"
               }`}
             >
               <img
                 src={src}
                 alt={`Image ${index + 1}`}
-                className="w-full h-full object-cover rounded-lg"
+                className={`object-cover rounded-lg ${
+                  isSquare ? "w-full h-full" : "w-48 h-48"
+                }`}
               />
             </div>
+          </div>
+          
           );
         })}
       </div>
