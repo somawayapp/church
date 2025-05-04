@@ -213,8 +213,8 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     className="absolute top-0 left-0 w-full h-24 z-10"
     style={{ transform: "rotate(180deg)" }}
   >
-    <path fill="currentColor" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
-    <path fill="currentColor" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
+    <path fill="var(--bg)" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
+    <path fill="var(--bg)" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
   </svg>
 
   <div className="px-3 md:px-[100px] py-[50px] md:py-[75px]">
