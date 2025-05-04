@@ -147,23 +147,17 @@ const Homepage = () => {
 
 <div>
 <svg
-  class="absolute top-0 left-0 w-full h-32 z-10"
+  className="absolute top-0 left-0 w-full h-32 z-10"
   viewBox="0 0 1440 320"
   preserveAspectRatio="none"
   xmlns="http://www.w3.org/2000/svg"
 >
-  <defs>
-    <linearGradient id="gradient1" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#ff7e5f; stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#feb47b; stop-opacity:1" />
-    </linearGradient>
-  </defs>
   <path
-    fill="url(#gradient1)"
+    fill="#000000"
+    fillOpacity="1"
     d="M0,128L80,128C160,128,320,128,480,160C640,192,800,224,960,224C1120,224,1280,192,1360,160L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
   ></path>
 </svg>
-
 
 
 
