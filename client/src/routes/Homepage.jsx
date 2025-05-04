@@ -144,7 +144,7 @@ const Homepage = () => {
   <div
     className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col 
       items-center justify-center text-white text-center overflow-y-auto"
-    style={{ backgroundImage: "url('/pics48.jpg') " }}
+    style={{ backgroundImage: "url('/bg.jpg') " }}
   >
         <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
 
@@ -153,7 +153,7 @@ const Homepage = () => {
  
 
 
-<div className="items-center justify-center text-white  top-[-500px] text-center ">
+<div className="items-center justify-center text-white  top-[-800px] text-center ">
 
 <div className="h-full px-2 py-[100px] md:py-[200px]   max-w-[800px] mx-auto mr-[20%] box-border">
       <h1 className="text-3xl md:text-6xl  font-bold">
@@ -164,7 +164,7 @@ const Homepage = () => {
 </div>
 
   {/* Scrolling Content */}
-  <div className=" animate-fadeIn flex flex-col  items-center justify-center"
+  <div className=" animate-fadeIn flex flex-col items-center justify-center"
        >
   
        <div className="flex bg-purple-900 text-white flex-col max-w-full  gap-2 md:gap-4   px-3 md:px-[100px]   py-[70px] md:py-[100px] md:flex-row">
