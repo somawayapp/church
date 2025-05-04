@@ -143,14 +143,32 @@ const Homepage = () => {
     <div className=" ">
   {/* Background Section */}
   <div
-    className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col 
-      items-center justify-center text-white text-center overflow-y-auto"
-    style={{ backgroundImage: "url('/bg.jpg') " }}
+  className="relative sticky top-0 bg-cover bg-center h-screen w-full flex flex-col 
+    items-center justify-center text-white text-center overflow-y-auto"
+  style={{ backgroundImage: "url('/bg.jpg')" }}
+>
+  {/* Wavy Top SVG */}
+  <svg
+    className="absolute top-0 left-0 w-full h-24 z-10"
+    viewBox="0 0 1440 320"
+    preserveAspectRatio="none"
+    xmlns="http://www.w3.org/2000/svg"
   >
-        <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
+    <path
+      fill="#000000"
+      fillOpacity="1"
+      d="M0,64L80,80C160,96,320,128,480,138.7C640,149,800,139,960,128C1120,117,1280,107,1360,101.3L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
+    ></path>
+  </svg>
 
- 
-  </div>
+  {/* Dark overlay */}
+  <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
+
+  {/* Content here */}
+  {/* ... */}
+
+</div>
+
  
 
 
