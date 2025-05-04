@@ -96,7 +96,7 @@ const Homepage = () => {
         <div className=" animate-fadeIn flex flex-col  items-center justify-center"
        >
   
-       <div className="flex bg-purple-900 text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+       <div className="flex bg-[#4c1d95] text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
   <p className="text-3xl md:text-5xl md:pt-9  font-bold ">Join US this Sunday
@@ -149,16 +149,16 @@ const Homepage = () => {
 >
   {/* Wavy Top SVG */}
   <svg
-    className="absolute top-0 left-0 w-full h-24 z-10"
+    className="absolute top-0 left-0 w-full h-32 z-10"
     viewBox="0 0 1440 320"
     preserveAspectRatio="none"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fill="#000000"
+      fill="#4c1d95"
       fillOpacity="1"
-      d="M0,64L80,80C160,96,320,128,480,138.7C640,149,800,139,960,128C1120,117,1280,107,1360,101.3L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
-    ></path>
+      d="M0,64 C180,0 360,128 540,64 C720,0 900,128 1080,64 C1260,0 1440,128 1440,128 L1440,0 L0,0 Z"
+    />
   </svg>
 
   {/* Dark overlay */}
