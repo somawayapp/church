@@ -21,7 +21,7 @@ const Images = () => {
         <img
           src={src}
           alt={`Image ${index + 1}`}
-          className="w-full h-full object-cover rounded-lg"
+          className="max-w-50 h-full object-cover rounded-lg"
         />
       </div>
     </div>
@@ -42,7 +42,7 @@ const Images = () => {
         <img
           src={src}
           alt={`Image ${index + 1}`}
-          className="w-full h-full object-cover rounded-lg"
+          className="max-w-50 h-full object-cover rounded-lg"
         />
       </div>
     </div>
