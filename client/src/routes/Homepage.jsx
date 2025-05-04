@@ -201,12 +201,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 </div>
 
 
-
-
-
-
-<div className="bg-[var(--bg)]">
-  <svg
+<svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1440 320"
     preserveAspectRatio="none"
@@ -217,7 +212,12 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     <path fill="var(--bg)" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
   </svg>
 
-  <div className="px-3 md:px-[100px] py-[50px] md:py-[75px]">
+
+
+<div className="bg-[var(--bg)] ">
+
+
+  <div className="px-3 md:px-[100px] py-[50px] md:py-[75px] mt-9">
     <div className="max-w-[900px] mx-auto">
       <p className="text-2xl md:text-3xl mt-4 md:mt-2">OUR VISION</p>
 
