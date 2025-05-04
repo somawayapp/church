@@ -195,18 +195,11 @@ const Homepage = () => {
   style={{ backgroundImage: "url('/bg.jpg')" }}
 >
   {/* Wavy Top SVG */}
-<svg
-  className="absolute top-0 left-0 w-full h-24 z-10"
-  viewBox="0 0 1440 320"
-  preserveAspectRatio="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path
-    fill="#4c1d95"
-    fillOpacity="1"
-    d="M0,76.8L80,96C160,115.2,320,153.6,480,166.4C640,179,800,166.8,960,153.6C1120,140.4,1280,128.4,1360,121.6L1440,115.2L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
-  ></path>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#1D3557" d="M0,32 C 480,80 960,-40 1440,32 L1440,0 L0,0 Z"></path>
+  <path fill="#2A4D6E" d="M0,46 C 480,160 960,0 1440,96 L1440,0 L0,0 Z"></path>
 </svg>
+
 
 
   {/* Dark overlay */}
