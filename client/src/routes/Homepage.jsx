@@ -191,13 +191,17 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 <div className="">
   <div
     className="relative sticky top-0 bg-cover bg-center h-[40vh] w-full flex flex-col items-center justify-center text-white text-center overflow-y-auto"
-    style={{ backgroundImage: "url('/flower.jpg')" }}
+    style={{ backgroundImage: "url('/bg.jpg')" }}
   >
-    {/* Content inside the header */}
+    <h1 className="text-5xl md:text-7xl text-gray-100 font-bold drop-shadow-lg">
+      Sharing is <br />
+      the way
+    </h1>
   </div>
+</div>
 
-  {/* Custom SVG Shape */}
-  <div>
+
+<div>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1440 320"
@@ -210,9 +214,6 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     </svg>
     <h1 className="text-center">My Name</h1>
   </div>
-</div>
-
-
 
 
    
