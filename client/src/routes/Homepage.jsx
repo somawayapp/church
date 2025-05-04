@@ -197,7 +197,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
      <div
   className="relative sticky top-0 bg-cover bg-center h-[40vh] w-full flex flex-col 
     items-center justify-center text-white text-center overflow-y-auto"
-  style={{ backgroundImage: "url('/bg.jpg')" }}>
+  style={{ backgroundImage: "url('/flower.jpg')" }}>
 
   </div>
 
