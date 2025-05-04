@@ -175,8 +175,10 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
   </p>
     </div>
  
-
+<div  className="py-9">
 <Images/>
+
+</div>
 
   </div>
 
