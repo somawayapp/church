@@ -1,5 +1,6 @@
 import React from "react";
-import "../scroll.css"; // we'll define keyframes here
+import ".../index.css"; // Assuming styles are in App.css
+
 
 const Images = () => {
   const images = Array.from({ length: 50 }, (_, i) => `/pics${i + 1}.jpg`);
