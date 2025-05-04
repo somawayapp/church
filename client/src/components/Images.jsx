@@ -1,5 +1,5 @@
 import React from "react";
-import "./scroll.css"; // we'll define keyframes here
+import "../scroll.css"; // we'll define keyframes here
 
 const Images = () => {
   const images = Array.from({ length: 50 }, (_, i) => `/pics${i + 1}.jpg`);
