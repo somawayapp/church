@@ -99,9 +99,10 @@ const Homepage = () => {
        <div className="flex bg-purple-900 text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
-  <p className="text-3xl md:text-5xl md:pt-9  font-bold ">Join US</p>
-  <p className="text-3xl md:text-5xl  :text-2xl font-semibold">
-    this Sunday
+  <p className="text-3xl md:text-5xl md:pt-9  font-bold ">Join US this Sunday
+  </p>
+
+  <p className="text-3xl md:text-5xl  :text-2xl font-semibold"> for un uplifting service
   </p>
   <p className="text-sm  mt-1 md:mt-2 md:text-lg">
   Join us every Sunday at 9:30a and 11:45a for our
@@ -142,7 +143,7 @@ const Homepage = () => {
     <div className=" ">
   {/* Background Section */}
   <div
-    className="sticky top-0  bg-cover bg-center h-[50vh] w-full flex flex-col 
+    className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col 
       items-center justify-center text-white text-center overflow-y-auto"
     style={{ backgroundImage: "url('/bg.jpg') " }}
   >
@@ -164,7 +165,7 @@ const Homepage = () => {
 </div>
 
   {/* Scrolling Content */}
-  <div className=" animate-fadeIn flex flex-col items-center justify-center"
+  <div className=" animate-fadeIn flex flex-col items-center mt-[-800px] justify-center"
        >
   
        <div className="flex bg-purple-900 text-white flex-col max-w-full  gap-2 md:gap-4   px-3 md:px-[100px]   py-[70px] md:py-[100px] md:flex-row">
