@@ -13,20 +13,21 @@ const Images = () => {
   return (
     <div
       key={index}
-      className={`flex-shrink-0 rounded-lg bg-gray-100 ${
-        isSquare ? "aspect-[3/4] w-50" : "aspect-[3/4] w-50 flex items-center"
+      className={`flex-shrink-0 rounded-lg bg-gray-100 w-50 ${
+        isSquare ? "aspect-[3/4]" : "flex items-center aspect-[3/4]"
       } overflow-hidden`}
     >
-      <div className={`${!isSquare ? "aspect-[3/3] w-full" : "w-full h-full"}`}>
+      <div className={`${!isSquare ? "aspect-[1/1] w-full" : "w-full h-full"}`}>
         <img
           src={src}
           alt={`Image ${index + 1}`}
-          className="max-w-50 h-full object-cover rounded-lg"
+          className="w-full h-full object-cover rounded-lg"
         />
       </div>
     </div>
   );
 })}
+
 
         {/* Duplicate for seamless scroll */}
         {images.map((src, index) => {
@@ -34,15 +35,15 @@ const Images = () => {
   return (
     <div
       key={index}
-      className={`flex-shrink-0 rounded-lg bg-gray-100 ${
-        isSquare ? "aspect-[3/4] w-50" : "aspect-[3/4] w-50 flex items-center"
+      className={`flex-shrink-0 rounded-lg bg-gray-100 w-50 ${
+        isSquare ? "aspect-[3/4]" : "flex items-center aspect-[3/4]"
       } overflow-hidden`}
     >
-      <div className={`${!isSquare ? "aspect-[3/3] w-full" : "w-full h-full"}`}>
+      <div className={`${!isSquare ? "aspect-[1/1] w-full" : "w-full h-full"}`}>
         <img
           src={src}
           alt={`Image ${index + 1}`}
-          className="max-w-50 h-full object-cover rounded-lg"
+          className="w-full h-full object-cover rounded-lg"
         />
       </div>
     </div>
