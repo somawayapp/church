@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 import StoryLine from "../components/StoryLine";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-
+import Images from "../components/Images";
 import MobileControls from "../components/MobileControls";
 import { Helmet } from "react-helmet";
 
@@ -176,7 +176,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     </div>
  
 
-
+<Images/>
 
   </div>
 
