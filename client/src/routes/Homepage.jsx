@@ -142,7 +142,7 @@ const Homepage = () => {
     <div className=" ">
   {/* Background Section */}
   <div
-    className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col 
+    className="sticky top-0  bg-cover bg-center h-[50vh] w-full flex flex-col 
       items-center justify-center text-white text-center overflow-y-auto"
     style={{ backgroundImage: "url('/bg.jpg') " }}
   >
