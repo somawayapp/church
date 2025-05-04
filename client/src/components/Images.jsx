@@ -14,7 +14,7 @@ const Images = () => {
             <div
             key={index}
             className={`flex-shrink-0 bg-gray-100 flex items-center justify-center ${
-              isSquare ? "aspect-[3/4] w-48" : "w-48 h-48"
+              isSquare ? "aspect-[3/4] w-48 md:w-[120px] " : "w-48 md:w-[120px]  h:w-[120px]  h-48"
             } overflow-hidden rounded-lg`}
           >
             <img
@@ -33,7 +33,7 @@ const Images = () => {
             <div
             key={index}
             className={`flex-shrink-0 bg-gray-100 flex items-center justify-center ${
-              isSquare ? "aspect-[3/4] w-48" : "w-48 h-48"
+              isSquare ? "aspect-[3/4] w-48 md:w-[120px] " : "w-48 md:w-[120px]  h:w-[120px]  h-48"
             } overflow-hidden rounded-lg`}
           >
             <img
