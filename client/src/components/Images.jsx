@@ -1,4 +1,5 @@
 import React from "react";
+import "../index.css"; // Assuming styles are in App.css
 
 
 const Images = () => {
@@ -13,7 +14,7 @@ const Images = () => {
             <div
               key={index}
               className={`flex-shrink-0 rounded-lg bg-gray-100 ${
-                isSquare ? "aspect-square w-48" : "aspect-[2/3] w-32"
+                isSquare ? "aspect-square w-48" : "aspect-[3/3] w-32"
               } overflow-hidden`}
             >
               <img
@@ -31,7 +32,7 @@ const Images = () => {
             <div
               key={`dup-${index}`}
               className={`flex-shrink-0 rounded-lg bg-gray-100 ${
-                isSquare ? "aspect-square w-48" : "aspect-[2/3] w-32"
+                isSquare ? "aspect-square w-48" : "aspect-[3/3] w-32"
               } overflow-hidden`}
             >
               <img
