@@ -189,6 +189,33 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
+<div className="">
+     <div
+  className="relative sticky top-0 bg-cover bg-center h-[40vh] w-full flex flex-col 
+    items-center justify-center text-white text-center overflow-y-auto"
+  style={{ backgroundImage: "url('/flower.jpg')" }}>
+      
+    </div>
+
+  </div>
+
+
+
+
+<div >
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-24 z-10" style="transform: rotate(180deg);">
+  <path fill="#current" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z"></path>
+  <path fill="#current" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z"></path>
+</svg>
+
+ <h1 >
+  my name
+ </h1>
+</div>
+
+
+
+
 
 
 
