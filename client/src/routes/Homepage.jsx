@@ -200,7 +200,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
   </div>
 </div>
 
-<div className="mt-[-100px] ">
+<div className="mt-[-100px] bg-transparent">
 <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1440 320"
