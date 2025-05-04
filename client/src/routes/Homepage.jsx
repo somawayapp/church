@@ -147,8 +147,8 @@ const Homepage = () => {
 
 <div>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-24 z-10">
-  <path fill="#4c1d95" d="M0,0 C 480,250 960,-40 1440,32 L1440,0 L0,0 Z"></path>
-  <path fill="#4c1d95" d="M0,0 C 480,330 960,0 1440,126 L1440,0 L0,0 Z"></path>
+  <path fill="#4c1d95" d="M0,0 C 480,250 960,-180 1440,32 L1440,0 L0,0 Z"></path>
+  <path fill="#4c1d95" d="M0,0 C 480,330 960,-180 1440,100 L1440,0 L0,0 Z"></path>
 </svg>
 
 
@@ -187,9 +187,9 @@ const Homepage = () => {
   style={{ backgroundImage: "url('/bg.jpg')" }}
 >
   {/* Wavy Top SVG */}
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-24 z-10">
-  <path fill="#4c1d95" d="M0,0 C 480,200 960,-40 1440,32 L1440,0 L0,0 Z"></path>
-  <path fill="#4c1d95" d="M0,0 C 480,280 960,0 1440,26 L1440,0 L0,0 Z"></path>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-24 z-10">
+  <path fill="#4c1d95" d="M0,0 C 480,250 960,-180 1440,32 L1440,0 L0,0 Z"></path>
+  <path fill="#4c1d95" d="M0,0 C 480,330 960,-180 1440,100 L1440,0 L0,0 Z"></path>
 </svg>
 
 
