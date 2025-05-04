@@ -96,10 +96,10 @@ const Homepage = () => {
         <div className=" animate-fadeIn flex flex-col  items-center justify-center"
        >
   
-       <div className="flex bg-purple-900 text-white flex-col max-w-full  gap-2 md:gap-4  p-2 px-3 md:px-[100px] md:p-6  pb-9 md:flex-row">
+       <div className="flex bg-purple-900 text-white flex-col max-w-full  gap-2 md:gap-4  p-2 px-3 md:px-[100px] md:p-6  py-[20px] md:py-[30px] md:flex-row">
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
-  <p className="text-4xl md:text-8xl mt-5 md:mt-9 font-bold ">Join US</p>
+  <p className="text-4xl md:text-8xl md:pt-9  font-bold ">Join US</p>
   <p className="text-3xl md:text-6xl mt-4 md:mt-2 :text-2xl font-semibold">
     this Sunday
   </p>
@@ -140,6 +140,95 @@ const Homepage = () => {
 
 
     <div className=" ">
+  {/* Background Section */}
+  <div
+    className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col 
+      items-center justify-center text-white text-center overflow-y-auto"
+    style={{ backgroundImage: "url('/pics48.jpg') " }}
+  >
+        <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
+
+ 
+  </div>
+ 
+
+
+<div className="items-center justify-center text-white mt-[-500px] md:mt-[-650px] mb-[250px] md:mb-[550px] text-center ">
+
+<div className="h-full px-2 py-[75px] md:py-[100px]  max-w-[800px] mx-auto ml-[20%] box-border">
+      <h1 className="text-3xl md:text-6xl  font-bold">
+        Enjoy summarized nonfiction
+      </h1>
+   
+    </div>
+</div>
+
+  {/* Scrolling Content */}
+  <div className=" animate-fadeIn flex flex-col  items-center justify-center"
+       >
+  
+       <div className="flex bg-purple-900 text-white flex-col max-w-full  gap-2 md:gap-4  p-2 px-3 md:px-[100px] md:p-6  py-[20px] md:py-[30px] md:flex-row">
+
+
+
+       <img
+  src="/pics59.jpg"
+  className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
+/>
+
+
+
+<div className="md:w-1/2 items-start justify-start md:text-left">
+  <p className="text-3xl md:text-6xl mt-4 md:mt-2 :text-2xl font-semibold">
+  Become A Member of Deliverance International Church
+  </p>
+  <p className="text-sm  mt-1 md:mt-2 md:text-lg">
+  Embark on a meaningful journey with us! Join our vibrant ministry and be a
+   catalyst for positive change in our community.
+   Together, we can create a lasting impact and bring hope to those in need..
+  </p>
+
+
+    <Link
+    to="/about"
+    className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold 
+    transition-all duration-300 inline-block w-fit"
+  >
+    Watch Online
+  </Link>
+</div>
+
+
+
+</div>
+
+       
+       </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className=" ">
   {/* Background Section */}
   <div
     className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col 
@@ -247,14 +336,6 @@ const Homepage = () => {
   </div>
 
 </div>
-
-
-
-
-
-
-
-
 
 
 
