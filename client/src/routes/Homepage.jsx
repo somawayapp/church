@@ -147,8 +147,8 @@ const Homepage = () => {
 
 <div>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-24 z-10">
-  <path fill="#4c1d95" d="M0,0 C 480,250 960,-180 1440,32 L1440,0 L0,0 Z"></path>
-  <path fill="#4c1d95" d="M0,0 C 480,330 960,-180 1440,100 L1440,0 L0,0 Z"></path>
+  <path fill="#4c1d95" d="M0,0 C 480,225 960,-180 1440,32 L1440,0 L0,0 Z"></path>
+  <path fill="#4c1d95" d="M0,0 C 480,305 960,-180 1440,96 L1440,0 L0,0 Z"></path>
 </svg>
 
 
@@ -156,15 +156,25 @@ const Homepage = () => {
 
 
   <div className="px-3 md:px-[100px] py-[50px] md:py-[75px] ">
+    <div className="max-w-[900px] mx-auto ">
+    <p className="text-2xl md:text-3xl mt-4 md:mt-2  ">
+  OUR VISION </p>
 
-  <p className="text-3xl md:text-5xl mt-4 md:mt-2 :text-2xl font-semibold">
-  Become A Member of Deliverance International Church
+  <p className="text-3xl md:text-5xl mt-4 md:mt-2 font-semibold">
+  To see people passionately <br />
+   devoted to God.
   </p>
   <p className="text-sm  mt-1 md:mt-2 md:text-lg">
-  Embark on a meaningful journey with us! Join our vibrant ministry and be a
-   catalyst for positive change in our community.
-   Together, we can create a lasting impact and bring hope to those in need..
+  Legacy Hills Church is a Spirit-filled, Bible-based church in Lone Tree, Colorado.
+   Founded in 2023 by Pastor Matt Washington, we exist to see people passionately devoted to God.
+ <br />
+
+We value the presence of God. Our worship, preaching and teaching, and Children's Ministry are centered
+ around each person encountering the Holy Spirit. We want to help you discover truth, find hope, 
+ and become all who God has created you to be.
   </p>
+    </div>
+ 
 
 
 
@@ -187,9 +197,9 @@ const Homepage = () => {
   style={{ backgroundImage: "url('/bg.jpg')" }}
 >
   {/* Wavy Top SVG */}
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-24 z-10">
-  <path fill="#4c1d95" d="M0,0 C 480,250 960,-180 1440,32 L1440,0 L0,0 Z"></path>
-  <path fill="#4c1d95" d="M0,0 C 480,330 960,-180 1440,100 L1440,0 L0,0 Z"></path>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-24 z-10">
+  <path fill="#4c1d95" d="M0,0 C 480,225 960,-180 1440,32 L1440,0 L0,0 Z"></path>
+  <path fill="#4c1d95" d="M0,0 C 480,305 960,-180 1440,96 L1440,0 L0,0 Z"></path>
 </svg>
 
 
