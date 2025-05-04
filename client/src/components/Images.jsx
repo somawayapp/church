@@ -12,17 +12,18 @@ const Images = () => {
           const isSquare = index % 2 === 0;
           return (
             <div
-              key={index}
-              className={`flex-shrink-0 rounded-lg bg-gray-100 ${
-                isSquare ? "aspect-[3/4] w-48" : "aspect-[3/3] h-48 w-48"
-              } overflow-hidden`}
-            >
-              <img
-                src={src}
-                alt={`Image ${index + 1}`}
-                className="w-full h-full object-cover rounded-lg"
-              />
-            </div>
+            key={index}
+            className={`flex-shrink-0 bg-gray-100 flex items-center justify-center ${
+              isSquare ? "aspect-[3/4] w-48" : "w-48 h-48"
+            } overflow-hidden rounded-lg`}
+          >
+            <img
+              src={src}
+              alt={`Image ${index + 1}`}
+              className="object-cover w-full h-full rounded-lg"
+            />
+          </div>
+          
           );
         })}
         {/* Duplicate for seamless scroll */}
@@ -30,17 +31,18 @@ const Images = () => {
           const isSquare = index % 2 === 0;
           return (
             <div
-              key={`dup-${index}`}
-              className={`flex-shrink-0 rounded-lg bg-gray-100 ${
-                isSquare ? "aspect-[3/4] w-48" : "aspect-[3/3] h-48 w-48"
-              } overflow-hidden`}
-            >
-              <img
-                src={src}
-                alt={`Image ${index + 1}`}
-                className="w-full h-full object-cover rounded-lg"
-              />
-            </div>
+            key={index}
+            className={`flex-shrink-0 bg-gray-100 flex items-center justify-center ${
+              isSquare ? "aspect-[3/4] w-48" : "w-48 h-48"
+            } overflow-hidden rounded-lg`}
+          >
+            <img
+              src={src}
+              alt={`Image ${index + 1}`}
+              className="object-cover w-full h-full rounded-lg"
+            />
+          </div>
+          
           );
         })}
       </div>
