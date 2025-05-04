@@ -121,7 +121,7 @@ const Homepage = () => {
 
 
 <img
-  src="/pics43.jpg"
+  src="/pics44.jpg"
   className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
 />
 </div>
