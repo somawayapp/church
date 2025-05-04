@@ -14,7 +14,7 @@ const Images = () => {
             <div
               key={index}
               className={`flex-shrink-0 rounded-lg bg-gray-100 ${
-                isSquare ? "aspect-square w-48" : "aspect-[3/3] w-32"
+                isSquare ? "aspect-[3/3] w-48" : "aspect-[3/5] w-32"
               } overflow-hidden`}
             >
               <img
@@ -32,7 +32,7 @@ const Images = () => {
             <div
               key={`dup-${index}`}
               className={`flex-shrink-0 rounded-lg bg-gray-100 ${
-                isSquare ? "aspect-square w-48" : "aspect-[3/3] w-32"
+                isSquare ? "aspect-[3/5] w-48" : "aspect-[3/3] w-48"
               } overflow-hidden`}
             >
               <img

@@ -160,7 +160,7 @@ const Homepage = () => {
     <p className="text-2xl md:text-3xl mt-4 md:mt-2  ">
   OUR VISION </p>
 
-  <p className="text-3xl md:text-5xl mt-4 md:mt-2 font-semibold">
+  <p className="text-3xl md:text-5xl py-4 font-semibold">
   To see people passionately <br />
    devoted to God.
   </p>
