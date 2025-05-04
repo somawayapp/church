@@ -201,19 +201,36 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 </div>
 
 
-<div>
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1440 320"
-      preserveAspectRatio="none"
-      className="absolute top-0 left-0 w-full h-24 z-10"
-      style={{ transform: "rotate(180deg)" }}
-    >
-      <path fill="#current" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z"></path>
-      <path fill="#current" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z"></path>
-    </svg>
-    <h1 className="text-center">My Name</h1>
+<div className="bg-[var(--bg)]">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-24 z-10" style="transform: rotate(180deg);">
+  <path fill="#curent" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z"></path>
+  <path fill="#curent" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z"></path>
+</svg>
+
+<div className="px-3 md:px-[100px] py-[50px] md:py-[75px] ">
+    <div className="max-w-[900px] mx-auto ">
+    <p className="text-2xl md:text-3xl mt-4 md:mt-2  ">
+  OUR VISION </p>
+
+  <p className="text-3xl md:text-5xl py-4 font-semibold">
+  To see people passionately <br />
+   devoted to God.
+  </p>
+  <p className="text-sm  mt-1 md:mt-2 md:text-lg">
+  Legacy Hills Church is a Spirit-filled, Bible-based church in Lone Tree, Colorado.
+   Founded in 2023 by Pastor Matt Washington, we exist to see people passionately devoted to God.
+ <br />
+
+We value the presence of God. Our worship, preaching and teaching, and Children's Ministry are centered
+ around each person encountering the Holy Spirit. We want to help you discover truth, find hope, 
+ and become all who God has created you to be.
+  </p>
+    </div>
+ 
+
+
   </div>
+   </div>
 
 
    
