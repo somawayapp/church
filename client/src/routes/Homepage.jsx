@@ -121,7 +121,7 @@ const Homepage = () => {
 
 
 <img
-  src="/sunday.jpg"
+  src="/pics43.jpg"
   className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
 />
 </div>
@@ -144,7 +144,7 @@ const Homepage = () => {
   <div
     className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col  mt-4 
       items-center justify-center text-white text-center overflow-y-auto"
-    style={{ backgroundImage: "url('/prayers2.jpg') " }}
+    style={{ backgroundImage: "url('/pics48.jpg') " }}
   >
         <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
 
