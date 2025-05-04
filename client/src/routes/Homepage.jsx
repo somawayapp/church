@@ -96,10 +96,10 @@ const Homepage = () => {
         <div className=" animate-fadeIn flex flex-col  items-center justify-center"
        >
   
-       <div className="flex bg-purple-700 text-white flex-col max-w-full  gap-2 md:gap-4  p-2 px-3 md:px-[100px] md:p-6  pb-9 md:flex-row">
+       <div className="flex bg-purple-900 text-white flex-col max-w-full  gap-2 md:gap-4  p-2 px-3 md:px-[100px] md:p-6  pb-9 md:flex-row">
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
-  <p className="text-6xl md:text-9xl mt-5 md:mt-9   md:text-md">Join US</p>
+  <p className="text-4xl md:text-8xl mt-5 md:mt-9 font-bold ">Join US</p>
   <p className="text-3xl md:text-6xl mt-4 md:mt-2 :text-2xl font-semibold">
     this Sunday
   </p>
