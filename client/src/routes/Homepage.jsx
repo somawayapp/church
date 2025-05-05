@@ -193,7 +193,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     className="relative sticky top-0 bg-cover bg-center h-[40vh] w-full flex flex-col items-center justify-center text-white text-center overflow-y-auto"
     style={{ backgroundImage: "url('/bg.jpg')" }}
   >
-    <h1 className="text-5xl md:text-7xl text-gray-100 font-bold drop-shadow-lg">
+    <h1 className="text-5xl md:text-7xl text-gray-100  drop-shadow-lg">
       Sharing is <br />
       the way
     </h1>
@@ -243,177 +243,13 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
         each person encountering the Holy Spirit. We want to help you discover truth, find hope, and become all who God
         has created you to be.
       </p>
-    </div>
-  </div>
-</div>
 
 
 
-   
 
 
 
-
-
-    <div className=" ">
-  {/* Background Section */}
-  <div
-  className="relative sticky top-0 bg-cover bg-center h-screen w-full flex flex-col 
-    items-center justify-center text-white text-center overflow-y-auto"
-  style={{ backgroundImage: "url('/bg.jpg')" }}
->
-
-
-
-
-  {/* Dark overlay */}
-  <div className="absolute inset-0 bg-black opacity-75 z-0"></div>
-
-  {/* Content here */}
-  {/* ... */}
-
-</div>
-
- 
-
-
-<div className="items-center justify-center text-white  top-[-800px] text-center ">
-
-<div className="h-full px-2 py-[100px] md:py-[200px]   max-w-[800px] mx-auto mr-[20%] box-border">
-      <h1 className="text-3xl md:text-6xl  font-bold">
-      God is using your generosity to make a difference
-      </h1>
-   
-    </div>
-</div>
-
-  {/* Scrolling Content */}
-  <div className=" animate-fadeIn flex flex-col items-center mt-[-800px] justify-center"
-       >
-  
-       <div className="flex bg-purple-900 text-white flex-col max-w-full  gap-2 md:gap-4   px-3 md:px-[100px]   py-[70px] md:py-[100px] md:flex-row">
-
-
-
-       <img
-  src="/pics59.jpg"
-  className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
-/>
-
-
-
-<div className="md:w-1/2 items-start justify-start md:text-left">
-  <p className="text-3xl md:text-5xl mt-4 md:mt-2 :text-2xl font-semibold">
-  Become A Member of Deliverance International Church
-  </p>
-  <p className="text-sm  mt-1 md:mt-2 md:text-lg">
-  Embark on a meaningful journey with us! Join our vibrant ministry and be a
-   catalyst for positive change in our community.
-   Together, we can create a lasting impact and bring hope to those in need..
-  </p>
-
-
-    <Link
-    to="/about"
-    className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold 
-    transition-all duration-300 inline-block w-fit"
-  >
-    Watch Online
-  </Link>
-</div>
-
-
-
-</div>
-
-       
-       </div>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div className=" ">
-  {/* Background Section */}
-  <div
-    className="sticky top-0  bg-cover bg-center h-screen w-full flex flex-col 
-      items-center justify-center text-white text-center overflow-y-auto"
-    style={{ backgroundImage: "url('/pics48.jpg') " }}
-  >
-        <div className="absolute inset-0 bg-black opacity-75 z-0"></div>
-
- 
-  </div>
- 
-
-
-<div className="items-center justify-center text-white mt-[-500px] md:mt-[-650px] mb-[250px] md:mb-[550px] text-center ">
-
-<div className="h-full p-1 box-border">
-      <h1 className="text-3xl md:text-6xl  font-bold">
-        Enjoy summarized nonfiction
-      </h1>
-      <h1 className="text-3xl md:text-6xl font-bold">bestsellers</h1>
-      <p className="mt-2 text-md md:text-xl">
-        Grasp the book’s key ideas in less than 5 minutes
-      </p>
-      <button className="mt-9 bg-white text-black py-4 text-bold px-8 cursor-pointer hover:bg-gray-200
-       text-2xl md:text-5xl rounded-[40px]   "
-        >
-        Get Started
-      </button>
-    </div>
-</div>
-
-  {/* Scrolling Content */}
-  <div className="p-2 md:p-[30px] md:mb-[20px] mt-[120px]">
-    <div
-      className="relative text-[var(--textColor)] w-full rounded-3xl md:rounded-[30px] shadow-md 
-        bg-[var(--bg)] text-center animate-fadeIn flex flex-col items-center justify-center"
-    >
-      <div className="h-full p-2  box-border">
-        <h1 className="text-3xl md:text-6xl mt-[20px] md:mt-[70px] font-bold">
-          Service Times
-         </h1>
-        <p className="mt-2 text-md md:text-xl">
-          Let’s check how many titles you can finish in a month with  Somaway! Tell us how
-        </p>
-        <p className="mt-2 text-md md:text-xl">
-          much time you’d like to spend on reading:
-        </p>
-        <button
-          className="mt-9 text-[var(--bg)] bg-[var(--textColor)] py-4 text-extrabold text-2xl md:text-5xl 
-            px-8 rounded-[40px] cursor-pointer hover:bg-[var(--bd)]  "
-        >
-          30 titles/month
-        </button>
-      </div>
-
-      
-
-
-
-
-    <div className="flex flex-col mb-[75px]  items-center justify-center">
+      <div className="flex flex-col mb-[75px]  items-center justify-center">
       <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-[75px] w-full px-4">
         {[
         {
@@ -453,46 +289,36 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
         ))}
       </div>
     </div>
+
+
     </div>
-
-
-
   </div>
-
 </div>
 
 
 
-
-
-    <div className=" animate-fadeIn flex flex-col items-center px-3 md:px-[100px] justify-center"
-       >
+   
 
 
 
-  
-       <div className="flex   flex-col max-w-full  m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
-       <img
-  src="/sunday.jpg"
-  className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
-/>
 
-<div className="md:w-1/2 items-start justify-start md:text-left">
-  <p className="text-6xl md:text-9xl mt-5 md:mt-9   md:text-md">Join US</p>
-  <p className="text-3xl md:text-6xl mt-4 md:mt-2 :text-2xl font-semibold">
-    this Sunday
+
+
+<div className="md:w-1/2 px-3 md:px-[100px] items-start justify-start md:text-left">
+  <p className="text-3xl md:text-5xl mt-4 md:mt-2 :text-2xl font-semibold">
+  Become A Member of Deliverance International Church
   </p>
   <p className="text-sm  mt-1 md:mt-2 md:text-lg">
-  Join us every Sunday at 9:30a and 11:45a for our
-   Atlanta Gatherings or 9:30a and 11:30a for our
-   Washington DC Gatherings at passioncity.online.
+  Embark on a meaningful journey with us! Join our vibrant ministry and be a
+   catalyst for positive change in our community.
+   Together, we can create a lasting impact and bring hope to those in need..
   </p>
 
 
     <Link
     to="/about"
-    className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl
-    font-semibold transition-all duration-300 inline-block w-fit"
+    className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold 
+    transition-all duration-300 inline-block w-fit"
   >
     Watch Online
   </Link>
@@ -500,10 +326,6 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-</div>
-
-       
-       </div>
 
 
 
@@ -512,42 +334,20 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-   <div className=" animate-fadeIn flex flex-col items-center px-3 md:px-[100px] justify-center"
-       >
-  
-       <div className="flex   flex-col max-w-full  m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
-
-<div className="md:w-1/2 items-start justify-start md:text-left">
-  <p className="text-6xl md:text-9xl mt-5 md:mt-9   md:text-md">Join US</p>
-  <p className="text-3xl md:text-6xl mt-4 md:mt-2 :text-2xl font-semibold">
-    this Sunday
-  </p>
-  <p className="text-sm  mt-1 md:mt-2 md:text-lg">
-  Join us every Sunday at 9:30a and 11:45a for our
-   Atlanta Gatherings or 9:30a and 11:30a for our
-   Washington DC Gatherings at passioncity.online.
-  </p>
 
 
-    <Link
-    to="/about"
-    className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl
-    font-semibold transition-all duration-300 inline-block w-fit"
-  >
-    Watch Online
-  </Link>
-</div>
 
 
-<img
-  src="/sunday.jpg"
-  className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
-/>
-</div>
 
-       
-       </div>
 
+
+
+
+
+
+
+
+   
 
 
 
