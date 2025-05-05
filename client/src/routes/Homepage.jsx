@@ -249,7 +249,185 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-      <div className="flex flex-col mb-[75px]  items-center justify-center">
+    
+
+
+    </div>
+
+
+    <div>
+    <div className="flex flex-col mb-[75px]  items-center justify-center">
+      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-[75px] w-full px-4">
+        {[
+        {
+          service: "First Service (every sunday) ",
+          time: "9:00 AM - 10:30 AM",
+          icon: "service2.png",
+        },
+        {
+          service: "Second Service (every sunday) ",
+          time: "11:00 AM - 12:30 PM",
+          icon: "service3.png",
+        },
+        {
+          service: "Third Service (every sunday) ",
+          time: "2:00 PM - 3:30 PM",
+          icon: "service4.png",
+        }
+        
+        ].map((item, index) => (
+          <div
+            key={index}
+            className="bg-[var(--bodyBg)] shadow-2xl rounded-2xl md:rounded-[20px] p-4  flex flex-col items-start text-left relative"
+          >
+            {/* Icon */}
+            <img
+              src={item.icon}
+              className="absolute top-4 left-4 w-12 h-18 md:w-20 md;h-30"
+            />
+            {/* Text */}
+            <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[50px] md:mt-[100px] ">
+              {item.service}
+            </p>
+             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[10px] ">
+              {item.time}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+   
+
+
+
+
+
+
+<div className=" animate-fadeIn flex flex-col  items-center justify-center" >
+  
+  <div className="flex bg-[#4c1d95] text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+
+<div className="md:w-1/2 items-start justify-start md:text-left">
+<p className="text-3xl md:text-5xl md:pt-9  font-bold ">Become a member
+</p>
+
+<p className="text-3xl md:text-5xl  :text-2xl font-semibold"> of deliverence church
+</p>
+<p className="text-sm  mt-1 md:mt-2 md:text-lg">
+Join us every Sunday at 9:30a and 11:45a for our
+Atlanta Gatherings or 9:30a and 11:30a for our
+Washington DC Gatherings at passioncity.online.
+</p>
+
+
+<Link
+to="/about"
+className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold 
+transition-all duration-300 inline-block w-fit"
+>
+Watch Online
+</Link>
+</div>
+
+
+<img
+src="/pics44.jpg"
+className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
+/>
+</div>
+
+
+
+<div className="px-3 md:px-[100px]">
+<p className="text-3xl md:text-5xl md:pt-9  font-bold ">Worship Schedule </p>
+
+<div className="flex flex-col mb-[75px]  items-center justify-center">
+      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-[75px] w-full px-4">
+        {[
+        {
+          service: "First Service (every sunday) ",
+          time: "9:00 AM - 10:30 AM",
+          icon: "service2.png",
+        },
+        {
+          service: "Second Service (every sunday) ",
+          time: "11:00 AM - 12:30 PM",
+          icon: "service3.png",
+        },
+        {
+          service: "Third Service (every sunday) ",
+          time: "2:00 PM - 3:30 PM",
+          icon: "service4.png",
+        }
+        
+        ].map((item, index) => (
+          <div
+            key={index}
+            className="bg-[var(--bodyBg)] shadow-2xl rounded-2xl md:rounded-[20px] p-4  flex flex-col items-start text-left relative"
+          >
+            {/* Icon */}
+            <img
+              src={item.icon}
+              className="absolute top-4 left-4 w-12 h-18 md:w-20 md;h-30"
+            />
+            {/* Text */}
+            <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[50px] md:mt-[100px] ">
+              {item.service}
+            </p>
+             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[10px] ">
+              {item.time}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+    <div className="flex flex-col mb-[75px]  items-center justify-center">
+      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-[75px] w-full px-4">
+        {[
+        {
+          service: "First Service (every sunday) ",
+          time: "9:00 AM - 10:30 AM",
+          icon: "service2.png",
+        },
+        {
+          service: "Second Service (every sunday) ",
+          time: "11:00 AM - 12:30 PM",
+          icon: "service3.png",
+        },
+        {
+          service: "Third Service (every sunday) ",
+          time: "2:00 PM - 3:30 PM",
+          icon: "service4.png",
+        }
+        
+        ].map((item, index) => (
+          <div
+            key={index}
+            className="bg-[var(--bodyBg)] shadow-2xl rounded-2xl md:rounded-[20px] p-4  flex flex-col items-start text-left relative"
+          >
+            {/* Icon */}
+            <img
+              src={item.icon}
+              className="absolute top-4 left-4 w-12 h-18 md:w-20 md;h-30"
+            />
+            {/* Text */}
+            <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[50px] md:mt-[100px] ">
+              {item.service}
+            </p>
+             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[10px] ">
+              {item.time}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+    <div className="flex flex-col mb-[75px]  items-center justify-center">
       <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-[75px] w-full px-4">
         {[
         {
@@ -290,39 +468,12 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
       </div>
     </div>
 
+</div>
 
-    </div>
+
+
+  
   </div>
-</div>
-
-
-
-   
-
-
-
-
-
-
-<div className="md:w-1/2 px-3 md:px-[100px] items-start justify-start md:text-left">
-  <p className="text-3xl md:text-5xl mt-4 md:mt-2 :text-2xl font-semibold">
-  Become A Member of Deliverance International Church
-  </p>
-  <p className="text-sm  mt-1 md:mt-2 md:text-lg">
-  Embark on a meaningful journey with us! Join our vibrant ministry and be a
-   catalyst for positive change in our community.
-   Together, we can create a lasting impact and bring hope to those in need..
-  </p>
-
-
-    <Link
-    to="/about"
-    className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold 
-    transition-all duration-300 inline-block w-fit"
-  >
-    Watch Online
-  </Link>
-</div>
 
 
 
