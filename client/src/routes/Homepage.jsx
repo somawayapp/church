@@ -243,19 +243,9 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
         each person encountering the Holy Spirit. We want to help you discover truth, find hope, and become all who God
         has created you to be.
       </p>
-
-
-
-
-
-
-    
-
-
     </div>
 
 
-    <div>
     <div className="flex flex-col mb-[75px]  items-center justify-center">
       <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-[75px] w-full px-4">
         {[
@@ -295,7 +285,6 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
           </div>
         ))}
       </div>
-    </div>
     </div>
   </div>
 </div>
@@ -344,10 +333,10 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
 
 
 
-<div className="px-3 md:px-[100px] gap-6 md:gap-9 pb-[50px]">
+<div className="px-3 md:px-[100px]  pb-[50px]">
 <p className="text-3xl md:text-5xl mb-[30px] font-bold ">Worship Schedule </p>
 
-<div className="flex flex-col items-center justify-center">
+<div className="flex flex-col items-center mb-6 justify-center">
       <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 w-full">
         {[
         {
@@ -377,7 +366,7 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
               className="absolute top-4 left-4 w-6  md:w-10 "
             />
 
-            <div className="flex flex-row ">
+            <div className="flex flex-col ">
                 {/* Text */}
             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[50px] md:mt-[100px] ">
               {item.service}
@@ -423,7 +412,7 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
               className="absolute top-4 left-4 w-6 md:w-10 "
             />
 
-            <div className="flex flex-row ">
+            <div className="flex flex-col ">
                 {/* Text */}
             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[50px] md:mt-[100px] ">
               {item.service}
@@ -472,7 +461,7 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
               className="absolute top-4 left-4 w-6 md:w-10"
             />
 
-            <div className="flex flex-row ">
+            <div className="flex flex-col ">
                 {/* Text */}
             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[50px] md:mt-[100px] ">
               {item.service}
