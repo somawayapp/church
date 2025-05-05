@@ -333,8 +333,8 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
 
 
 
-<div className="px-3 md:px-[100px]  pb-[50px]">
-<p className="text-3xl md:text-5xl mb-[30px] font-bold ">Worship Schedule </p>
+<div className="md:px-[100px]  pb-[50px]">
+<p className="text-3xl md:text-5xl text-white mb-[30px] font-bold ">Worship Schedule </p>
 
 <div className="flex flex-col items-center mb-6 justify-center">
       <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 w-full">
@@ -360,11 +360,14 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
             key={index}
             className="bg-[var(--bodyBg)] shadow-2xl rounded-2xl md:rounded-[20px] p-4  flex flex-row  items-start text-left relative"
           >
-            {/* Icon */}
+            <div>
+               {/* Icon */}
             <img
               src={item.icon}
               className="absolute top-4 left-4 w-6  md:w-10 "
             />
+            </div>
+          
 
             <div className="flex flex-col ">
                 {/* Text */}
@@ -382,7 +385,7 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
     </div>
    
 
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center mb-6 justify-center">
       <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 w-full">
         {[
         {
@@ -406,11 +409,13 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
             key={index}
             className="bg-[var(--bodyBg)] shadow-2xl rounded-2xl md:rounded-[20px] p-4  flex flex-row  items-start text-left relative"
           >
-            {/* Icon */}
+            <div>
+               {/* Icon */}
             <img
               src={item.icon}
-              className="absolute top-4 left-4 w-6 md:w-10 "
+              className="absolute top-4 left-4 w-6  md:w-10 "
             />
+            </div>
 
             <div className="flex flex-col ">
                 {/* Text */}
@@ -455,11 +460,13 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
             key={index}
             className="bg-[var(--bodyBg)] shadow-2xl rounded-2xl md:rounded-[20px] p-4  flex flex-row  items-start text-left relative"
           >
-            {/* Icon */}
+             <div>
+               {/* Icon */}
             <img
               src={item.icon}
-              className="absolute top-4 left-4 w-6 md:w-10"
+              className="absolute top-4 left-4 w-6  md:w-10 "
             />
+            </div>
 
             <div className="flex flex-col ">
                 {/* Text */}
