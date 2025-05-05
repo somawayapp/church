@@ -283,7 +283,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
             {/* Icon */}
             <img
               src={item.icon}
-              className="absolute top-4 left-4 w-10 h-16 md:w-18 md;h-28"
+              className="absolute top-4 left-4 w-10  md:w-18 "
             />
             {/* Text */}
             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[50px] md:mt-[100px] ">
@@ -344,8 +344,8 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
 
 
 
-<div className="px-3 md:px-[100px]">
-<p className="text-3xl md:text-5xl pt-9 gap-6 mb-[30px] md:gap-9 font-bold ">Worship Schedule </p>
+<div className="px-3 md:px-[100px] gap-6 md:gap-9 pb-[50px]">
+<p className="text-3xl md:text-5xl mb-[30px] font-bold ">Worship Schedule </p>
 
 <div className="flex flex-col items-center justify-center">
       <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 w-full">
@@ -374,7 +374,7 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
             {/* Icon */}
             <img
               src={item.icon}
-              className="absolute top-4 left-4 w-6 h-9 md:w-10 md;h-15"
+              className="absolute top-4 left-4 w-6  md:w-10 "
             />
 
             <div className="flex flex-row ">
@@ -420,7 +420,7 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
             {/* Icon */}
             <img
               src={item.icon}
-              className="absolute top-4 left-4 w-6 h-9 md:w-10 md;h-15"
+              className="absolute top-4 left-4 w-6 md:w-10 "
             />
 
             <div className="flex flex-row ">
@@ -469,7 +469,7 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
             {/* Icon */}
             <img
               src={item.icon}
-              className="absolute top-4 left-4 w-6 h-9 md:w-10 md;h-15"
+              className="absolute top-4 left-4 w-6 md:w-10"
             />
 
             <div className="flex flex-row ">
@@ -488,36 +488,11 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
     </div>
 
 </div>
-
-
-
-  
   </div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
 
 
 
