@@ -296,19 +296,21 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-
-
-<div className=" animate-fadeIn flex flex-col bg-[#4c1d95] items-center justify-center" >
+<div>
 <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1440 320"
     preserveAspectRatio="none"
-    className="absolute top-0 left-0 w-full h-24 z-10"
+    className="absolute bottom-0 left-0 w-full h-24 z-10"
     style={{ transform: "rotate(180deg)" }}
   >
     <path fill="#4c1d95" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
     <path fill="#4c1d95" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
   </svg>
+</div>
+
+<div className=" animate-fadeIn flex flex-col bg-[#4c1d95] items-center justify-center" >
+
   
   <div className="flex  text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
