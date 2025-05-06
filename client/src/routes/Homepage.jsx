@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 import Images from "../components/Images";
 import MobileControls from "../components/MobileControls";
 import { Helmet } from "react-helmet";
+import { FaChurch, FaPrayingHands, FaClock, FaBible, FaCross, FaMoon } from "react-icons/fa";
+
 
 const Homepage = () => {
   useEffect(() => {
@@ -349,151 +351,67 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
 <p className="text-3xl md:text-5xl text-white mb-[30px] font-bold ">Worship Schedule </p>
 
 <div className="flex flex-col items-center mb-6 justify-center">
-      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 w-full">
+      <div className="grid grid-cols-1 mx-auto md:grid-cols-2 gap-6 w-full">
         {[
-        {
-          service: "First Service (every sunday) ",
-          time: "9:00 AM - 10:30 AM",
-          icon: "service2.png",
-        },
-        {
-          service: "Second Service (every sunday) ",
-          time: "11:00 AM - 12:30 PM",
-          icon: "service3.png",
-        },
-        {
-          service: "Third Service (every sunday) ",
-          time: "2:00 PM - 3:30 PM",
-          icon: "service4.png",
-        }
-        
+          {
+            title: "First Service",
+            time: "6:30AM - 8:30AM",
+            icon: <FaChurch color="#4c1d95" size={40} />,
+          },
+          {
+            title: "Prayer Tuesday",
+            time: "5:30AM - 6:45PM",
+            icon: <FaPrayingHands color="#4c1d95" size={40} />,
+          },
+          {
+            title: "Second Service",
+            time: "9:00AM - 11:00AM",
+            icon: <FaClock color="#4c1d95" size={40} />,
+          },
+          {
+            title: "Mid Week Thursday",
+            time: "5:30AM - 6:45PM",
+            icon: <FaBible color="#4c1d95" size={40} />,
+          },
+          {
+            title: "Third Service",
+            time: "11:30AM - 1:30PM",
+            icon: <FaCross color="#4c1d95" size={40} />,
+          },
+          {
+            title: "Keshas",
+            time: "EVERY THIRD FRIDAY OF THE MONTH",
+            icon: <FaMoon color="#4c1d95" size={40} />,
+          },
         ].map((item, index) => (
           <div
             key={index}
-            className="bg-[var(--bodyBg)] shadow-2xl rounded-2xl md:rounded-[20px] p-4  flex flex-row  items-start text-left relative"
+            className="bg-[var(--bodyBg)] shadow-2xl rounded-2xl md:rounded-[20px] p-4 flex flex-row items-start text-left"
           >
-            <div>
-               {/* Icon */}
-            <img
-              src={item.icon}
-              className="absolute top-4 left-4 w-6  md:w-10 "
-            />
+            <div className="mr-4">
+              {item.icon}
             </div>
-          
-
-            <div className="flex flex-col ">
-                {/* Text */}
-            <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[50px] md:mt-[100px] ">
-              {item.service}
-            </p>
-             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[10px] ">
-              {item.time}
-            </p>
+            <div className="flex flex-col">
+              <p className="text-lg md:text-2xl font-bold text-[var(--textColor)]">
+                {item.title}
+              </p>
+              <p className="text-lg md:text-xl font-medium text-[var(--textColor)] mt-1">
+                {item.time}
+              </p>
             </div>
-         
           </div>
         ))}
       </div>
     </div>
    
 
-    <div className="flex flex-col items-center mb-6 justify-center">
-      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 w-full">
-        {[
-        {
-          service: "First Service (every sunday) ",
-          time: "9:00 AM - 10:30 AM",
-          icon: "service2.png",
-        },
-        {
-          service: "Second Service (every sunday) ",
-          time: "11:00 AM - 12:30 PM",
-          icon: "service3.png",
-        },
-        {
-          service: "Third Service (every sunday) ",
-          time: "2:00 PM - 3:30 PM",
-          icon: "service4.png",
-        }
-        
-        ].map((item, index) => (
-          <div
-            key={index}
-            className="bg-[var(--bodyBg)] shadow-2xl rounded-2xl md:rounded-[20px] p-4  flex flex-row  items-start text-left relative"
-          >
-            <div>
-               {/* Icon */}
-            <img
-              src={item.icon}
-              className="absolute top-4 left-4 w-6  md:w-10 "
-            />
-            </div>
-
-            <div className="flex flex-col ">
-                {/* Text */}
-            <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[50px] md:mt-[100px] ">
-              {item.service}
-            </p>
-             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[10px] ">
-              {item.time}
-            </p>
-            </div>
-         
-          </div>
-        ))}
-      </div>
-    </div>
 
 
 
 
 
-    <div className="flex flex-col items-center justify-center">
-      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 w-full">
-        {[
-        {
-          service: "First Service (every sunday) ",
-          time: "9:00 AM - 10:30 AM",
-          icon: "service2.png",
-        },
-        {
-          service: "Second Service (every sunday) ",
-          time: "11:00 AM - 12:30 PM",
-          icon: "service3.png",
-        },
-        {
-          service: "Third Service (every sunday) ",
-          time: "2:00 PM - 3:30 PM",
-          icon: "service4.png",
-        }
-        
-        ].map((item, index) => (
-          <div
-            key={index}
-            className="bg-[var(--bodyBg)] shadow-2xl rounded-2xl md:rounded-[20px] p-4  flex flex-row  items-start text-left relative"
-          >
-             <div>
-               {/* Icon */}
-            <img
-              src={item.icon}
-              className="absolute top-4 left-4 w-6  md:w-10 "
-            />
-            </div>
 
-            <div className="flex flex-col ">
-                {/* Text */}
-            <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[50px] md:mt-[100px] ">
-              {item.service}
-            </p>
-             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[10px] ">
-              {item.time}
-            </p>
-            </div>
-         
-          </div>
-        ))}
-      </div>
-    </div>
+
 
 </div>
   </div>
