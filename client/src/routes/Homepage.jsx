@@ -145,20 +145,25 @@ const Homepage = () => {
   </p>
 
 
-    <Link
-    to="/about"
-    className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold 
-    transition-all duration-300 inline-block w-fit" data-aos="fade-up" data-aos-delay="300"
-  >
-    Watch Online
-  </Link>
-</div>
+  <Link
+  to="/about"
+  className="inline-block gradient-border mt-4 mb-4 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold transition-all duration-300 transform hover:scale-110"
+  data-aos="fade-up"
+  data-aos-delay="300"
+>
+<span className="transform hover:scale-110 block">  Watch Online</span>
+</Link>
+ </div>
 
 
-<img
+  <div  data-aos="zoom-in"
+  data-aos-delay="400">
+  <img
   src="/pics44.jpg"
-  className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0" data-aos="fade-up" data-aos-delay="300"
+  className="block w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0 transform hover:scale-110 transition-all duration-300"
+ 
 />
+</div>
 </div>
 
        
@@ -385,39 +390,22 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
   data-aos="fade-up"
   data-aos-delay="300"
 >
-  Watch Online
+<span className="transform hover:scale-110 block">  Watch Online</span>
 </Link>
-<a
-  className="transform hover:scale-110 transition-all duration-300 inline-block"
->
-  Hover Me
-</a>
-
-<a
-  className="transform will-change-transform hover:scale-110 transition-all duration-300 inline-block"
-  data-aos="fade-up"
-  data-aos-delay="300"
->
-  Hover Me
-</a>
-<a
-  className="inline-block transition-all duration-300"
-  data-aos="fade-up"
-  data-aos-delay="300"
->
-  <span className="transform hover:scale-110 block">Hover Me</span>
-</a>
+ </div>
 
 
-
-  </div>
-
+  <div  data-aos="zoom-in"
+  data-aos-delay="400">
   <img
   src="/pics44.jpg"
   className="block w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0 transform hover:scale-110 transition-all duration-300"
-  data-aos="zoom-in"
-  data-aos-delay="400"
+ 
 />
+
+  </div>
+
+  
 </div>
 
 
