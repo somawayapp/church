@@ -269,7 +269,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     </div>
 
 
-    <div className="px-3 md:px-0 pb-[50px]">
+    <div className="pb-[50px]">
   <p className="text-3xl md:text-5xl text-white mb-[50px] md:mt-9 font-bold">
     Services
   </p>
@@ -301,13 +301,14 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
       ].map((item, index) => (
        
 
-          <motion.div
-           key={index}
-           className="group relative rounded-2xl overflow-hidden shadow-xl"
-           initial="offscreen"
-           whileInView="onscreen"
-           viewport={{ once: true, amount: 0.4 }}
-           variants={cardVariants}>
+        <motion.div
+        key={index}
+        className="group relative rounded-2xl overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-500"
+        initial="offscreen"
+        whileInView="onscreen"
+        viewport={{ once: true, amount: 0.4 }}
+        variants={cardVariants}
+      >
           {/* Image */}
           <img
             src={item.img}
@@ -436,22 +437,32 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
             icon: <FaMoon color="#4c1d95" size={40} />,
           },
         ].map((item, index) => (
-          <div
-            key={index}
-            className="bg-[var(--bodyBg)] shadow-2xl rounded-2xl md:rounded-[20px] p-4 flex flex-row items-start text-left"
-          >
-            <div className="mr-4">
+          <motion.div
+          key={index}
+          className="group bg-[var(--bodyBg)] shadow-2xl rounded-2xl p-4 flex flex-row items-start text-left transition-all duration-500 cursor-pointer"
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.3 }}
+          whileHover={{ scale: 1.03 }}
+          variants={cardVariants}
+        >
+          {/* Icon wrapper */}
+          <div className="mr-4 transition-all duration-500 group-hover:bg-[#4c1d95] p-3 rounded-full">
+            <div className="text-[#4c1d95] group-hover:text-white transition-all duration-500">
               {item.icon}
             </div>
-            <div className="flex flex-col">
-              <p className="text-lg md:text-2xl font-bold text-[var(--textColor)]">
-                {item.title}
-              </p>
-              <p className="text-lg md:text-xl font-medium text-[var(--textColor)] mt-1">
-                {item.time}
-              </p>
-            </div>
           </div>
+
+          {/* Text content */}
+          <div className="flex flex-col">
+            <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] group-hover:text-[#4c1d95] transition-colors duration-500">
+              {item.title}
+            </p>
+            <p className="text-lg md:text-xl font-medium text-[var(--textColor)] mt-1">
+              {item.time}
+            </p>
+          </div>
+        </motion.div>
         ))}
       </div>
     </div>
