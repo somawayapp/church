@@ -362,18 +362,18 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
   </svg>
 </div>
 
-<div className=" animate-fadeIn flex flex-col bg-[#4c1d95] " >
+<div className="  flex flex-col bg-[#4c1d95] " >
 
 <div className="flex text-white flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
   <div className="md:w-1/2 items-start justify-start md:text-left">
-    <p className="text-3xl md:text-5xl md:pt-9 font-bold animate__animated animate__fadeInUp">
+    <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
       Become a member
     </p>
 
-    <p className="text-3xl md:text-5xl :text-2xl font-semibold animate__animated animate__fadeInUp animate__delay-1s">
+    <p className="text-3xl md:text-5xl :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100">
       of deliverance church
     </p>
-    <p className="text-sm mt-1 md:mt-2 md:text-lg animate__animated animate__fadeInUp animate__delay-2s">
+    <p className="text-sm mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
       Join us every Sunday at 9:30a and 11:45a for our
       Atlanta Gatherings or 9:30a and 11:30a for our
       Washington DC Gatherings at passioncity.online.
@@ -381,8 +381,9 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
     <Link
       to="/about"
-      className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold 
-                transition-all duration-300 inline-block w-fit animate__animated animate__fadeInUp animate__delay-3s"
+      className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold transition-all duration-300 inline-block w-fit"
+      data-aos="fade-up"
+      data-aos-delay="300"
     >
       Watch Online
     </Link>
@@ -390,9 +391,12 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
   <img
     src="/pics44.jpg"
-    className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0 transition-transform duration-300 transform hover:scale-105 hover:translate-y-1 animate__animated animate__fadeInUp animate__delay-4s"
+    className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
+    data-aos="zoom-in"
+    data-aos-delay="400"
   />
 </div>
+
 
 
 
