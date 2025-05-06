@@ -394,11 +394,20 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 </a>
 
 <a
-  className="transform hover:scale-110 transition-all duration-300 inline-block"   data-aos="fade-up"
+  className="transform will-change-transform hover:scale-110 transition-all duration-300 inline-block"
+  data-aos="fade-up"
   data-aos-delay="300"
 >
   Hover Me
 </a>
+<a
+  className="inline-block transition-all duration-300"
+  data-aos="fade-up"
+  data-aos-delay="300"
+>
+  <span className="transform hover:scale-110 block">Hover Me</span>
+</a>
+
 
 
   </div>
