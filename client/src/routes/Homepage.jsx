@@ -272,8 +272,8 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     <div className="pb-[50px]">
  
 
-  <div className="flex flex-col mb-6 ">
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-7xl">
+  <div className="flex flex-col items-center mt-[50px] mb-6 justify-center">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-8xl">
       {[
         {
           title: "LIVE SERVICE",
@@ -364,17 +364,16 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 <div className=" animate-fadeIn flex flex-col bg-[#4c1d95] " >
 
-  
 <div className="flex text-white flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
   <div className="md:w-1/2 items-start justify-start md:text-left">
-    <p className="text-3xl md:text-5xl md:pt-9 font-bold">
+    <p className="text-3xl md:text-5xl md:pt-9 font-bold animate__animated animate__fadeInUp">
       Become a member
     </p>
 
-    <p className="text-3xl md:text-5xl :text-2xl font-semibold">
-      of deliverence church
+    <p className="text-3xl md:text-5xl :text-2xl font-semibold animate__animated animate__fadeInUp animate__delay-1s">
+      of deliverance church
     </p>
-    <p className="text-sm mt-1 md:mt-2 md:text-lg">
+    <p className="text-sm mt-1 md:mt-2 md:text-lg animate__animated animate__fadeInUp animate__delay-2s">
       Join us every Sunday at 9:30a and 11:45a for our
       Atlanta Gatherings or 9:30a and 11:30a for our
       Washington DC Gatherings at passioncity.online.
@@ -382,8 +381,8 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
     <Link
       to="/about"
-      className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold
-                transition-all duration-300 inline-block w-fit transform hover:scale-105 hover:translate-y-1"
+      className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold 
+                transition-all duration-300 inline-block w-fit animate__animated animate__fadeInUp animate__delay-3s"
     >
       Watch Online
     </Link>
@@ -391,7 +390,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
   <img
     src="/pics44.jpg"
-    className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0 transition-transform duration-300 transform hover:scale-105 hover:translate-y-1"
+    className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0 transition-transform duration-300 transform hover:scale-105 hover:translate-y-1 animate__animated animate__fadeInUp animate__delay-4s"
   />
 </div>
 
