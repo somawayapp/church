@@ -381,7 +381,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
     <Link
       to="/about"
-      className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold transition-all duration-300 inline-block w-fit transform hover:scale-105"
+      className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold transition-all duration-300 inline-block w-fit transform hover:scale-110"
       data-aos="fade-up"
       data-aos-delay="300"
     >
@@ -391,11 +391,12 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
   <img
     src="/pics44.jpg"
-    className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0 transform hover:scale-105 transition-all duration-300"
+    className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0 transform hover:scale-110 transition-all duration-300"
     data-aos="zoom-in"
     data-aos-delay="400"
   />
 </div>
+
 
 
 
@@ -495,7 +496,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
            text-white text-center animate-fadeIn flex flex-col items-center justify-center"
        >
          <div className="h-full max-w-full md:max-w-[700px] mx-auto box-border">
-         <h1 className="text-2xl md:text-5xl mt-[15px] text-[var(--softTextColor)] px-2 md:mt-[50px] font-bold" data-aos="fade-up" >
+         <h1 className="text-2xl md:text-5xl mt-[15px] text-[var(--softTextColor)] px-2 md:mt-[50px] font-bold" data-aos="fade-up" data-aos-delay="100" >
          Join our church ministries
                    </h1>
                    <div className="flex gap-2 items-center justify-center md:gap-4 flex-row">
