@@ -447,11 +447,12 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
           variants={cardVariants}
         >
           {/* Icon wrapper */}
-          <div className="mr-4 transition-all duration-500 group-hover:bg-[#4c1d95] p-3 rounded-full">
-            <div className="text-[#4c1d95] group-hover:text-white transition-all duration-500">
-              {item.icon}
-            </div>
+          <div className="mr-4 p-3 rounded-full transition-all duration-500 group hover:bg-[#4c1d95]">
+          <div className="text-[#4c1d95] group-hover:text-white transition-all duration-500">
+           {item.icon}
           </div>
+         </div>
+
 
           {/* Text content */}
           <div className="flex flex-col">
