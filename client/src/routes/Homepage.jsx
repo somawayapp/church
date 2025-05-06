@@ -248,46 +248,68 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     </div>
 
 
-    <div className="flex flex-col mb-[75px]  items-center justify-center">
-      <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 mt-[75px] w-full px-4">
-        {[
+    <div className="px-3 md:px-0 pb-[50px]">
+  <p className="text-3xl md:text-5xl text-white mb-[50px] md:mt-9 font-bold">
+     Services
+   </p>
+
+  <div className="flex flex-col items-center mb-6 justify-center">
+    <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 w-full">
+      {[
         {
-          service: "First Service (every sunday) ",
-          time: "9:00 AM - 10:30 AM",
-          icon: "service2.png",
+          title: "LIVE SERVICE",
+          description:
+            'Welcome friends & Followers, Thank You for joining us for our devotion. This week we will be focusing on "STRONG FAITH"',
+          icon: <FaChurch size={24} />,
         },
         {
-          service: "Second Service (every sunday) ",
-          time: "11:00 AM - 12:30 PM",
-          icon: "service3.png",
+          title: "MORNING GLORY",
+          description:
+            'Welcome friends & Followers, Thank You for joining us for our devotion. This week we will be focusing on "The Power Of the Full Gospel"',
+          icon: <FaClock size={24} />,
         },
         {
-          service: "Third Service (every sunday) ",
-          time: "2:00 PM - 3:30 PM",
-          icon: "service4.png",
-        }
-        
-        ].map((item, index) => (
-          <div
-            key={index}
-            className="bg-[var(--bodyBg)] shadow-2xl rounded-2xl md:rounded-[20px] p-4  flex flex-col items-start text-left relative"
-          >
-            {/* Icon */}
-            <img
-              src={item.icon}
-              className="absolute top-4 left-4 w-10  md:w-18 "
-            />
-            {/* Text */}
-            <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[50px] md:mt-[100px] ">
-              {item.service}
-            </p>
-             <p className="text-lg md:text-2xl font-bold text-[var(--textColor)] mt-[10px] ">
-              {item.time}
+          title: "DEVOTION",
+          description:
+            'Welcome friends & Followers, Thank You for joining us for our devotion. This week we will be focusing on "WALKING IN THE LIGHT"',
+          icon: <FaCross size={24} />,
+        },
+      ].map((item, index) => (
+        <div
+          key={index}
+          className="group relative rounded-2xl overflow-hidden shadow-2xl transition-transform duration-500 hover:scale-105"
+        >
+          {/* Background Image */}
+          <img
+            src="/prayer.jpg"
+            alt={item.title}
+            className="w-full h-80 object-cover"
+          />
+
+          {/* Icon */}
+          <div className="absolute top-4 left-4">
+            <div className="w-14 h-14 rounded-full bg-[#4c1d95] flex items-center justify-center border-2 border-transparent group-hover:bg-white group-hover:border-[#4c1d95] transition-all duration-500">
+              <div className="text-white group-hover:text-[#4c1d95] transition-colors duration-500">
+                {item.icon}
+              </div>
+            </div>
+          </div>
+
+          {/* Text Overlay */}
+          <div className="absolute bottom-8 left-4 right-4 text-white">
+            <h3 className="text-xl md:text-2xl font-bold mb-2 transition-colors duration-500 group-hover:text-[#4c1d95]">
+              {item.title}
+            </h3>
+            <p className="text-sm md:text-base leading-snug text-white">
+              {item.description}
             </p>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
+  </div>
+</div>
+
   </div>
 </div>
 
@@ -347,8 +369,8 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
 
 
 
-<div className="md:px-[100px]  pb-[50px]">
-<p className="text-3xl md:text-5xl text-white mb-[30px] font-bold ">Worship Schedule </p>
+<div className=" px-3 md:px-0 pb-[50px]">
+<p className="text-3xl md:text-5xl text-white mb-[50px] md:mt-9 font-bold ">Worship Schedule </p>
 
 <div className="flex flex-col items-center mb-6 justify-center">
       <div className="grid grid-cols-1 mx-auto md:grid-cols-2 gap-6 w-full">
@@ -440,7 +462,7 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
     font-semibold text-xs md:text-sm  py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer hover:bg-blue-500"
   >
     <img
-      src="/fiction.webp"
+      src="/prayer.jpg"
       className="w-5 h-5 md:w-8 md:h-8 object-cover rounded-full"
     />
     <span>Log In</span>
