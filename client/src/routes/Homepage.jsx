@@ -513,42 +513,42 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
       title: 'Discipleship Classes',
       description: 'Join our enriching discipleship classes to grow spiritually and strengthen your walk with Christ.',
       icon: <FaCross />,
-      image: '/discipleship.jpg',
+      image: '/pics48.jpg',
     },
     {
       id: 'merigoround',
       title: 'Merigoround',
       description: 'Connect, give, and grow together through our rotating support system rooted in fellowship.',
       icon: <FaChurch />,
-      image: '/merigoround.jpg',
+      image: '/pics38.jpg',
     },
     {
       id: 'kids',
       title: 'Kids School',
       description: 'Empowering our young ones through fun, faith-based learning and activities.',
       icon: <FaChild />,
-      image: '/kids.jpg',
+      image: '/pics31.jpg',
     },
     {
       id: 'youth',
       title: 'Youth Fellowship',
       description: 'A vibrant space for youth to worship, bond, and grow in faith together.',
       icon: <FaPeopleArrows />,
-      image: '/youth.jpg',
+      image: '/pics51.jpg',
     },
     {
       id: 'men',
       title: "Men's Fellowship",
       description: 'Build character and community among men walking in faith and purpose.',
       icon: <FaMale />,
-      image: '/men.jpg',
+      image: '/pics35.jpg',
     },
     {
       id: 'women',
       title: "Women's Fellowship",
       description: 'Women supporting women in Christ through love, prayer, and sisterhood.',
       icon: <FaFemale />,
-      image: '/women.jpg',
+      image: '/pics33.jpg',
     },
   ];
 
@@ -587,7 +587,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
         </div>
       </div>
 
-      <div className="flex bg-[var(--bd)] flex-col max-w-full md:max-w-[900px] gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row mt-6">
+      <div className="flex  flex-col max-w-full  gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row mt-6">
         <img
           src={activeMinistry.image}
           className="w-[200px] rounded-lg md:rounded-[20px] md:w-2/5 mx-auto md:mx-0"
