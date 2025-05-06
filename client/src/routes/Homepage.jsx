@@ -156,12 +156,14 @@ const Homepage = () => {
  </div>
 
 
- 
+ <span   data-aos="fade-up"
+  data-aos-delay="300"> 
+
   <img
   src="/pics44.jpg"
   className="block w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0 transform hover:scale-110 transition-all duration-300"
  
-/>
+/> </span>
 </div>
 
        
