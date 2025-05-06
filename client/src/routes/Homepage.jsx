@@ -156,14 +156,14 @@ const Homepage = () => {
  </div>
 
 
-  <img data-aos="zoom-in"
+  <Link data-aos="zoom-in"
   data-aos-delay="400">
   <img
   src="/pics44.jpg"
   className="block w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0 transform hover:scale-110 transition-all duration-300"
  
 />
-</img>
+</Link>
 </div>
 
        
