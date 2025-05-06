@@ -9,12 +9,33 @@ import Images from "../components/Images";
 import MobileControls from "../components/MobileControls";
 import { Helmet } from "react-helmet";
 import { FaChurch, FaPrayingHands, FaClock, FaBible, FaCross, FaMoon } from "react-icons/fa";
+import { motion } from "framer-motion";
+
+
 
 
 const Homepage = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top when this component mounts
   }, []);
+
+  const cardVariants = {
+    offscreen: {
+      opacity: 0,
+      scale: 0.8,
+      y: 100,
+    },
+    onscreen: {
+      opacity: 1,
+      scale: 1,
+      y: 0,
+      transition: {
+        type: "spring",
+        bounce: 0.2,
+        duration: 0.8,
+      },
+    },
+  };
 
   return (
       <div>
@@ -268,20 +289,25 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
           description:
             'Welcome friends & Followers, Thank You for joining us for our devotion. This week we will be focusing on "The Power Of the Full Gospel"',
           icon: <FaClock size={24} />,
-          img: "/pics47.jpg",
+          img: "/pics43.jpg",
         },
         {
           title: "DEVOTION",
           description:
             'Welcome friends & Followers, Thank You for joining us for our devotion. This week we will be focusing on "WALKING IN THE LIGHT"',
           icon: <FaCross size={24} />,
-          img: "/pics49.jpg",
+          img: "/pics59.jpg",
         },
       ].map((item, index) => (
-        <div
-          key={index}
-          className="group relative rounded-2xl overflow-hidden shadow-xl transition-transform duration-500 hover:scale-105"
-        >
+       
+
+          <motion.div
+           key={index}
+           className="group relative rounded-2xl overflow-hidden shadow-xl"
+           initial="offscreen"
+           whileInView="onscreen"
+           viewport={{ once: true, amount: 0.4 }}
+           variants={cardVariants}>
           {/* Image */}
           <img
             src={item.img}
@@ -307,7 +333,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
               {item.description}
             </p>
           </div>
-        </div>
+          </motion.div>
       ))}
     </div>
   </div>
@@ -502,7 +528,7 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
 
          <div className="flex bg-[var(--bd)] flex-col max-w-full md:max-w-[900px] m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
   <img
-    src="/heropic.jpg"
+    src="/pics59.jpg"
     className="w-[200px] rounded-lg md:rounded-[20px] md:w-2/5 mx-auto md:mx-0"
   />
   <div className="md:w-3/5 items-start justify-start md:text-left">
