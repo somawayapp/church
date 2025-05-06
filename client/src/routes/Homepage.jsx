@@ -311,7 +311,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
   </svg>
 </div>
 
-<div className=" animate-fadeIn flex flex-col bg-[#4c1d95] items-center justify-center" >
+<div className=" animate-fadeIn flex flex-col bg-[#4c1d95] " >
 
   
   <div className="flex  text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
