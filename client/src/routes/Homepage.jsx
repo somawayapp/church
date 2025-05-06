@@ -281,7 +281,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
         >
           {/* Background Image */}
           <img
-            src="/prayer.jpg"
+            src="/pics43.jpg"
             alt={item.title}
             className="w-full h-80 object-cover"
           />
@@ -369,7 +369,7 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
 
 
 
-<div className=" px-3 md:px-0 pb-[50px]">
+<div className=" px-3 md:px-[100px] pb-[50px]">
 <p className="text-3xl md:text-5xl text-white mb-[50px] md:mt-9 font-bold ">Worship Schedule </p>
 
 <div className="flex flex-col items-center mb-6 justify-center">
@@ -462,7 +462,7 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
     font-semibold text-xs md:text-sm  py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer hover:bg-blue-500"
   >
     <img
-      src="/prayer.jpg"
+      src="/pics21.jpg"
       className="w-5 h-5 md:w-8 md:h-8 object-cover rounded-full"
     />
     <span>Log In</span>
