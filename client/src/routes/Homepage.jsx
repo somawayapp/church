@@ -394,12 +394,12 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
  </div>
 
 
- <div className="block w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+ <div className="block w-[390px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
   data-aos-delay="300"> 
 
   <img
   src="/pics44.jpg"
-  className=" rounded-lg md:rounded-[20px] transform hover:scale-110 transition-all duration-300"
+  className=" rounded-lg md:rounded-[20px] transform hover:scale-95 md:hover:scale-110 transition-all duration-300"
  
 />
 
