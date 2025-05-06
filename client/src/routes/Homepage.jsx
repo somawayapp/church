@@ -394,7 +394,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
  </div>
 
 
- <div className="block w-[390px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+ <div className="block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
   data-aos-delay="300"> 
 
   <img
