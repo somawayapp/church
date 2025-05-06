@@ -409,32 +409,32 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
           {
             title: "First Service",
             time: "6:30AM - 8:30AM",
-            icon: <FaChurch color="#4c1d95" size={40} />,
+            icon: <FaChurch  size={40} />,
           },
           {
             title: "Prayer Tuesday",
             time: "5:30AM - 6:45PM",
-            icon: <FaPrayingHands color="#4c1d95" size={40} />,
+            icon: <FaPrayingHands  size={40} />,
           },
           {
             title: "Second Service",
             time: "9:00AM - 11:00AM",
-            icon: <FaClock color="#4c1d95" size={40} />,
+            icon: <FaClock size={40} />,
           },
           {
             title: "Mid Week Thursday",
             time: "5:30AM - 6:45PM",
-            icon: <FaBible color="#4c1d95" size={40} />,
+            icon: <FaBible  size={40} />,
           },
           {
             title: "Third Service",
             time: "11:30AM - 1:30PM",
-            icon: <FaCross color="#4c1d95" size={40} />,
+            icon: <FaCross  size={40} />,
           },
           {
             title: "Keshas",
             time: "EVERY THIRD FRIDAY OF THE MONTH",
-            icon: <FaMoon color="#4c1d95" size={40} />,
+            icon: <FaMoon size={40} />,
           },
         ].map((item, index) => (
           <motion.div
@@ -447,12 +447,11 @@ className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
           variants={cardVariants}
         >
           {/* Icon wrapper */}
-          <div className="mr-4 p-3 rounded-full transition-all duration-500 group hover:bg-[#4c1d95]">
-          <div className="text-[#4c1d95] group-hover:text-white transition-all duration-500">
-           {item.icon}
+          <div className="mr-4 transition-all duration-500 group-hover:bg-[#4c1d95] p-3 rounded-full">
+            <div className="text-[#4c1d95] group-hover:text-white transition-all duration-500">
+              {item.icon}
+            </div>
           </div>
-         </div>
-
 
           {/* Text content */}
           <div className="flex flex-col">
