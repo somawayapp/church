@@ -161,7 +161,7 @@ const Homepage = () => {
 
   <img
   src="/pics44.jpg"
-  className=" rounded-lg md:rounded-[20px] transform hover:scale-95 md:hover:scale-105 transition-all duration-300"
+  className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
  
 />
 
@@ -401,7 +401,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
   <img
   src="/pics44.jpg"
-  className=" rounded-lg md:rounded-[20px] transform hover:scale-95 md:hover:scale-105 transition-all duration-300"
+  className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
  
 />
 
