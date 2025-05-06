@@ -250,57 +250,60 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
     <div className="px-3 md:px-0 pb-[50px]">
   <p className="text-3xl md:text-5xl text-white mb-[50px] md:mt-9 font-bold">
-     Services
-   </p>
+    Services
+  </p>
 
   <div className="flex flex-col items-center mb-6 justify-center">
-    <div className="grid grid-cols-1 mx-auto md:grid-cols-3 gap-6 w-full">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-7xl">
       {[
         {
           title: "LIVE SERVICE",
           description:
             'Welcome friends & Followers, Thank You for joining us for our devotion. This week we will be focusing on "STRONG FAITH"',
           icon: <FaChurch size={24} />,
+          img: "/pics46.jpg",
         },
         {
           title: "MORNING GLORY",
           description:
             'Welcome friends & Followers, Thank You for joining us for our devotion. This week we will be focusing on "The Power Of the Full Gospel"',
           icon: <FaClock size={24} />,
+          img: "/pics47.jpg",
         },
         {
           title: "DEVOTION",
           description:
             'Welcome friends & Followers, Thank You for joining us for our devotion. This week we will be focusing on "WALKING IN THE LIGHT"',
           icon: <FaCross size={24} />,
+          img: "/pics49.jpg",
         },
       ].map((item, index) => (
         <div
           key={index}
-          className="group relative rounded-2xl overflow-hidden shadow-2xl transition-transform duration-500 hover:scale-105"
+          className="group relative rounded-2xl overflow-hidden shadow-xl transition-transform duration-500 hover:scale-105"
         >
-          {/* Background Image */}
+          {/* Image */}
           <img
-            src="/pics43.jpg"
+            src={item.img}
             alt={item.title}
             className="w-full h-80 object-cover"
           />
 
-          {/* Icon */}
-          <div className="absolute top-4 left-4">
-            <div className="w-14 h-14 rounded-full bg-[#4c1d95] flex items-center justify-center border-2 border-transparent group-hover:bg-white group-hover:border-[#4c1d95] transition-all duration-500">
-              <div className="text-white group-hover:text-[#4c1d95] transition-colors duration-500">
-                {item.icon}
+          {/* Text Box Overlay */}
+          <div className="absolute bottom-0 left-0 right-0 bg-white/90 p-6 pt-10 text-center rounded-b-2xl">
+            {/* Floating Icon */}
+            <div className="absolute -top-7 left-1/2 transform -translate-x-1/2">
+              <div className="w-14 h-14 rounded-full bg-[#4c1d95] flex items-center justify-center border-2 border-transparent group-hover:bg-white group-hover:border-[#4c1d95] transition-all duration-500">
+                <div className="text-white group-hover:text-[#4c1d95] transition-colors duration-500">
+                  {item.icon}
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Text Overlay */}
-          <div className="absolute bottom-8 left-4 right-4 text-white">
-            <h3 className="text-xl md:text-2xl font-bold mb-2 transition-colors duration-500 group-hover:text-[#4c1d95]">
+            <h3 className="text-xl md:text-2xl font-bold mb-2 text-[#4c1d95] group-hover:text-[#2e1065] transition-colors duration-500">
               {item.title}
             </h3>
-            <p className="text-sm md:text-base leading-snug text-white">
+            <p className="text-sm md:text-base text-gray-700 leading-snug">
               {item.description}
             </p>
           </div>
@@ -309,6 +312,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     </div>
   </div>
 </div>
+
 
   </div>
 </div>
