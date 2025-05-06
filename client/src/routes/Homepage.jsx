@@ -2,14 +2,12 @@ import { useEffect, useState, useRef } from "react";
 import { ThemeProvider } from "../../themecontext";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import StoryLine from "../components/StoryLine";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import Images from "../components/Images";
-import MobileControls from "../components/MobileControls";
 import { Helmet } from "react-helmet";
 import { FaChurch, FaPrayingHands, FaClock, FaBible, FaCross, FaMoon } from "react-icons/fa";
-import { motion } from "framer-motion";
+import { FaChild, FaPeopleArrows, FaMale, FaFemale } from 'react-icons/fa';
 
 
 
@@ -18,6 +16,9 @@ const Homepage = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top when this component mounts
   }, []);
+
+  const [selected, setSelected] = useState('discipleship');
+
 
   const cardVariants = {
     offscreen: {
@@ -503,74 +504,117 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-      <div
-         className="bg-[var(--bodyBg)] p-4 md:p-9 mt-[10px] mx-3 md:mx-[100px] rounded-lg md:rounded-[30px]
-           text-white text-center animate-fadeIn flex flex-col items-center justify-center"
-       >
-         <div className="h-full max-w-full md:max-w-[700px] mx-auto box-border">
-         <h1 className="text-2xl md:text-5xl mt-[15px] text-[var(--softTextColor)] px-2 md:mt-[50px] font-bold" data-aos="fade-up" data-aos-delay="100" >
-         Join our church ministries
-                   </h1>
-                   <div className="flex gap-2 items-center justify-center md:gap-4 flex-row">
-  <button
-    className="mt-5 mb-5 flex items-center border border-[var(--softTextColor)] bg-[var(--bd2)] text-[var(--bg)] 
-    font-semibold text-xs md:text-sm  py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer hover:bg-blue-500" data-aos="fade-up" data-aos-delay="100"
-  >
-    <img
-      src="/pics21.jpg"
-      className="w-5 h-5 md:w-8 md:h-8 object-cover rounded-full"
-    />
-    <span>Log In</span>
-  </button>
+  <div className="px-3 md:px-[100px] mt-[10px] text-[var(--softTextColor)] text-center animate-fadeIn flex flex-col items-center justify-center">
 
-  <button
-    className="mt-5 mb-5 flex items-center border border-[var(--textColore)] bg-[var(--bd2)] text-[var(--textColor)]
-     font-semibold text-xs md:text-sm  py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer hover:bg-blue-500" data-aos="fade-up" data-aos-delay="100"
-  >
-    <img
-      src="/self-growth.webp"
-      className="w-5 h-5 md:w-8 md:h-8 object-cover rounded-full"
-    />
-    <span> Summaries</span>
-  </button>
+{(() => {
+  const ministries = [
+    {
+      id: 'discipleship',
+      title: 'Discipleship Classes',
+      description: 'Join our enriching discipleship classes to grow spiritually and strengthen your walk with Christ.',
+      icon: <FaCross />,
+      image: '/discipleship.jpg',
+    },
+    {
+      id: 'merigoround',
+      title: 'Merigoround',
+      description: 'Connect, give, and grow together through our rotating support system rooted in fellowship.',
+      icon: <FaChurch />,
+      image: '/merigoround.jpg',
+    },
+    {
+      id: 'kids',
+      title: 'Kids School',
+      description: 'Empowering our young ones through fun, faith-based learning and activities.',
+      icon: <FaChild />,
+      image: '/kids.jpg',
+    },
+    {
+      id: 'youth',
+      title: 'Youth Fellowship',
+      description: 'A vibrant space for youth to worship, bond, and grow in faith together.',
+      icon: <FaPeopleArrows />,
+      image: '/youth.jpg',
+    },
+    {
+      id: 'men',
+      title: "Men's Fellowship",
+      description: 'Build character and community among men walking in faith and purpose.',
+      icon: <FaMale />,
+      image: '/men.jpg',
+    },
+    {
+      id: 'women',
+      title: "Women's Fellowship",
+      description: 'Women supporting women in Christ through love, prayer, and sisterhood.',
+      icon: <FaFemale />,
+      image: '/women.jpg',
+    },
+  ];
 
-  <button
-    className="mt-5 mb-5 flex items-center border border-[var(--softTextColor)] bg-[var(--bd)] text-[var(--bg)] py-2 px-2 md:px-6 md:py-3
-     font-semibold text-xs md:text-sm  gap-2 rounded-[10px] cursor-pointer hover:bg-blue-500" data-aos="fade-up" data-aos-delay="100"
-  >
-    <img
-      src="/negotiation.webp"
-      className="w-5 h-5 md:w-8 md:h-8 object-cover rounded-full"
-    />
-    <span className=" " >Start</span>
+  const activeMinistry = ministries.find((m) => m.id === selected);
 
-  </button>
+  return (
+    <>
+      <div className="h-full max-w-full box-border">
+        <h1
+          className="text-2xl md:text-5xl mt-[15px] text-[var(--softTextColor)] px-2 md:mt-[50px] font-bold"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          Join our church ministries
+        </h1>
+
+        <div className="flex flex-wrap gap-2 items-center justify-center md:gap-4 mt-4">
+          {ministries.map(({ id, title, icon }) => {
+            const isActive = selected === id;
+            return (
+              <button
+                key={id}
+                onClick={() => setSelected(id)}
+                className={`mt-3 mb-3 flex items-center border text-xs md:text-sm py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer transition-all
+                  ${
+                    isActive
+                      ? 'bg-[#4c1d95] text-white border-[#4c1d95]'
+                      : 'bg-white text-[var(--textColor)] border-[var(--textColor)] hover:text-[#4c1d95] hover:border-[#4c1d95]'
+                  }`}
+              >
+                <span className="text-lg">{icon}</span>
+                <span>{title}</span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      <div className="flex bg-[var(--bd)] flex-col max-w-full md:max-w-[900px] gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row mt-6">
+        <img
+          src={activeMinistry.image}
+          className="w-[200px] rounded-lg md:rounded-[20px] md:w-2/5 mx-auto md:mx-0"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        />
+        <div className="md:w-3/5 text-left">
+          <p className="text-xs mt-5 md:mt-9 text-[var(--softTextColor)] md:text-md" data-aos="fade-up" data-aos-delay="300">
+            ABOUT US
+          </p>
+          <p className="text-md mt-1 md:mt-2 text-[var(--softTextColor)] md:text-2xl font-semibold">
+            {activeMinistry.title}
+          </p>
+          <p className="text-sm text-[var(--softTextColor)] mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="300">
+            {activeMinistry.description}
+          </p>
+          <a href="/ministries">
+            <button className="mt-4 px-4 py-2 rounded-lg bg-[#4c1d95] text-white text-sm hover:bg-[#3b0f75] transition">
+              Learn More
+            </button>
+          </a>
+        </div>
+      </div>
+    </>
+  );
+})()}
 </div>
-
-                 
-         
-         </div >
-
-         <div className="flex bg-[var(--bd)] flex-col max-w-full md:max-w-[900px] m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
-  <img
-    src="/pics59.jpg"
-    className="w-[200px] rounded-lg md:rounded-[20px] md:w-2/5 mx-auto md:mx-0" data-aos="fade-up" data-aos-delay="200"
-  />
-  <div className="md:w-3/5 items-start justify-start md:text-left">
-    <p className="text-xs mt-5 md:mt-9 text-[var(--softTextColor)] md:text-md" data-aos="fade-up" data-aos-delay="300">ABOUT US</p>
-    <p className="text-md mt-1 md:mt-2 text-[var(--softTextColor)] md:text-2xl font-semibold">
-      Still wondering what is Somaway app?
-    </p>
-    <p className="text-sm text-[var(--softTextColor)] mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="300">
-      Somaway is a global EdTech startup with Kenyan roots. Somaway app offers
-      15-minute bite-sized non-fiction book summaries catered to your everyday
-      needs. We are mission-driven and passionate about self-improvement.
-    </p>
-  </div>
-</div>
-
-       
-       </div>
 
       <Footer />
 
