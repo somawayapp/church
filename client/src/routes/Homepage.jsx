@@ -161,7 +161,7 @@ const Homepage = () => {
 
   <img
   src="/pics44.jpg"
-  className=" transform hover:scale-110 transition-all duration-300"
+  className=" rounded-lg md:rounded-[20px] transform hover:scale-110 transition-all duration-300"
  
 /> </div>
 </div>
@@ -303,14 +303,12 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
         },
       ].map((item, index) => (
        
+        <div data-aos="fade-up">
 
-        <motion.div
+        <div
         key={index}
         className="group relative rounded-2xl overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-500"
-        initial="offscreen"
-        whileInView="onscreen"
-        viewport={{ once: true, amount: 0.4 }}
-        variants={cardVariants}
+ 
       >
           {/* Image */}
           <img
@@ -330,14 +328,15 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
               </div>
             </div>
 
-            <h3 className="text-xl md:text-2xl font-bold mb-2 text-[#4c1d95] group-hover:text-[#2e1065] transition-colors duration-500">
+            <h3 className="text-xl md:text-2xl font-bold mb-2 text-black group-hover:text-[#4c1d95] transition-colors duration-500">
               {item.title}
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-snug">
               {item.description}
             </p>
           </div>
-          </motion.div>
+          </div>
+        </div>
       ))}
     </div>
   </div>
@@ -395,11 +394,12 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
  </div>
 
 
-  <div  data-aos="zoom-in"
-  data-aos-delay="400">
+ <div className="block w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+  data-aos-delay="300"> 
+
   <img
   src="/pics44.jpg"
-  className="block w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0 transform hover:scale-110 transition-all duration-300"
+  className=" rounded-lg md:rounded-[20px] transform hover:scale-110 transition-all duration-300"
  
 />
 
