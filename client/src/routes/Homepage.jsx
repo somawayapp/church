@@ -133,12 +133,12 @@ const Homepage = () => {
        <div className="flex bg-[#4c1d95] text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
-  <p className="text-3xl md:text-5xl md:pt-9  font-bold ">Join US this Sunday
+  <p className="text-3xl md:text-5xl md:pt-9  font-bold " data-aos="fade-up">Join US this Sunday
   </p>
 
-  <p className="text-3xl md:text-5xl  :text-2xl font-semibold"> for un uplifting service
+  <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> for un uplifting service
   </p>
-  <p className="text-sm  mt-1 md:mt-2 md:text-lg">
+  <p className="text-sm  mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
   Join us every Sunday at 9:30a and 11:45a for our
    Atlanta Gatherings or 9:30a and 11:30a for our
    Washington DC Gatherings at passioncity.online.
@@ -148,7 +148,7 @@ const Homepage = () => {
     <Link
     to="/about"
     className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold 
-    transition-all duration-300 inline-block w-fit"
+    transition-all duration-300 inline-block w-fit" data-aos="fade-up" data-aos-delay="300"
   >
     Watch Online
   </Link>
@@ -157,7 +157,7 @@ const Homepage = () => {
 
 <img
   src="/pics44.jpg"
-  className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
+  className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0" data-aos="fade-up" data-aos-delay="300"
 />
 </div>
 
@@ -180,14 +180,14 @@ const Homepage = () => {
 
   <div className="px-3 md:px-[100px] py-[50px] md:py-[75px] ">
     <div className="max-w-[900px] mx-auto ">
-    <p className="text-2xl md:text-3xl mt-4 md:mt-2  ">
+    <p className="text-2xl md:text-3xl mt-4 md:mt-2   " data-aos="fade-up">
   OUR VISION </p>
 
-  <p className="text-3xl md:text-5xl py-4 font-semibold">
+  <p className="text-3xl md:text-5xl py-4 font-semibold" data-aos="fade-up" data-aos-delay="100">
   To see people passionately <br />
    devoted to God.
   </p>
-  <p className="text-sm  mt-1 md:mt-2 md:text-lg">
+  <p className="text-sm  mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
   Legacy Hills Church is a Spirit-filled, Bible-based church in Lone Tree, Colorado.
    Founded in 2023 by Pastor Matt Washington, we exist to see people passionately devoted to God.
  <br />
@@ -250,14 +250,14 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
   <div className="px-3 md:px-[100px] py-[50px] md:py-[75px] mt-9">
     <div className="max-w-[900px] mx-auto">
-      <p className="text-2xl md:text-3xl mt-4 md:mt-2">OUR VISION</p>
+      <p className="text-2xl md:text-3xl mt-4 md:mt-2" data-aos="fade-up">OUR VISION</p>
 
-      <p className="text-3xl md:text-5xl py-4 font-semibold">
+      <p className="text-3xl md:text-5xl py-4 font-semibold" data-aos="fade-up" data-aos-delay="100">
         To see people passionately <br />
         devoted to God.
       </p>
 
-      <p className="text-sm mt-1 md:mt-2 md:text-lg">
+      <p className="text-sm mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
         Legacy Hills Church is a Spirit-filled, Bible-based church in Lone Tree, Colorado. Founded in 2023 by Pastor
         Matt Washington, we exist to see people passionately devoted to God.
         <br />
@@ -381,7 +381,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
     <Link
       to="/about"
-      className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold transition-all duration-300 inline-block w-fit"
+      className="gradient-border mt-4 mb-4 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold transition-all duration-300 inline-block w-fit transform hover:scale-105"
       data-aos="fade-up"
       data-aos-delay="300"
     >
@@ -391,7 +391,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
   <img
     src="/pics44.jpg"
-    className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
+    className="w-[400px] rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0 transform hover:scale-105 transition-all duration-300"
     data-aos="zoom-in"
     data-aos-delay="400"
   />
@@ -402,7 +402,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 <div className=" px-3 md:px-[100px] pb-[50px]">
-<p className="text-3xl md:text-5xl text-white mb-[50px] md:mt-9 font-bold ">Worship Schedule </p>
+<p className="text-3xl md:text-5xl text-white mb-[50px] md:mt-9 font-bold " data-aos="fade-up" >Worship Schedule </p>
 
 <div className="flex flex-col items-center mb-6 justify-center">
       <div className="grid grid-cols-1 mx-auto md:grid-cols-2 gap-6 w-full">
@@ -495,13 +495,13 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
            text-white text-center animate-fadeIn flex flex-col items-center justify-center"
        >
          <div className="h-full max-w-full md:max-w-[700px] mx-auto box-border">
-         <h1 className="text-2xl md:text-5xl mt-[15px] text-[var(--softTextColor)] px-2 md:mt-[50px] font-bold">
+         <h1 className="text-2xl md:text-5xl mt-[15px] text-[var(--softTextColor)] px-2 md:mt-[50px] font-bold" data-aos="fade-up" >
          Join our church ministries
                    </h1>
                    <div className="flex gap-2 items-center justify-center md:gap-4 flex-row">
   <button
     className="mt-5 mb-5 flex items-center border border-[var(--softTextColor)] bg-[var(--bd2)] text-[var(--bg)] 
-    font-semibold text-xs md:text-sm  py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer hover:bg-blue-500"
+    font-semibold text-xs md:text-sm  py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer hover:bg-blue-500" data-aos="fade-up" data-aos-delay="100"
   >
     <img
       src="/pics21.jpg"
@@ -512,7 +512,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
   <button
     className="mt-5 mb-5 flex items-center border border-[var(--textColore)] bg-[var(--bd2)] text-[var(--textColor)]
-     font-semibold text-xs md:text-sm  py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer hover:bg-blue-500"
+     font-semibold text-xs md:text-sm  py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer hover:bg-blue-500" data-aos="fade-up" data-aos-delay="100"
   >
     <img
       src="/self-growth.webp"
@@ -523,7 +523,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
   <button
     className="mt-5 mb-5 flex items-center border border-[var(--softTextColor)] bg-[var(--bd)] text-[var(--bg)] py-2 px-2 md:px-6 md:py-3
-     font-semibold text-xs md:text-sm  gap-2 rounded-[10px] cursor-pointer hover:bg-blue-500"
+     font-semibold text-xs md:text-sm  gap-2 rounded-[10px] cursor-pointer hover:bg-blue-500" data-aos="fade-up" data-aos-delay="100"
   >
     <img
       src="/negotiation.webp"
@@ -541,14 +541,14 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
          <div className="flex bg-[var(--bd)] flex-col max-w-full md:max-w-[900px] m gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row">
   <img
     src="/pics59.jpg"
-    className="w-[200px] rounded-lg md:rounded-[20px] md:w-2/5 mx-auto md:mx-0"
+    className="w-[200px] rounded-lg md:rounded-[20px] md:w-2/5 mx-auto md:mx-0" data-aos="fade-up" data-aos-delay="200"
   />
   <div className="md:w-3/5 items-start justify-start md:text-left">
-    <p className="text-xs mt-5 md:mt-9 text-[var(--softTextColor)] md:text-md">ABOUT US</p>
+    <p className="text-xs mt-5 md:mt-9 text-[var(--softTextColor)] md:text-md" data-aos="fade-up" data-aos-delay="300">ABOUT US</p>
     <p className="text-md mt-1 md:mt-2 text-[var(--softTextColor)] md:text-2xl font-semibold">
       Still wondering what is Somaway app?
     </p>
-    <p className="text-sm text-[var(--softTextColor)] mt-1 md:mt-2 md:text-lg">
+    <p className="text-sm text-[var(--softTextColor)] mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="300">
       Somaway is a global EdTech startup with Kenyan roots. Somaway app offers
       15-minute bite-sized non-fiction book summaries catered to your everyday
       needs. We are mission-driven and passionate about self-improvement.
