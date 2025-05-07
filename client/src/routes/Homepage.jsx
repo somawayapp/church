@@ -630,8 +630,8 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     {/* Address Box */}
    
     <div className="w-full border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
-    <div className="mr-4 transition-all duration-500 bg-[#4c1d95] hoover:bg-[var(--bg)] border border-[#4c1d95]  p-3 rounded-full">
-      <div className="text-white e transition-all duration-500">
+    <div className="mr-4 transition-all duration-500 bg-[#4c1d95] grpoup:hoover:bg-[var(--bg)] border border-[#4c1d95]  p-3 rounded-full">
+      <div className="text-white  transition-all duration-500">
         <FaMapMarkerAlt size={30} />
       </div>
       </div>
@@ -645,7 +645,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     <div className="flex gap-4">
   {/* Call Box */}
   <div className="w-1/2 border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
-  <div className="mr-4 transition-all duration-500 bg-[#4c1d95] hoover:bg-[var(--bg)] border border-[#4c1d95]  p-3 rounded-full">
+  <div className="mr-4 transition-all duration-500 bg-[#4c1d95] group:hoover:bg-[var(--bg)] border border-[#4c1d95]  p-3 rounded-full">
   <div className="text-white e transition-all duration-500">
         <FaPhoneAlt size={24} />
       </div>
@@ -656,7 +656,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
   {/* Email Box */}
   <div className="w-1/2 border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
-    <div className="mr-4 transition-all duration-500 bg-[#4c1d95] hoover:bg-[var(--bg)] border border-[#4c1d95]  p-3 rounded-full">
+    <div className="mr-4 transition-all duration-500 bg-[#4c1d95] group:hoover:bg-[var(--bg)] border border-[#4c1d95]  p-3 rounded-full">
       <div className="text-white e transition-all duration-500">
         <FaEnvelope size={24} />
       </div>
