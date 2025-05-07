@@ -630,8 +630,8 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     {/* Address Box */}
       {/* Address Box */}
       <div className="w-full border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
-        <div className="transition-all duration-500 bg-[#4c1d95] group-hover:bg-[var(--bg)] border border-[#4c1d95] p-3 rounded-full transform group-hover:scale-105">
-          <FaMapMarkerAlt size={30} className="text-white transition-all duration-500" />
+        <div className="transition-all duration-500 bg-[#4c1d95] group-hover:bg-[var(--bg2)] border border-[#4c1d95] p-3 rounded-full transform group-hover:scale-105">
+          <FaMapMarkerAlt size={30} className="text-white transition-all group-hover:text-[var(--softTextColor)] duration-500" />
         </div>
         <h3 className="text-lg font-semibold text-[var(--softTextColor)]">Address</h3>
         <p className="text-md text-[var(--softTextColor)]">
@@ -643,8 +643,8 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
       <div className="flex flex-col md:flex-row gap-4">
         {/* Call Box */}
         <div className="w-full md:w-1/2 border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
-          <div className="transition-all duration-500 bg-[#4c1d95] group-hover:bg-[var(--bg)] border border-[#4c1d95] p-3 rounded-full transform group-hover:scale-105">
-            <FaPhoneAlt size={24} className="text-white transition-all duration-500" />
+          <div className="transition-all duration-500 bg-[#4c1d95] group-hover:bg-[var(--bg2)] border border-[#4c1d95] p-3 rounded-full transform group-hover:scale-105">
+            <FaPhoneAlt size={24} className="text-white transition-all group-hover:text-[var(--softTextColor)] duration-500" />
           </div>
           <h3 className="text-md font-semibold text-[var(--softTextColor)]">Call Us</h3>
           <p className="text-sm text-[var(--softTextColor)]">+1 (234) 567-8900</p>
@@ -652,8 +652,8 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
         {/* Email Box */}
         <div className="w-full md:w-1/2 border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
-          <div className="transition-all duration-500 bg-[#4c1d95] group-hover:bg-[var(--bg)] border border-[#4c1d95] p-3 rounded-full transform group-hover:scale-105">
-            <FaEnvelope size={24} className="text-white transition-all duration-500" />
+          <div className="transition-all duration-500 bg-[#4c1d95] group-hover:bg-[var(--bg2)] border border-[#4c1d95] p-3 rounded-full transform group-hover:scale-105">
+            <FaEnvelope size={24} className="text-white transition-all group-hover:text-[var(--softTextColor)] duration-500" />
           </div>
           <h3 className="text-md font-semibold text-[var(--softTextColor)]">Email</h3>
           <p className="text-sm text-[var(--softTextColor)]">contact@church.org</p>
