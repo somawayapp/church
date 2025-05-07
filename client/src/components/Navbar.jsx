@@ -58,43 +58,11 @@ const Navbar = () => {
   </div>
 
         
-        {/* MOBILE BUTTON */}
-        <div
-          className="cursor-pointer text-[var(--textColor)] text-sm"
-          onClick={() => setOpen((prev) => !prev)}
-        >
-          <div className="flex flex-col gap-1 md:gap-[6px]">
-            <div
-              className={`h-[1px] md:h-[2px] rounded-md w-5 md:w-9 bg-[var(--textColor)] origin-left transition-all ease-in-out ${
-                open && "rotate-45"
-              }`}
-            ></div>
-            <div
-              className={`h-[1px] md:h-[2px] rounded-md w-5 md:w-9 bg-[var(--textColor)] origin-left  transition-all ease-in-out ${
-                open && "opacity-0"
-              }`}
-            ></div>
-            <div
-              className={`h-[1px] md:h-[2px] rounded-md w-5 md:w-9 bg-[var(--textColor)] origin-left transition-all ease-in-out ${
-                open && "-rotate-45"
-              }`}
-            ></div>
-          </div>
-        </div>
-
+       
           
         </div>
 
-        {/* DARK OVERLAY */}
-        {open && (
-          <div
-            className="fixed inset-0 bg-black bg-opacity-50 z-40"
-            onClick={handleOverlayClick}
-          ></div>
-        )}
-
-        {/* MOBILE LINK LIST */}
-      
+    
 
 
    
