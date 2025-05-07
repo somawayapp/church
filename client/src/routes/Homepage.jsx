@@ -615,7 +615,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 <div className="mt-[50px] max-w-[100vw] overflow-x-hidden  mb-[50px] bg-[var(--bg2)] px-3  md:px-[100px] border-t  border-t-[var(--softBg)] ">
   {/* Left: Map - 2/3 Width */}
-  <p className="text-2xl md:text-4xl text--[var(--softTextColor)]  mb-[30px]  mt-[30px] font-bold " data-aos="fade-up" > GET IN TOUCH WITH US </p>
+  <p className="text-2xl md:text-4xl text--[var(--softTextColor)] mt-[50px] font-bold " data-aos="fade-up" > GET IN TOUCH WITH US </p>
 
 
 <div className="flex flex-col md:flex-row gap-6">
