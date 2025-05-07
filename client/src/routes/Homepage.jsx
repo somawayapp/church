@@ -18,6 +18,7 @@ const Homepage = () => {
   }, []);
 
   const [selected, setSelected] = useState('discipleship');
+  const activeMinistry = ministries.find((m) => m.id === selected);
 
 
   const cardVariants = {
@@ -502,121 +503,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-
-
-  <div className="px-3 md:px-[100px] mt-[10px] text-[var(--softTextColor)] text-center animate-fadeIn flex flex-col items-center justify-center">
-
-{(() => {
-  const ministries = [
-    {
-      id: 'discipleship',
-      title: 'Discipleship Classes',
-      description: 'Join our enriching discipleship classes to grow spiritually and strengthen your walk with Christ.',
-      icon: <FaCross />,
-      image: '/pics48.jpg',
-    },
-    {
-      id: 'merigoround',
-      title: 'Merigoround',
-      description: 'Connect, give, and grow together through our rotating support system rooted in fellowship.',
-      icon: <FaChurch />,
-      image: '/pics38.jpg',
-    },
-    {
-      id: 'kids',
-      title: 'Kids School',
-      description: 'Empowering our young ones through fun, faith-based learning and activities.',
-      icon: <FaChild />,
-      image: '/pics31.jpg',
-    },
-    {
-      id: 'youth',
-      title: 'Youth Fellowship',
-      description: 'A vibrant space for youth to worship, bond, and grow in faith together.',
-      icon: <FaPeopleArrows />,
-      image: '/pics51.jpg',
-    },
-    {
-      id: 'men',
-      title: "Men's Fellowship",
-      description: 'Build character and community among men walking in faith and purpose.',
-      icon: <FaMale />,
-      image: '/pics35.jpg',
-    },
-    {
-      id: 'women',
-      title: "Women's Fellowship",
-      description: 'Women supporting women in Christ through love, prayer, and sisterhood.',
-      icon: <FaFemale />,
-      image: '/pics33.jpg',
-    },
-  ];
-
-  const activeMinistry = ministries.find((m) => m.id === selected);
-
-  return (
-    <>
-      <div className="h-full max-w-full box-border">
-        <h1
-          className="text-2xl md:text-5xl mt-[25px] text-[var(--softTextColor)] px-2 md:mt-[75px] font-bold"
-          data-aos="fade-up"
-          data-aos-delay="100"
-        >
-          Join our church ministries
-        </h1>
-
-        <div className="flex flex-wrap gap-2 items-center justify-center md:gap-4 mt-4">
-          {ministries.map(({ id, title, icon }) => {
-            const isActive = selected === id;
-            return (
-              <button
-                key={id}
-                onClick={() => setSelected(id)}
-                className={`mt-3 mb-3 flex items-center text-sm border md:text-lg py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer transition-all
-                  ${
-                    isActive
-                      ? 'bg-[#4c1d95] text-white border-[#4c1d95]'
-                      : 'bg-[var(--bg2)] border-[#4c1d95] text-[var(--textColor)] hover:text-[#4c1d95] hover:border-[#4c1d95]'
-                  }`}
-              >
-                <span className="text-lg">{icon}</span>
-                <span>{title}</span>
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-      <div className="flex  flex-col max-w-full  gap-3 md:gap-6 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row mt-6">
-     
-        <div className="md:w-3/5 text-left">
-          <p className="text-xs mt-5 md:mt-9 text-[var(--softTextColor)] md:text-md" data-aos="fade-up" data-aos-delay="300">
-            ABOUT US
-          </p>
-          <p className="text-md mt-1 md:mt-2 text-[var(--softTextColor)] md:text-2xl font-semibold">
-            {activeMinistry.title}
-          </p>
-          <p className="text-sm text-[var(--softTextColor)] mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="300">
-            {activeMinistry.description}
-          </p>
-          <a href="/ministries">
-            <button className="mt-4 px-4 py-2 rounded-lg bg-[#4c1d95] text-white text-md md:text-lg hover:bg-[#3b0f75] transition">
-              Learn More
-            </button>
-          </a>
-        </div>
-        <img
-          src={activeMinistry.image}
-          className="w-full rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        />
-      </div>
-    </>
-  );
-})()}
-</div>
-
+ 
 
 
 
