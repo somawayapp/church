@@ -627,17 +627,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
   {/* Right: Contact Info - 1/3 Width */}
   <div className="md:w-1/2 flex  mt-[50px] flex-col justify-between gap-6" data-aos="fade-left" data-aos-delay="200">
-    {/* Address Box */}
-      {/* Address Box */}
-      <div className="w-full border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
-        <div className="transition-all duration-500 bg-[#4c1d95] group-hover:bg-[var(--bg2)] border border-[#4c1d95] p-3 rounded-full transform group-hover:scale-105">
-          <FaMapMarkerAlt size={30} className="text-white transition-all group-hover:text-[#4c1d95] duration-500" />
-        </div>
-        <h3 className="text-lg font-semibold text-[var(--softTextColor)]">Address</h3>
-        <p className="text-md text-[var(--softTextColor)]">
-          123 Faith Avenue, Grace City, Heaven State, 45678
-        </p>
-      </div>
+ 
 
    
 
