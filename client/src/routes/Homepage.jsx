@@ -621,7 +621,58 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
+<div className="w-full mt-[50px]  mb-[50px] bg-[var(--bg2)] px-3  md:px-[100px] border-t  border-t-[var(--softBg)] flex flex-col md:flex-row gap-6">
+  {/* Left: Map - 2/3 Width */}
+ 
 
+  {/* Right: Contact Info - 1/3 Width */}
+  <div className="md:w-1/2 flex  mt-[50px] flex-col justify-between gap-6" data-aos="fade-left" data-aos-delay="200">
+    {/* Address Box */}
+      {/* Address Box */}
+      <div className="w-full border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
+        <div className="transition-all duration-500 bg-[#4c1d95] group-hover:bg-[var(--bg2)] border border-[#4c1d95] p-3 rounded-full transform group-hover:scale-105">
+          <FaMapMarkerAlt size={30} className="text-white transition-all group-hover:text-[#4c1d95] duration-500" />
+        </div>
+        <h3 className="text-lg font-semibold text-[var(--softTextColor)]">Address</h3>
+        <p className="text-md text-[var(--softTextColor)]">
+          123 Faith Avenue, Grace City, Heaven State, 45678
+        </p>
+      </div>
+
+      {/* Call and Email Side by Side */}
+      <div className="flex flex-col md:flex-row gap-4">
+        {/* Call Box */}
+        <div className="w-full md:w-1/2 border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
+          <div className="transition-all duration-500 bg-[#4c1d95] group-hover:bg-[var(--bg2)] border border-[#4c1d95] p-3 rounded-full transform group-hover:scale-105">
+            <FaPhoneAlt size={24} className="text-white transition-all group-hover:text-[#4c1d95] duration-500" />
+          </div>
+          <h3 className="text-md font-semibold text-[var(--softTextColor)]">Call Us</h3>
+          <p className="text-sm text-[var(--softTextColor)]">+1 (234) 567-8900</p>
+        </div>
+
+        {/* Email Box */}
+        <div className="w-full md:w-1/2 border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
+          <div className="transition-all duration-500 bg-[#4c1d95] group-hover:bg-[var(--bg2)] border border-[#4c1d95] p-3 rounded-full transform group-hover:scale-105">
+            <FaEnvelope size={24} className="text-white transition-all group-hover:text-[#4c1d95] duration-500" />
+          </div>
+          <h3 className="text-md font-semibold text-[var(--softTextColor)]">Email</h3>
+          <p className="text-sm text-[var(--softTextColor)]">contact@church.org</p>
+        </div>
+      </div>
+
+  </div>
+
+  <div className="md:w-1/2 rounded-lg mt-[50px] overflow-none" data-aos="fade-right" data-aos-delay="100">
+    <iframe
+      title="Church Location"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086140975459!2d-122.41941508468365!3d37.77492927975939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5eaf7d89%3A0xf4b0eb25c2e1c82f!2sGrace%20Cathedral!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"
+      className="w-full h-full min-h-[400px] border-0"
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</div>
 
 
 
