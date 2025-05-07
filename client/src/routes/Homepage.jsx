@@ -18,7 +18,6 @@ const Homepage = () => {
   }, []);
 
   const [selected, setSelected] = useState('discipleship');
-  const activeMinistry = ministries.find((m) => m.id === selected);
 
 
   const cardVariants = {
