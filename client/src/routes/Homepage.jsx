@@ -128,7 +128,254 @@ const Homepage = () => {
 
 
 
+        
+        <div className=" animate-fadeIn flex flex-col  items-center justify-center" >
+  
+       <div className="flex bg-[#4c1d95] text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+
+<div className="md:w-1/2 items-start justify-start md:text-left">
+  <p className="text-3xl md:text-5xl md:pt-9  font-bold " data-aos="fade-up">Join US this Sunday
+  </p>
+
+  <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> for un uplifting service
+  </p>
+  <p className="text-sm  mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+  Join us every Sunday at 9:30a and 11:45a for our
+   Atlanta Gatherings or 9:30a and 11:30a for our
+   Washington DC Gatherings at passioncity.online.
+  </p>
+
+
+  <Link
+  to="/about"
+  className="inline-block gradient-border mt-4 mb-4 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold transition-all duration-300 transform hover:scale-110"
+  data-aos="fade-up"
+  data-aos-delay="300"
+>
+<span className="transform hover:scale-110 block">  Watch Online</span>
+</Link>
+ </div>
+
+
+ <div className="block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+  data-aos-delay="300"> 
+
+  <img
+  src="/pics44.jpg"
+  className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
+ 
+/>
+
+  </div>
+</div>
+
+       
+       </div>
+
+
+
+
+
+<div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-24 z-10">
+  <path fill="#4c1d95" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z"></path>
+  <path fill="#4c1d95" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z"></path>
+</svg>
+
+
+
+
+
+  <div className="px-3 md:px-[100px] py-[50px] md:py-[75px] ">
+    <div className="max-w-[900px] mx-auto ">
+    <p className="text-2xl md:text-3xl mt-4 md:mt-2   " data-aos="fade-up">
+  OUR VISION </p>
+
+  <p className="text-3xl md:text-5xl py-4 font-semibold" data-aos="fade-up" data-aos-delay="100">
+  To see people passionately <br />
+   devoted to God.
+  </p>
+  <p className="text-sm  mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+  Legacy Hills Church is a Spirit-filled, Bible-based church in Lone Tree, Colorado.
+   Founded in 2023 by Pastor Matt Washington, we exist to see people passionately devoted to God.
+ <br />
+
+We value the presence of God. Our worship, preaching and teaching, and Children's Ministry are centered
+ around each person encountering the Holy Spirit. We want to help you discover truth, find hope, 
+ and become all who God has created you to be.
+  </p>
+    </div>
+ 
+<div  className="py-9">
+<Images/>
+
+</div>
+
+  </div>
+
+  
+</div>
+
+
+
+
+<div className="">
+  <div
+    className="relative sticky top-0 bg-cover bg-center h-[40vh] w-full flex flex-col items-center justify-center text-white text-center overflow-y-auto"
+    style={{ backgroundImage: "url('/bg.jpg')" }}
+  >
+    <h1 className="text-5xl md:text-7xl text-gray-100  drop-shadow-lg">
+      Sharing is
+      the way
+    </h1>
+
+
+
+
+    
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1440 320"
+    preserveAspectRatio="none"
+    className="absolute bottom-0 left-0 w-full h-24 z-10"
+    style={{ transform: "rotate(180deg)" }}
+  >
+    <path fill="var(--bg)" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
+    <path fill="var(--bg)" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
+  </svg>
+
+</div>
+
+
+
+</div>
+
+
+
+
+<div className="bg-[var(--bg)] ">
+
+
+  <div className="px-3 md:px-[100px] py-[50px] md:py-[75px] mt-9">
+    <div className="max-w-[900px] mx-auto">
+      <p className="text-2xl md:text-3xl mt-4 md:mt-2" data-aos="fade-up">OUR VISION</p>
+
+      <p className="text-3xl md:text-5xl py-4 font-semibold" data-aos="fade-up" data-aos-delay="100">
+        To see people passionately <br />
+        devoted to God.
+      </p>
+
+      <p className="text-sm mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+        Legacy Hills Church is a Spirit-filled, Bible-based church in Lone Tree, Colorado. Founded in 2023 by Pastor
+        Matt Washington, we exist to see people passionately devoted to God.
+        <br />
+        <br />
+        We value the presence of God. Our worship, preaching and teaching, and Children's Ministry are centered around
+        each person encountering the Holy Spirit. We want to help you discover truth, find hope, and become all who God
+        has created you to be.
+      </p>
+    </div>
+
+
+    <div className="pb-[50px]">
+ 
+
+  <div className="flex flex-col items-center mt-[50px] mb-6 justify-center">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-8xl">
+      {[
+        {
+          title: "LIVE SERVICE",
+          description:
+            'Welcome friends & Followers, Thank You for joining us for our devotion. This week we will be focusing on "STRONG FAITH"',
+          icon: <FaChurch size={24} />,
+          img: "/pics46.jpg",
+        },
+        {
+          title: "MORNING GLORY",
+          description:
+            'Welcome friends & Followers, Thank You for joining us for our devotion. This week we will be focusing on "The Power Of the Full Gospel"',
+          icon: <FaClock size={24} />,
+          img: "/pics43.jpg",
+        },
+        {
+          title: "DEVOTION",
+          description:
+            'Welcome friends & Followers, Thank You for joining us for our devotion. This week we will be focusing on "WALKING IN THE LIGHT"',
+          icon: <FaCross size={24} />,
+          img: "/pics59.jpg",
+        },
+      ].map((item, index) => (
+       
+        <div data-aos="fade-up">
+
+        <div
+        key={index}
+        className="group relative rounded-2xl overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-500"
+ 
+      >
+          {/* Image */}
+          <img
+            src={item.img}
+            alt={item.title}
+            className="w-full h-80 object-cover"
+          />
+
+          {/* Text Box Overlay */}
+          <div className="absolute bottom-0 left-0 right-0 bg-white/90 p-6 pt-10 text-center rounded-b-2xl">
+            {/* Floating Icon */}
+            <div className="absolute -top-7 left-1/2 transform -translate-x-1/2">
+              <div className="w-14 h-14 rounded-full bg-[#4c1d95] flex items-center justify-center border-2 border-transparent group-hover:bg-white group-hover:border-[#4c1d95] transition-all duration-500">
+                <div className="text-white group-hover:text-[#4c1d95] transition-colors duration-500">
+                  {item.icon}
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-xl md:text-2xl font-bold mb-2 text-black group-hover:text-[#4c1d95] transition-colors duration-500">
+              {item.title}
+            </h3>
+            <p className="text-sm md:text-base text-gray-700 leading-snug">
+              {item.description}
+            </p>
+          </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
+
+
+  </div>
+</div>
+
+
+
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
 
 
       <Footer />
