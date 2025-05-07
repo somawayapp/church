@@ -504,11 +504,175 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
+  <div className="px-3 md:px-[100px] mt-[10px] text-[var(--softTextColor)] text-center animate-fadeIn flex flex-col items-center justify-center">
+
+{(() => {
+  const ministries = [
+    {
+      id: 'discipleship',
+      title: 'Discipleship Classes',
+      description: 'Join our enriching discipleship classes to grow spiritually and strengthen your walk with Christ.',
+      icon: <FaCross />,
+      image: '/pics48.jpg',
+    },
+    {
+      id: 'merigoround',
+      title: 'Merigoround',
+      description: 'Connect, give, and grow together through our rotating support system rooted in fellowship.',
+      icon: <FaChurch />,
+      image: '/pics38.jpg',
+    },
+    {
+      id: 'kids',
+      title: 'Kids School',
+      description: 'Empowering our young ones through fun, faith-based learning and activities.',
+      icon: <FaChild />,
+      image: '/pics31.jpg',
+    },
+    {
+      id: 'youth',
+      title: 'Youth Fellowship',
+      description: 'A vibrant space for youth to worship, bond, and grow in faith together.',
+      icon: <FaPeopleArrows />,
+      image: '/pics51.jpg',
+    },
+    {
+      id: 'men',
+      title: "Men's Fellowship",
+      description: 'Build character and community among men walking in faith and purpose.',
+      icon: <FaMale />,
+      image: '/pics35.jpg',
+    },
+    {
+      id: 'women',
+      title: "Women's Fellowship",
+      description: 'Women supporting women in Christ through love, prayer, and sisterhood.',
+      icon: <FaFemale />,
+      image: '/pics33.jpg',
+    },
+  ];
+
+  const activeMinistry = ministries.find((m) => m.id === selected);
+
+  return (
+    <>
+      <div className="h-full max-w-full box-border">
+        <h1
+          className="text-2xl md:text-5xl mt-[25px] text-[var(--softTextColor)] px-2 md:mt-[75px] font-bold"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          Join our church ministries
+        </h1>
+
+        <div className="flex flex-wrap gap-2 items-center justify-center md:gap-4 mt-4">
+          {ministries.map(({ id, title, icon }) => {
+            const isActive = selected === id;
+            return (
+              <button
+                key={id}
+                onClick={() => setSelected(id)}
+                className={`mt-3 mb-3 flex items-center text-sm border md:text-lg py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer transition-all
+                  ${
+                    isActive
+                      ? 'bg-[#4c1d95] text-white border-[#4c1d95]'
+                      : 'bg-[var(--bg2)] border-[#4c1d95] text-[var(--textColor)] hover:text-[#4c1d95] hover:border-[#4c1d95]'
+                  }`}
+              >
+                <span className="text-lg">{icon}</span>
+                <span>{title}</span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      <div className="flex  flex-col max-w-full  gap-3 md:gap-6 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row mt-6">
+     
+        <div className="md:w-3/5 text-left">
+          <p className="text-xs mt-5 md:mt-9 text-[var(--softTextColor)] md:text-md" data-aos="fade-up" data-aos-delay="300">
+            ABOUT US
+          </p>
+          <p className="text-md mt-1 md:mt-2 text-[var(--softTextColor)] md:text-2xl font-semibold">
+            {activeMinistry.title}
+          </p>
+          <p className="text-sm text-[var(--softTextColor)] mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="300">
+            {activeMinistry.description}
+          </p>
+          <a href="/ministries">
+            <button className="mt-4 px-4 py-2 rounded-lg bg-[#4c1d95] text-white text-md md:text-lg hover:bg-[#3b0f75] transition">
+              Learn More
+            </button>
+          </a>
+        </div>
+        <img
+          src={activeMinistry.image}
+          className="w-full rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        />
+      </div>
+    </>
+  );
+})()}
+</div>
+
+
+
+
+
+<div className="w-full mt-[50px]  mb-[50px] bg-[var(--bg2)] px-3  md:px-[100px] border-t  border-t-[var(--softBg)] flex flex-col md:flex-row gap-6">
+  {/* Left: Map - 2/3 Width */}
  
 
+  {/* Right: Contact Info - 1/3 Width */}
+  <div className="md:w-1/2 flex  mt-[50px] flex-col justify-between gap-6" data-aos="fade-left" data-aos-delay="200">
+    {/* Address Box */}
+      {/* Address Box */}
+      <div className="w-full border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
+        <div className="transition-all duration-500 bg-[#4c1d95] group-hover:bg-[var(--bg2)] border border-[#4c1d95] p-3 rounded-full transform group-hover:scale-105">
+          <FaMapMarkerAlt size={30} className="text-white transition-all group-hover:text-[#4c1d95] duration-500" />
+        </div>
+        <h3 className="text-lg font-semibold text-[var(--softTextColor)]">Address</h3>
+        <p className="text-md text-[var(--softTextColor)]">
+          123 Faith Avenue, Grace City, Heaven State, 45678
+        </p>
+      </div>
 
+      {/* Call and Email Side by Side */}
+      <div className="flex flex-col md:flex-row gap-4">
+        {/* Call Box */}
+        <div className="w-full md:w-1/2 border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
+          <div className="transition-all duration-500 bg-[#4c1d95] group-hover:bg-[var(--bg2)] border border-[#4c1d95] p-3 rounded-full transform group-hover:scale-105">
+            <FaPhoneAlt size={24} className="text-white transition-all group-hover:text-[#4c1d95] duration-500" />
+          </div>
+          <h3 className="text-md font-semibold text-[var(--softTextColor)]">Call Us</h3>
+          <p className="text-sm text-[var(--softTextColor)]">+1 (234) 567-8900</p>
+        </div>
 
+        {/* Email Box */}
+        <div className="w-full md:w-1/2 border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
+          <div className="transition-all duration-500 bg-[#4c1d95] group-hover:bg-[var(--bg2)] border border-[#4c1d95] p-3 rounded-full transform group-hover:scale-105">
+            <FaEnvelope size={24} className="text-white transition-all group-hover:text-[#4c1d95] duration-500" />
+          </div>
+          <h3 className="text-md font-semibold text-[var(--softTextColor)]">Email</h3>
+          <p className="text-sm text-[var(--softTextColor)]">contact@church.org</p>
+        </div>
+      </div>
 
+  </div>
+
+  <div className="md:w-1/2 rounded-lg mt-[50px] overflow-hidden" data-aos="fade-right" data-aos-delay="100">
+    <iframe
+      title="Church Location"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086140975459!2d-122.41941508468365!3d37.77492927975939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5eaf7d89%3A0xf4b0eb25c2e1c82f!2sGrace%20Cathedral!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"
+      className="w-full h-full min-h-[400px] border-0"
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</div>
 
 
 
