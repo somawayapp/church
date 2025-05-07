@@ -356,9 +356,143 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
+<div>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1440 320"
+    preserveAspectRatio="none"
+    className="absolute bottom-0 left-0 w-full h-24 z-10"
+    style={{ transform: "rotate(180deg)" }}
+  >
+    <path fill="#4c1d95" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
+    <path fill="#4c1d95" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
+  </svg>
+</div>
+
+<div className="  flex flex-col bg-[#4c1d95] " >
+
+<div className="flex text-white flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+  <div className="md:w-1/2 items-start justify-start md:text-left">
+    <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
+      Become a member
+    </p>
+
+    <p className="text-3xl md:text-5xl :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100">
+      of deliverance church
+    </p>
+    <p className="text-sm mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+      Join us every Sunday at 9:30a and 11:45a for our
+      Atlanta Gatherings or 9:30a and 11:30a for our
+      Washington DC Gatherings at passioncity.online.
+    </p>
+
+    <Link
+  to="/about"
+  className="inline-block gradient-border mt-4 mb-4 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold transition-all duration-300 transform hover:scale-110"
+  data-aos="fade-up"
+  data-aos-delay="300"
+>
+<span className="transform hover:scale-110 block">  Watch Online</span>
+</Link>
+ </div>
+
+
+ <div className="block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+  data-aos-delay="300"> 
+
+  <img
+  src="/pics44.jpg"
+  className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
+ 
+/>
+
+  </div>
+
+  
+</div>
 
 
 
+
+
+
+<div className=" px-3 md:px-[100px] pb-[50px]">
+<p className="text-3xl md:text-5xl text-white mb-[50px] md:mt-9 font-bold " data-aos="fade-up" >Worship Schedule </p>
+
+<div className="flex flex-col items-center mb-6 justify-center">
+      <div className="grid grid-cols-1 mx-auto md:grid-cols-2 gap-6 w-full">
+        {[
+          {
+            title: "First Service",
+            time: "6:30AM - 8:30AM",
+            icon: <FaChurch  size={40} />,
+          },
+          {
+            title: "Prayer Tuesday",
+            time: "5:30AM - 6:45PM",
+            icon: <FaPrayingHands  size={40} />,
+          },
+          {
+            title: "Second Service",
+            time: "9:00AM - 11:00AM",
+            icon: <FaClock size={40} />,
+          },
+          {
+            title: "Mid Week Thursday",
+            time: "5:30AM - 6:45PM",
+            icon: <FaBible  size={40} />,
+          },
+          {
+            title: "Third Service",
+            time: "11:30AM - 1:30PM",
+            icon: <FaCross  size={40} />,
+          },
+          {
+            title: "Keshas",
+            time: "EVERY THIRD FRIDAY OF THE MONTH",
+            icon: <FaMoon size={40} />,
+          },
+        ].map((item, index) => (
+          <div data-aos="fade-up">
+          <div
+          key={index}
+          className="group bg-white  text-black shadow-2xl rounded-2xl p-4 flex flex-row items-start text-left transition-all duration-500 cursor-pointer"
+         
+        >
+          
+          {/* Icon wrapper */}
+          <div className="mr-4 transition-all duration-500 group-hover:bg-[#4c1d95] p-3 rounded-full">
+            <div className="text-[#4c1d95] group-hover:text-white transition-all duration-500">
+              {item.icon}
+            </div>
+          </div>
+
+          {/* Text content */}
+          <div className="flex flex-col">
+            <p className="text-lg md:text-2xl font-bold  group-hover:text-[#4c1d95] transition-colors duration-500">
+              {item.title}
+            </p>
+            <p className="text-lg md:text-xl font-medium  mt-1">
+              {item.time}
+            </p>
+          </div>
+        </div>
+        </div>
+        ))}
+      </div>
+    </div>
+   
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
 
 
 
