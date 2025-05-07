@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 import "../index.css";
-
+import ThemeToggler from "./Theme";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
@@ -34,7 +34,8 @@ const Navbar = () => {
 
 <div className="flex items-center justify-between gap-12">
   <Link to="/home" className="flex items-center gap-1 text-xl font-bold md:text-3xl">
-    <img src="/churchlogo.png" className=" h-[20px]  md:h-[40px]" />
+    <img src="/logo3.png" className=" h-[20px]  md:h-[40px]" />
+    <span className="text-[#4c1d95 text-lg  md:text-xl">CHURCH</span>
   </Link>
 
 </div>
@@ -45,7 +46,7 @@ const Navbar = () => {
      <div className="flex items-center justify-between flex-row gap-2 md:gap-9">
      
          
-  <div className="hidden md:flex flex-1 justify-center space-x-12">
+  <div className="hidden md:flex flex-1 justify-center space-x-10">
     <Link className="hover:text-[#0053bf] font-bold" to="/" onClick={() => setOpen(false)}>Home</Link>
     <Link className="hover:text-[#0053bf] font-bold" to="/ministries" onClick={() => setOpen(false)}>Ministries</Link>
     <Link className="hover:text-[#0053bf] font-bold" to="/about" onClick={() => setOpen(false)}>About Us</Link>
@@ -120,30 +121,29 @@ const Navbar = () => {
 
         <div>
 
-        <Link
-            to="/"
-            className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
-   onClick={() => setOpen(false)}              > Home           </Link>
+           <Link  to="/" className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
+             onClick={() => setOpen(false)} > Home  </Link>
 
-        <div >
-  <Link
-            to="/premium"
-            className="block py-2 text-[var(--TextColor)] font-bold   hover:text-[#0062e3]  p-2 rounded-xl"
-   onClick={() => setOpen(false)}          > Premium          </Link>
-          <Link
-            to="/about"
-            className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
-   onClick={() => setOpen(false)}          > About Us 
-          </Link>
+           <div >
 
+            <Link to="/ministries" className="block py-2 text-[var(--TextColor)] font-bold   hover:text-[#0062e3]  p-2 rounded-xl"
+             onClick={() => setOpen(false)} > Ministries</Link>
+
+          <Link to="/about" className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
+           onClick={() => setOpen(false)}  > About Us </Link>
+
+         <Link to="/ministries" className="block py-2 text-[var(--TextColor)] font-bold   hover:text-[#0062e3]  p-2 rounded-xl"
+             onClick={() => setOpen(false)} > Services</Link>
+
+          <Link to="/about" className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
+           onClick={() => setOpen(false)}  >Give </Link>
+
+           
+          <Link to="/about" className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
+           onClick={() => setOpen(false)}  >Gallery </Link>
             
-    <Link className="hover:text-[#0053bf] font-bold" to="/" onClick={() => setOpen(false)}>Home</Link>
-    <Link className="hover:text-[#0053bf] font-bold" to="/ministries" onClick={() => setOpen(false)}>Ministries</Link>
-    <Link className="hover:text-[#0053bf] font-bold" to="/about" onClick={() => setOpen(false)}>About Us</Link>
-    <Link className="hover:text-[#0053bf] font-bold" to="/services" onClick={() => setOpen(false)}>Services</Link>
-    <Link className="hover:text-[#0053bf] font-bold" to="/give" onClick={() => setOpen(false)}>Give</Link>
-    <Link className="hover:text-[#0053bf] font-bold" to="/gallery" onClick={() => setOpen(false)}>Gallery</Link>
-
+  
+         <ThemeToggler />
 
        
         </div>

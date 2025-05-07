@@ -17,16 +17,16 @@ const Hero = () => {
       <div className="flex flex-col p-3 lg:flex-row gap-[100px]">
         {/* Left Section */}
         <div className="max-w-[500px] flex flex-col mt-[50px]  md:mt-[20px] gap-1 md:gap-4 rounded-md ml-[3px] md:ml-[100px]">
-        <h1 className="text-4xl lg:text-7xl font-bold text-white ">
+        <h1 className="text-4xl lg:text-6xl font-bold text-white ">
             For God
           </h1>
-          <h1 className="text-4xl lg:text-7xl font-bold text-white ">
+          <h1 className="text-4xl lg:text-6xl font-bold text-white ">
             For People
           </h1>
-          <h1 className="text-4xl lg:text-7xl font-bold text-white ">
+          <h1 className="text-4xl lg:text-6xl font-bold text-white ">
             For the City
           </h1>
-          <h1 className="text-4xl lg:text-7xl font-bold text-white ">
+          <h1 className="text-4xl lg:text-6xl font-bold text-white ">
             For The World
           </h1>
          
@@ -39,7 +39,7 @@ const Hero = () => {
   to="/about"
   className="gradient-border mt-2 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl text-white font-semibold transition-all duration-300 inline-block w-fit"
 >
-  New to calvary?
+  New to church?
 </Link>
 
 
