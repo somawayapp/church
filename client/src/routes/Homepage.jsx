@@ -572,11 +572,11 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
               <button
                 key={id}
                 onClick={() => setSelected(id)}
-                className={`mt-3 mb-3 flex items-center text-sm md:text-md py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer transition-all
+                className={`mt-3 mb-3 flex items-center text-md border md:text-lg py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer transition-all
                   ${
                     isActive
                       ? 'bg-[#4c1d95] text-white border-[#4c1d95]'
-                      : 'bg-[var(--bg2)] text-[var(--textColor)] hover:text-[#4c1d95] hover:border-[#4c1d95]'
+                      : 'bg-[var(--bg2)] border-[#4c1d95] text-[var(--textColor)] hover:text-[#4c1d95] hover:border-[#4c1d95]'
                   }`}
               >
                 <span className="text-lg">{icon}</span>
@@ -600,14 +600,14 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
             {activeMinistry.description}
           </p>
           <a href="/ministries">
-            <button className="mt-4 px-4 py-2 rounded-lg bg-[#4c1d95] text-white text-sm md:text-md hover:bg-[#3b0f75] transition">
+            <button className="mt-4 px-4 py-2 rounded-lg bg-[#4c1d95] text-white text-md md:text-lg hover:bg-[#3b0f75] transition">
               Learn More
             </button>
           </a>
         </div>
         <img
           src={activeMinistry.image}
-          className="w-full rounded-lg md:rounded-[20px] md:w-2/5 mx-auto md:mx-0"
+          className="w-full rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
           data-aos="fade-up"
           data-aos-delay="200"
         />
