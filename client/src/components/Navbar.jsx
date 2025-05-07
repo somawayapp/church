@@ -34,9 +34,17 @@ const Navbar = () => {
 
 <div className="flex items-center justify-between gap-12">
   <Link to="/home" className="flex items-center gap-1 text-xl font-bold md:text-3xl">
-    <img src="/logo.svg" className=" h-[20px]  md:h-[40px]" />
+    <img src="/churchlogo.png" className=" h-[20px]  md:h-[40px]" />
   </Link>
-  
+
+</div>
+
+
+     
+
+     <div className="flex items-center justify-between flex-row gap-2 md:gap-9">
+     
+         
   <div className="hidden md:flex flex-1 justify-center space-x-12">
     <Link className="hover:text-[#0053bf] font-bold" to="/" onClick={() => setOpen(false)}>Home</Link>
     <Link className="hover:text-[#0053bf] font-bold" to="/ministries" onClick={() => setOpen(false)}>Ministries</Link>
@@ -47,36 +55,6 @@ const Navbar = () => {
 
 
   </div>
-</div>
-
-
-     
-
-     <div className="flex items-center justify-between flex-row gap-2 md:gap-9">
-     <SignedOut>
-
-     <Link
-            to="/"
-            className="text-center hidden md:block px-4 md:px-6 py-2 md:py-3 bg-[#0062e3]   text-white
-            text-xs md:text-[16px] font-semibold rounded-md hover:bg-[#0053bf]   "
-          > Summaries
-            
-          </Link>
-          </SignedOut>
-
-          <SignedOut>
-        <Link
-            to="/login"
-            className="text-center px-4 md:px-6 py-2 md:py-3 bg-[var(--textColore3)] text-xs md:text-md text-[var(--textColor)] 
-            font-semibold  text-xs md:text-[16px] rounded-md hover:text-white hover:bg-[#0062e3]  "
-          >
-            Login
-          </Link>
-        </SignedOut>
-
-        <SignedIn>
-          <UserButton />
-        </SignedIn>
 
         
         {/* MOBILE BUTTON */}
@@ -157,6 +135,16 @@ const Navbar = () => {
             className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
    onClick={() => setOpen(false)}          > About Us 
           </Link>
+
+            
+    <Link className="hover:text-[#0053bf] font-bold" to="/" onClick={() => setOpen(false)}>Home</Link>
+    <Link className="hover:text-[#0053bf] font-bold" to="/ministries" onClick={() => setOpen(false)}>Ministries</Link>
+    <Link className="hover:text-[#0053bf] font-bold" to="/about" onClick={() => setOpen(false)}>About Us</Link>
+    <Link className="hover:text-[#0053bf] font-bold" to="/services" onClick={() => setOpen(false)}>Services</Link>
+    <Link className="hover:text-[#0053bf] font-bold" to="/give" onClick={() => setOpen(false)}>Give</Link>
+    <Link className="hover:text-[#0053bf] font-bold" to="/gallery" onClick={() => setOpen(false)}>Gallery</Link>
+
+
        
         </div>
         
