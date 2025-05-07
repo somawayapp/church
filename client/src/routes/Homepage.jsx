@@ -621,14 +621,14 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-<div className="w-full mt-[50px]  px-3  md:px-[100px] border-t  border-t-[var(--softBg5)] flex flex-col md:flex-row gap-6">
+<div className="w-full mt-[50px]  px-3  md:px-[100px] border-t  border-t-[var(--softBg)] flex flex-col md:flex-row gap-6">
   {/* Left: Map - 2/3 Width */}
  
 
   {/* Right: Contact Info - 1/3 Width */}
-  <div className="md:w-1/2 flex  mt-9 flex-col justify-between gap-6" data-aos="fade-left" data-aos-delay="200">
+  <div className="md:w-1/2 flex  mt-[50px] flex-col justify-between gap-6" data-aos="fade-left" data-aos-delay="200">
     {/* Address Box */}
-    <div className="border border-[#4c1d95] rounded-lg p-6 flex flex-col items-center text-center space-y-2">
+    <div className="border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2">
       <div className="text-[#4c1d95]">
         <FaMapMarkerAlt size={30} />
       </div>
@@ -641,7 +641,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     {/* Call and Email Side by Side */}
     <div className="flex gap-4">
       {/* Call Box */}
-      <div className="w-1/2 border border-[#4c1d95] rounded-lg p-4 flex flex-col items-center text-center space-y-2">
+      <div className="w-1/2 border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2">
         <div className="text-[#4c1d95]">
           <FaPhoneAlt size={24} />
         </div>
@@ -650,7 +650,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
       </div>
 
       {/* Email Box */}
-      <div className="w-1/2 border border-[#4c1d95] rounded-lg p-4 flex flex-col items-center text-center space-y-2">
+      <div className="w-1/2 border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2">
         <div className="text-[#4c1d95]">
           <FaEnvelope size={24} />
         </div>
@@ -660,7 +660,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     </div>
   </div>
 
-  <div className="md:w-1/2 rounded-lg mt-9 overflow-hidden" data-aos="fade-right" data-aos-delay="100">
+  <div className="md:w-1/2 rounded-lg mt-[50px] overflow-hidden" data-aos="fade-right" data-aos-delay="100">
     <iframe
       title="Church Location"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086140975459!2d-122.41941508468365!3d37.77492927975939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5eaf7d89%3A0xf4b0eb25c2e1c82f!2sGrace%20Cathedral!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"
