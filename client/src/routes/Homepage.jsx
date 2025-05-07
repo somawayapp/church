@@ -626,7 +626,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
  
 
   {/* Right: Contact Info - 1/3 Width */}
-  <div className="w-full md:w-1/2 max-w-[600px] mx-auto flex mt-[50px] flex-col justify-between gap-6" data-aos="fade-left" data-aos-delay="200">
+  <div className="w-full md:w-1/2 mx-auto flex mt-[50px] flex-col justify-between gap-6" data-aos="fade-left" data-aos-delay="200">
   {/* Address Box */}
   <div className="border border-[#4c1d95] rounded-lg p-6 md:p-9 flex flex-col items-center text-center space-y-2 group">
     <div className="transition-all duration-500 bg-[#4c1d95] group-hover:bg-[var(--bg2)] border border-[#4c1d95] p-3 rounded-full transform group-hover:scale-105">
