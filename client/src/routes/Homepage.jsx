@@ -651,13 +651,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
         </div>
 
         {/* Email Box */}
-        <div className="w-full md:w-1/2 border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
-          <div className="transition-all duration-500 bg-[#4c1d95] group-hover:bg-[var(--bg2)] border border-[#4c1d95] p-3 rounded-full transform group-hover:scale-105">
-            <FaEnvelope size={24} className="text-white transition-all group-hover:text-[#4c1d95] duration-500" />
-          </div>
-          <h3 className="text-md font-semibold text-[var(--softTextColor)]">Email</h3>
-          <p className="text-sm text-[var(--softTextColor)]">contact@church.org</p>
-        </div>
+       
       </div>
 
   </div>
