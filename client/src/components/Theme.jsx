@@ -21,7 +21,7 @@ const ThemeToggler = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="px-10 py-4 rounded-full  bg-[var(--bg)]   text-[var(--textColor)] hover:text-[var(--bg)] hover:bg-[var(--textColor)]
+      className="px-10 py-4 rounded-full  bg-[var(--textColor)] border  border-[var(--textColor)   text-[var(--bg)] hover:bg-[var(--bd)]
        transition-colors flex items-center justify-center"
     >
       {theme === "light" ? (

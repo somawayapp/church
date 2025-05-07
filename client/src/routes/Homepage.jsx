@@ -572,7 +572,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
               <button
                 key={id}
                 onClick={() => setSelected(id)}
-                className={`mt-3 mb-3 flex items-center text-md border md:text-lg py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer transition-all
+                className={`mt-3 mb-3 flex items-center text-sm border md:text-lg py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer transition-all
                   ${
                     isActive
                       ? 'bg-[#4c1d95] text-white border-[#4c1d95]'
