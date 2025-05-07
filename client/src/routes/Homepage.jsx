@@ -621,17 +621,11 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-<div className="w-full mt-[50px]  mb-[50px] bg-[var(--bg2)] px-3  md:px-[100px] border-t  border-t-[var(--softBg)] flex flex-col md:flex-row gap-6">
+<div className=" mt-[50px]  mb-[50px] bg-[var(--bg2)] px-3  md:px-[100px] border-t  border-t-[var(--softBg)] flex flex-col md:flex-row gap-6">
   {/* Left: Map - 2/3 Width */}
  
 
-  {/* Right: Contact Info - 1/3 Width */}
-  <div className="md:w-1/2 flex  mt-[50px] flex-col justify-between gap-6" data-aos="fade-left" data-aos-delay="200">
- 
 
-   
-
-  </div>
 
 </div>
 
