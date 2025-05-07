@@ -461,11 +461,30 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
         >
           
           {/* Icon wrapper */}
-          <div className="mr-4 transition-all duration-500 group-hover:bg-[#4c1d95] p-3 rounded-full">
-            <div className="text-[#4c1d95] group-hover:text-white transition-all duration-500">
-              {item.icon}
-            </div>
-          </div>
+          <div className="flex gap-4">
+  {/* Call Box */}
+  <div className="w-1/2 border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
+    <div className="mr-4 transition-all duration-500 group-hover:bg-[#4c1d95] p-3 rounded-full">
+      <div className="text-[#4c1d95] group-hover:text-white transition-all duration-500">
+        <FaPhoneAlt size={24} />
+      </div>
+    </div>
+    <h3 className="text-md font-semibold text-[var(--softTextColor)]">Call Us</h3>
+    <p className="text-sm text-[var(--softTextColor)]">+1 (234) 567-8900</p>
+  </div>
+
+  {/* Email Box */}
+  <div className="w-1/2 border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
+    <div className="mr-4 transition-all duration-500 group-hover:bg-[#4c1d95] p-3 rounded-full">
+      <div className="text-[#4c1d95] group-hover:text-white transition-all duration-500">
+        <FaEnvelope size={24} />
+      </div>
+    </div>
+    <h3 className="text-md font-semibold text-[var(--softTextColor)]">Email</h3>
+    <p className="text-sm text-[var(--softTextColor)]">contact@church.org</p>
+  </div>
+</div>
+
 
           {/* Text content */}
           <div className="flex flex-col">
