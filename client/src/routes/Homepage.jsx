@@ -558,7 +558,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     <>
       <div className="h-full max-w-full box-border">
         <h1
-          className="text-2xl md:text-5xl mt-[15px] text-[var(--softTextColor)] px-2 md:mt-[50px] font-bold"
+          className="text-2xl md:text-5xl mt-[25px] text-[var(--softTextColor)] px-2 md:mt-[75px] font-bold"
           data-aos="fade-up"
           data-aos-delay="100"
         >
@@ -572,11 +572,11 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
               <button
                 key={id}
                 onClick={() => setSelected(id)}
-                className={`mt-3 mb-3 flex items-center border text-xs md:text-sm py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer transition-all
+                className={`mt-3 mb-3 flex items-center text-sm md:text-md py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer transition-all
                   ${
                     isActive
                       ? 'bg-[#4c1d95] text-white border-[#4c1d95]'
-                      : 'bg-white text-[var(--textColor)] border-[var(--textColor)] hover:text-[#4c1d95] hover:border-[#4c1d95]'
+                      : 'bg-[var(--bg2)] text-[var(--textColor)] hover:text-[#4c1d95] hover:border-[#4c1d95]'
                   }`}
               >
                 <span className="text-lg">{icon}</span>
@@ -587,13 +587,8 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
         </div>
       </div>
 
-      <div className="flex  flex-col max-w-full  gap-2 md:gap-4 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row mt-6">
-        <img
-          src={activeMinistry.image}
-          className="w-[200px] rounded-lg md:rounded-[20px] md:w-2/5 mx-auto md:mx-0"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        />
+      <div className="flex  flex-col max-w-full  gap-3 md:gap-6 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row mt-6">
+     
         <div className="md:w-3/5 text-left">
           <p className="text-xs mt-5 md:mt-9 text-[var(--softTextColor)] md:text-md" data-aos="fade-up" data-aos-delay="300">
             ABOUT US
@@ -605,11 +600,17 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
             {activeMinistry.description}
           </p>
           <a href="/ministries">
-            <button className="mt-4 px-4 py-2 rounded-lg bg-[#4c1d95] text-white text-sm hover:bg-[#3b0f75] transition">
+            <button className="mt-4 px-4 py-2 rounded-lg bg-[#4c1d95] text-white text-sm md:text-md hover:bg-[#3b0f75] transition">
               Learn More
             </button>
           </a>
         </div>
+        <img
+          src={activeMinistry.image}
+          className="w-full rounded-lg md:rounded-[20px] md:w-2/5 mx-auto md:mx-0"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        />
       </div>
     </>
   );
