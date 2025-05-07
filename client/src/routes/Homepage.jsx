@@ -662,16 +662,6 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
   </div>
 
-  <div className="md:w-1/2 rounded-lg mt-[50px] overflow-none" data-aos="fade-right" data-aos-delay="100">
-    <iframe
-      title="Church Location"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086140975459!2d-122.41941508468365!3d37.77492927975939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5eaf7d89%3A0xf4b0eb25c2e1c82f!2sGrace%20Cathedral!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"
-      className="w-full h-full min-h-[400px] border-0"
-      allowFullScreen=""
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-    ></iframe>
-  </div>
 </div>
 
 
