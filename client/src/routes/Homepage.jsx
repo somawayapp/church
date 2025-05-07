@@ -613,10 +613,12 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-<div className="mt-[50px] max-w-[100vw] overflow-x-hidden  mb-[50px] bg-[var(--bg2)] px-3  md:px-[100px] border-t  border-t-[var(--softBg)] flex flex-col md:flex-row gap-6">
+<div className="mt-[50px] max-w-[100vw] overflow-x-hidden  mb-[50px] bg-[var(--bg2)] px-3  md:px-[100px] border-t  border-t-[var(--softBg)] ">
   {/* Left: Map - 2/3 Width */}
-  <p className="text-3xl md:text-5xl text-white mb-[50px] md:mt-9 font-bold " data-aos="fade-up" > GET IN TOUCH WITH US </p>
+  <p className="text-3xl md:text-5xl text--[var(--softTextColor)]  mb-[50px] md:mt-9 font-bold " data-aos="fade-up" > GET IN TOUCH WITH US </p>
 
+
+<div className="flex flex-col md:flex-row gap-6">
 
   {/* Right: Contact Info - 1/3 Width */}
   <div className="w-full md:w-1/2 mx-auto flex mt-[50px] flex-col justify-between gap-6" data-aos="fade-left" data-aos-delay="200">
@@ -666,6 +668,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
   </div>
 </div>
 
+</div>
 
 
       <Footer />
