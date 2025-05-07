@@ -622,50 +622,54 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 <div className="w-full mt-10 p-4 md:p-8 bg-[var(--bg2)] rounded-lg md:rounded-[20px] flex flex-col md:flex-row gap-6">
-  {/* Left: Contact Info */}
-  <div className="md:w-1/2 space-y-6" data-aos="fade-right" data-aos-delay="100">
-    <h2 className="text-2xl md:text-4xl font-bold text-[var(--softTextColor)]">Get in Touch</h2>
-
-    {[ 
-      {
-        icon: <FaMapMarkerAlt size={20} />,
-        text: '123 Faith Avenue, Grace City, Heaven State, 45678',
-      },
-      {
-        icon: <FaPhoneAlt size={20} />,
-        text: '+1 (234) 567-8900',
-      },
-      {
-        icon: <FaEnvelope size={20} />,
-        text: 'contact@church.org',
-      }
-    ].map((item, idx) => (
-      <div key={idx} className="flex items-start group">
-        {/* Icon wrapper */}
-        <div className="mr-4 transition-all duration-500 group-hover:bg-[#4c1d95] p-3 rounded-full border border-[#4c1d95]">
-          <div className="text-[#4c1d95] group-hover:text-white transition-all duration-500">
-            {item.icon}
-          </div>
-        </div>
-        <p className="text-[var(--softTextColor)] text-md md:text-lg">{item.text}</p>
-      </div>
-    ))}
-  </div>
-
-  {/* Right: Map */}
-  <div className="md:w-1/2 rounded-lg overflow-hidden" data-aos="fade-left" data-aos-delay="200">
+  {/* Left: Map - 2/3 Width */}
+  <div className="md:w-2/3 rounded-lg overflow-hidden" data-aos="fade-right" data-aos-delay="100">
     <iframe
       title="Church Location"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086140975459!2d-122.41941508468365!3d37.77492927975939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5eaf7d89%3A0xf4b0eb25c2e1c82f!2sGrace%20Cathedral!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"
-      width="100%"
-      height="300"
+      className="w-full h-full min-h-[400px] border-0"
       allowFullScreen=""
       loading="lazy"
       referrerPolicy="no-referrer-when-downgrade"
-      className="w-full h-full border-0"
     ></iframe>
   </div>
+
+  {/* Right: Contact Info - 1/3 Width */}
+  <div className="md:w-1/3 flex flex-col justify-between gap-6" data-aos="fade-left" data-aos-delay="200">
+    {/* Address Box */}
+    <div className="border border-black rounded-lg p-6 flex flex-col items-center text-center space-y-2">
+      <div className="text-[#4c1d95]">
+        <FaMapMarkerAlt size={30} />
+      </div>
+      <h3 className="text-lg font-semibold text-[var(--softTextColor)]">Address</h3>
+      <p className="text-md text-[var(--softTextColor)]">
+        123 Faith Avenue, Grace City, Heaven State, 45678
+      </p>
+    </div>
+
+    {/* Call and Email Side by Side */}
+    <div className="flex gap-4">
+      {/* Call Box */}
+      <div className="w-1/2 border border-black rounded-lg p-4 flex flex-col items-center text-center space-y-2">
+        <div className="text-[#4c1d95]">
+          <FaPhoneAlt size={24} />
+        </div>
+        <h3 className="text-md font-semibold text-[var(--softTextColor)]">Call Us</h3>
+        <p className="text-sm text-[var(--softTextColor)]">+1 (234) 567-8900</p>
+      </div>
+
+      {/* Email Box */}
+      <div className="w-1/2 border border-black rounded-lg p-4 flex flex-col items-center text-center space-y-2">
+        <div className="text-[#4c1d95]">
+          <FaEnvelope size={24} />
+        </div>
+        <h3 className="text-md font-semibold text-[var(--softTextColor)]">Email</h3>
+        <p className="text-sm text-[var(--softTextColor)]">contact@church.org</p>
+      </div>
+    </div>
+  </div>
 </div>
+
 
 
       <Footer />
