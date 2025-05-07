@@ -621,7 +621,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-<div className="w-full mt-[50px] p-4 md:p-8 border border-t-[var(--softBg5)] rounded-lg md:rounded-[20px] flex flex-col md:flex-row gap-6">
+<div className="w-full mt-[50px]  px-3  md:px-[100px] border border-t-[var(--softBg5)] rounded-lg md:rounded-[20px] flex flex-col md:flex-row gap-6">
   {/* Left: Map - 2/3 Width */}
  
 
