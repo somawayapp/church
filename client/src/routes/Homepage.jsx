@@ -628,8 +628,9 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
   {/* Right: Contact Info - 1/3 Width */}
   <div className="md:w-1/2 flex  mt-[50px] flex-col justify-between gap-6" data-aos="fade-left" data-aos-delay="200">
     {/* Address Box */}
-    <div className="border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2">
-      <div className="text-[#4c1d95]">
+   
+      <div className="mr-4 transition-all duration-500 bg-[#4c1d95] hoover:bg-[var(--bg)] border border-[#4c1d95]  p-3 rounded-full">
+      <div className="text-white e transition-all duration-500">
         <FaMapMarkerAlt size={30} />
       </div>
       <h3 className="text-lg font-semibold text-[var(--softTextColor)]">Address</h3>
@@ -642,8 +643,8 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     <div className="flex gap-4">
   {/* Call Box */}
   <div className="w-1/2 border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
-    <div className="mr-4 transition-all duration-500 group-hover:bg-[#4c1d95] p-3 rounded-full">
-      <div className="text-[#4c1d95] group-hover:text-white transition-all duration-500">
+  <div className="mr-4 transition-all duration-500 bg-[#4c1d95] hoover:bg-[var(--bg)] border border-[#4c1d95]  p-3 rounded-full">
+  <div className="text-white e transition-all duration-500">
         <FaPhoneAlt size={24} />
       </div>
     </div>
@@ -653,8 +654,8 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
   {/* Email Box */}
   <div className="w-1/2 border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
-    <div className="mr-4 transition-all duration-500 group-hover:bg-[#4c1d95] p-3 rounded-full">
-      <div className="text-[#4c1d95] group-hover:text-white transition-all duration-500">
+    <div className="mr-4 transition-all duration-500 bg-[#4c1d95] hoover:bg-[var(--bg)] border border-[#4c1d95]  p-3 rounded-full">
+      <div className="text-white e transition-all duration-500">
         <FaEnvelope size={24} />
       </div>
     </div>
