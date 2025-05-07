@@ -621,7 +621,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-<div className="w-full mt-[50px]  px-3  md:px-[100px] border-t  border-t-[var(--softBg)] flex flex-col md:flex-row gap-6">
+<div className="w-full mt-[50px]  bg-[var(--bg2)] px-3  md:px-[100px] border-t  border-t-[var(--softBg)] flex flex-col md:flex-row gap-6">
   {/* Left: Map - 2/3 Width */}
  
 
@@ -629,9 +629,11 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
   <div className="md:w-1/2 flex  mt-[50px] flex-col justify-between gap-6" data-aos="fade-left" data-aos-delay="200">
     {/* Address Box */}
    
-      <div className="mr-4 transition-all duration-500 bg-[#4c1d95] hoover:bg-[var(--bg)] border border-[#4c1d95]  p-3 rounded-full">
+    <div className="w-full border border-[#4c1d95] rounded-lg p-9 flex flex-col items-center text-center space-y-2 group">
+    <div className="mr-4 transition-all duration-500 bg-[#4c1d95] hoover:bg-[var(--bg)] border border-[#4c1d95]  p-3 rounded-full">
       <div className="text-white e transition-all duration-500">
         <FaMapMarkerAlt size={30} />
+      </div>
       </div>
       <h3 className="text-lg font-semibold text-[var(--softTextColor)]">Address</h3>
       <p className="text-md text-[var(--softTextColor)]">
