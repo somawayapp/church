@@ -126,10 +126,10 @@ const Services = () => {
       <div className="mb-9  flex flex-col gap-0" >
         <div className=" animate-fadeIn flex flex-col  items-center justify-center" >
   
-       <div className="flex  flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[35px]  md:flex-row">
+       <div className="flex  flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[30px]  md:flex-row">
 
    <div className=" order-3 md:order-1 items-start justify-start md:text-left">
-  <p className="text-3xl md:text-5xl   py-2  font-bold " data-aos="fade-up">Service Times
+  <p className="text-3xl md:text-5xl   pb-2  font-bold " data-aos="fade-up">Service Times
   </p>
 
   <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> 

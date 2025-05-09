@@ -129,16 +129,16 @@ const Give = () => {
        <div className="flex  flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[45px] md:py-[100px] md:flex-row">
 
    <div className=" order-1 md:order-1 md:w-1/2 items-start justify-start md:text-left">
-  <p className="text-3xl md:text-5xl  py-2  font-bold " data-aos="fade-up">
-  </p>Tithes & Offering
+  <p className="text-3xl md:text-5xl  py-2  font-bold " data-aos="fade-up">Tithes & Offering
+  </p>
 
-  <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> 
+  <p className="text-3xl md:text-5xl  :text-2xl font-semibold"> 
   </p>
   <p className="text-sm  mt-1  md:text-lg" >
     <span className="hidden md:flex">    Praise Church is a Spirit-filled, Bible-based church in Nairobi, Kenya.
     Founded in 2023 by Pastor saviour, we exist to see people passionately devoted to God.
      <br /> </span> 
-<span data-aos="fade-up" data-aos-delay="200">
+<span>
 No matter your stage of life, we want you to be part of a Christ-centered community where 
   people come to know Jesus, grow in their faith through Bible reading, experience the joy of baptism, and walk together in 
   spiritual growth and encouragement.
@@ -151,7 +151,7 @@ No matter your stage of life, we want you to be part of a Christ-centered commun
 
 
 
- <div className="order-2 md:order-2 block w-full rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0 relative">
+ <div className="order-2 md:order-2 block w-full mt-9 md:mt-0  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0 relative">
   <img
     src="/mpesa.jpeg"
     className="rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300 w-full"
@@ -161,7 +161,7 @@ No matter your stage of life, we want you to be part of a Christ-centered commun
   {/* Text overlay */}
   <div className="absolute inset-0 flex items-center justify-center">
     <h2 className="text-white text-4xl md:text-6xl font-bold  px-4 py-2 rounded">
-      Send money <br /><br /> <br /><br /><br />
+      Send money <br /><br /> <br /><br /><br  /> <br className="hidden md:flex"/>
       0703394794
     </h2>
   </div>
