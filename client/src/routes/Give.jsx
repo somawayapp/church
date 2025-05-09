@@ -159,15 +159,22 @@ No matter your stage of life, we want you to be part of a Christ-centered commun
  </div>
 
 
- <div className="  order-2 md:order-2 block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"> 
-
+ <div className="order-2 md:order-2 block w-full rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0 relative">
   <img
-  src="/mpesa.jpeg"
-  className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
- 
-/>
+    src="/mpesa.jpeg"
+    className="rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300 w-full"
+    alt="M-Pesa"
+  />
 
+  {/* Text overlay */}
+  <div className="absolute inset-0 flex items-center justify-center">
+    <h2 className="text-white text-2xl md:text-3xl font-bold  px-4 py-2 rounded">
+      Send money <br /><br />
+      0703394794
+    </h2>
   </div>
+</div>
+
 </div>
 
   </div>
