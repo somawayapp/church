@@ -297,36 +297,49 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-  <div className="   bg-cover bg-no-repeat">
 
 
-<div className="flex bg-[var(--softTextColor)] flex-col pl-3 pr-3 pt-12 md:pt-0  md:pl-[100px] lg:pl-[200px] md:flex-row items-center justify-between  z-10 text-[var(--bg)]">
-<div className="flex-1  text-center  md:text-left">
-<h3 className="text-3xl md:text-5xl font-bold mt-4 mb-4">Church Leadership</h3>
-<p className="text-sm md:text-lg max-w-md mb-6">
-I never thought I’d have to move out and go house hunting again. But here I am—four years later—and I still can’t find a decent house online. 
-And trust me, I’m not about to spend a whole week under the scorching sun, trudging through mud and dust.
+  <div className="  flex bg-[var(--softTextColor)] flex-col " >
 
-I know I’m not alone in this. There are countless others who’ve faced the same frustration. That’s why I’m determined to bring this idea to life.
-</p>
-<img 
-src="/love.svg" 
-className="w-8 h-8 mb-6 mx-auto md:mx-0 md:ml-0" 
+<div className="flex text-[var(--bg)] flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+  <div className=" order-2 md:order-1 md:w-1/2 items-start justify-start md:text-left">
+    <p className="text-3xl md:text-5xl  py-2  md:pt-9 font-bold" data-aos="fade-up">
+      Church Leaders
+    </p>
+
+  
+    <p className="text-sm mt-1  md:text-lg" data-aos="fade-up" data-aos-delay="200">
+    I never thought I’d have to move out and go house hunting again. But here I am—four years later—and I still can’t find a decent house online. 
+       And trust me, I’m not about to spend a whole week under the scorching sun, trudging through mud and dust.
+       I know I’m not alone in this. There are countless others who’ve faced the same frustration. That’s why I’m determined to bring this idea to life.
+
+       
+       <br />
+       <br />
+       I never thought I’d have to move out and go house hunting again. But here I am—four years later—and I still can’t find a decent house online. 
+       And trust me, I’m not about to spend a whole week under the scorching sun, trudging through mud and dust.
+       I know I’m not alone in this. There are countless others who’ve faced the same frustration. That’s why I’m determined to bring this idea to life.
+
+      </p>
+      <p className="font-semibold mt-5 text-md">Rev saviour</p>
+
+
+ 
+ </div>
+
+
+ <div className=" order-1 md:order-2 block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+  data-aos-delay="300"> 
+
+  <img
+  src="/pics31.jpg"
+  className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
+ 
 />
 
- <p className="font-semibold text-md">Rev saviour</p>
-<p className="text-sm text-opacity-80"> church leader </p>
+  </div>
 </div>
-
-{/* Adjust vertical alignment with self-start or self-end */}
-<div className=" self-end ">
-<img src="/pics2.jpg" className=" h-[500px] rounded-full top-0 md:top-[150px] mr-0 md:mr-[42px] mt-0 md:mt-[300px] object-cover" />
-</div>
-</div>
-
-
-</div>
-
+  </div>
 
 
 
