@@ -128,13 +128,13 @@ const Ministries = () => {
   
        <div className="flex  flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
-   <div className=" order-2 md:order-1 md:w-1/2 items-start justify-start md:text-left">
-  <p className="text-3xl md:text-5xl md:pt-9  font-bold " data-aos="fade-up">Discipleship
+   <div className=" order-3 md:order-1 md:w-1/2 items-start justify-start md:text-left">
+  <p className="text-3xl md:text-5xl md:pt-9  px-2  font-bold " data-aos="fade-up">Discipleship
   </p>
 
   <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> 
   </p>
-  <p className="text-sm  mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+  <p className="text-sm  mt-1  md:text-lg" data-aos="fade-up" data-aos-delay="200">
   You were created to grow in Christ through fellowship with others, and one of the best ways to do that at Praise Church is 
   by joining a discipleship group! 
   <br />
@@ -146,8 +146,17 @@ const Ministries = () => {
   </p>
  </div>
 
+ <div className=" order-1 md:hidden items-start justify-start md:text-left">
 
- <div className="  order-1 md:order-2 block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+  <p className="text-sm  mt-9 mb-9" >
+  You were created to grow in Christ through fellowship with others, and one of the best ways to do that at Praise Church is 
+  by joining a felowship ministry! 
+
+  </p>
+ </div>
+
+
+ <div className="  order-2 md:order-2 block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
   data-aos-delay="300"> 
 
   <img
@@ -193,12 +202,12 @@ className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-al
 
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
-<p className="text-3xl md:text-5xl md:pt-9  font-bold " data-aos="fade-up">Merygoround
+<p className="text-3xl md:text-5xl  px-2  md:pt-9  font-bold " data-aos="fade-up">Merygoround
 </p>
 
 <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> 
 </p>
-<p className="text-sm  mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+<p className="text-sm  mt-1  md:text-lg" data-aos="fade-up" data-aos-delay="200">
 The merigoround is special group that offers compassionate support and  finacial assistance to those in need within the church group.
 
 <br />
@@ -253,12 +262,12 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 
 <div className="flex  flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
   <div className=" order-2 md:order-1 md:w-1/2 items-start justify-start md:text-left">
-    <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
+    <p className="text-3xl md:text-5xl  px-2  md:pt-9 font-bold" data-aos="fade-up">
       Kids
     </p>
 
   
-    <p className="text-sm mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+    <p className="text-sm mt-1  md:text-lg" data-aos="fade-up" data-aos-delay="200">
     Praise Church Kids school is a vibrant ministry designed to help children learn about Gods love in a fun and engaging way. 
     Through age-appropriate lessons, interactive activities, and exciting events, children are introduced to biblical truths,
      encouraged to grow in their faith, and build a foundation for a lifelong relationship with Jesus.
@@ -319,12 +328,12 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 
 
   <div className="md:w-1/2 items-start justify-start md:text-left">
-    <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
+    <p className="text-3xl md:text-5xl  px-2  md:pt-9 font-bold" data-aos="fade-up">
       Youth
     </p>
 
   
-    <p className="text-sm mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+    <p className="text-sm mt-1  md:text-lg" data-aos="fade-up" data-aos-delay="200">
     Our Youth Ministry is focused on guiding them through their spiritual journey during these formative years. With a mix of monthly gatherings,
      worship nights, and fun outings, Praise Church youth creates a space where the youth can deepen their relationship with God, 
      form strong friendships, and discover their unique purpose. 
@@ -372,12 +381,12 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 
 <div className="flex flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
   <div className=" order-2 md:order-1 md:w-1/2 items-start justify-start md:text-left">
-    <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
+    <p className="text-3xl md:text-5xl md:pt-9  px-2  font-bold" data-aos="fade-up">
         Men 
    </p>
 
   
-    <p className="text-sm mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+    <p className="text-sm mt-1  md:text-lg" data-aos="fade-up" data-aos-delay="200">
     Our Mens Ministry is here to help men grow in their God-given calling as a husband, son, brother, father, and leader.
      Our desire is for each man to be strengthened, loved, challenged, and encouraged by other men.
      <br />
@@ -447,12 +456,12 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 
  
   <div className="md:w-1/2 items-start justify-start md:text-left">
-    <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
+    <p className="text-3xl md:text-5xl md:pt-9 px-2 font-bold" data-aos="fade-up">
         Women 
    </p>
 
   
-    <p className="text-sm mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+    <p className="text-sm mt-1  md:text-lg" data-aos="fade-up" data-aos-delay="200">
     Our Womens Ministry provides a nurturing space for women to connect, encourage one another, and grow in their walk with Christ.
      By engaging in Bible studies, social gatherings, and outreach activities,
      women of all ages are empowered to strengthen their faith, build meaningful relationships, and serve the church and the wider community.
@@ -480,7 +489,7 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 
 
 
-<div className="mt-[50px] max-w-[100vw] overflow-x-hidden  mb-[50px] bg-[var(--bg2)] px-3  md:px-[100px] border-t  border-t-[var(--softBg)] ">
+<div className=" max-w-[100vw] overflow-x-hidden  mb-[50px] bg-[var(--bg2)] px-3  md:px-[100px] border-t  border-t-[var(--softBg)] ">
   {/* Left: Map - 2/3 Width */}
   <p className="text-2xl md:text-4xl text--[var(--softTextColor)] mt-[50px] font-bold " data-aos="fade-up" > GET IN TOUCH WITH US </p>
 
