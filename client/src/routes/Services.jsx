@@ -100,7 +100,7 @@ const Services = () => {
            <div className="max-w-[500px] flex flex-col mt-[50px]  md:mt-[20px] gap-1 md:gap-4 rounded-md ml-[3px] md:ml-[100px]">
       
            <h1 className="text-4xl mt-[100px] lg:text-6xl font-bold text-white ">
-            About Us
+             Services
            </h1>
        
          
@@ -129,7 +129,7 @@ const Services = () => {
        <div className="flex  flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
    <div className=" order-3 md:order-1 md:w-1/2 items-start justify-start md:text-left">
-  <p className="text-3xl md:text-5xl md:pt-9  py-2  font-bold " data-aos="fade-up">About
+  <p className="text-3xl md:text-5xl md:pt-9  py-2  font-bold " data-aos="fade-up">Service Times
   </p>
 
   <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> 
