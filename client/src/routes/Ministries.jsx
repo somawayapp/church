@@ -92,38 +92,43 @@ const Ministries = () => {
             <Navbar/>
 
             <div  className=" bg-cover bg-center h-[60vh] w-full flex  
-       text-white  overflow-y-auto"
-    style={{ backgroundImage: "url('/pics38.jpg')" }}>
+              text-white  overflow-y-auto"
+            style={{ backgroundImage: "url('/pics38.jpg')" }}>
 
-      <div className="flex flex-col p-3 lg:flex-row gap-[100px]">
-        {/* Left Section */}
-        <div className="max-w-[500px] flex flex-col mt-[50px]  md:mt-[20px] gap-1 md:gap-4 rounded-md ml-[3px] md:ml-[100px]">
+            <div className="flex flex-col p-3 lg:flex-row gap-[100px]">
+             {/* Left Section */}
+           <div className="max-w-[500px] flex flex-col mt-[50px]  md:mt-[20px] gap-1 md:gap-4 rounded-md ml-[3px] md:ml-[100px]">
       
-          <h1 className="text-4xl mt-[100px] lg:text-6xl font-bold text-white ">
+           <h1 className="text-4xl mt-[100px] lg:text-6xl font-bold text-white ">
             Ministries
-          </h1>
+           </h1>
        
          
          
-        </div>
-      </div>
+           </div>
+            </div>
 
 
 
-      <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1440 320"
-    preserveAspectRatio="none"
-    className="absolute bottom-0 left-0 w-full h-24 z-10"
-    style={{ transform: "rotate(180deg)" }}
-  >
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1440 320"
+              preserveAspectRatio="none"
+              className="absolute bottom-0 left-0 w-full h-24 z-10"
+              style={{ transform: "rotate(180deg)" }}
+               >
 
-    <path fill="[#4c1d95]" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
-    <path fill="[#4c1d95]" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
-  </svg>
-    </div>
+              <path fill="#4c1d95" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
+              <path fill="#4c1d95" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
+              </svg>
+              </div>
 
-    <div className="mb-9  flex flex-col gap-0" >
+             <div className="mb-9  flex flex-col gap-0" >
+
+
+
+
+
 
         <div className=" animate-fadeIn flex flex-col  items-center justify-center" >
   
@@ -182,7 +187,7 @@ const Ministries = () => {
 
 <div className=" animate-fadeIn flex flex-col  items-center justify-center" >
   
-  <div className="flex bg-[#4c1d95] text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+  <div className="flex  text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
 
   <div className="block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
@@ -246,8 +251,8 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
     className="absolute bottom-0 left-0 w-full h-24 z-10"
     style={{ transform: "rotate(180deg)" }}
   >
-    <path fill="#4c1d95" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
-    <path fill="#4c1d95" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
+    <path fill="var(--bg)" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
+    <path fill="var(--bg)" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
   </svg>
 </div>
 
