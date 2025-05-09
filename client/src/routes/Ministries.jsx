@@ -41,7 +41,7 @@ const Ministries = () => {
   return (
       <div>
       <Helmet>
-  <title>Praise Church - A Home for Worship, Community & Spiritual Growth</title>
+  <title>Ministries - Praise Church </title>
 
   <meta name="description" content="Praise Church is a welcoming community where faith comes alive. Join us for worship, uplifting sermons, Bible study, events, and spiritual growth. Discover your purpose in Christ with us today." />
 
