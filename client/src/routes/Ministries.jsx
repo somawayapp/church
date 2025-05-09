@@ -300,102 +300,182 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 
 
 
-
-
-  <div className="px-3 md:px-[100px] mt-[10px] text-[var(--softTextColor)] text-center animate-fadeIn flex flex-col items-center justify-center">
-
-{(() => {
-  const ministries = [
-   
-
-   
-    {
-      id: 'youth',
-      title: 'Youth Fellowship',
-      description: 'Our Youth Ministry is focused on guiding them through their spiritual journey during these formative years. With a mix of monthly gatherings, worship nights, and fun outings, Praise Church youth creates a space where the youth can deepen their relationship with God, form strong friendships, and discover their unique purpose. Our desire is to equip and empower the youth to have a personal relationship with God.',
-      icon: <FaPeopleArrows />,
-      image: '/pics51.jpg',
-    },
-    {
-      id: 'men',
-      title: "Men's Fellowship",
-      description: 'Our Mens Ministry is here to help men grow in their God-given calling as a husband, son, brother, father, and leader. Our desire is for each man to be strengthened, loved, challenged, and encouraged by other men.We offer mens groups, outdoor activities, one-on-one coffees, and larger gathers for men to connect.',
-      icon: <FaMale />,
-      image: '/pics35.jpg',
-    },
-    {
-      id: 'women',
-      title: "Women's Fellowship",
-      description: 'Our Womens Ministry provides a nurturing space for women to connect, encourage one another, and grow in their walk with Christ. By engaging in Bible studies, social gatherings, and outreach activities, women of all ages are empowered to strengthen their faith, build meaningful relationships, and serve the church and the wider community.',
-      icon: <FaFemale />,
-      image: '/pics33.jpg',
-    },
-  ];
-
-  const activeMinistry = ministries.find((m) => m.id === selected);
-
-  return (
-    <>
-      <div className="h-full max-w-full box-border">
-        <h1
-          className="text-2xl md:text-5xl mt-[25px] text-[var(--softTextColor)] px-2 md:mt-[75px] font-bold"
-          data-aos="fade-up"
-          data-aos-delay="100"
-        >
-          Join our church ministries
-        </h1>
-
-        <div className="flex flex-wrap gap-2 items-center justify-center md:gap-4 mt-4">
-          {ministries.map(({ id, title, icon }) => {
-            const isActive = selected === id;
-            return (
-              <button
-                key={id}
-                onClick={() => setSelected(id)}
-                className={`mt-3 mb-3 flex items-center text-sm border md:text-lg py-2 px-2 md:px-6 md:py-3 gap-2 rounded-[10px] cursor-pointer transition-all
-                  ${
-                    isActive
-                      ? 'bg-[#4c1d95] text-white border-[#4c1d95]'
-                      : 'bg-[var(--bg2)] border-[#4c1d95] text-[var(--textColor)] hover:text-[#4c1d95] hover:border-[#4c1d95]'
-                  }`}
-              >
-                <span className="text-lg">{icon}</span>
-                <span>{title}</span>
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-      <div className="flex  flex-col max-w-full  gap-3 md:gap-6 rounded-lg md:rounded-[20px] p-2 md:p-6 md:flex-row mt-6">
-     
-        <div className="md:w-3/5 text-left">
-          <p className="text-xs mt-5 md:mt-9 text-[var(--softTextColor)] md:text-md" data-aos="fade-up" data-aos-delay="300">
-            ABOUT US
-          </p>
-          <p className="text-md mt-1 md:mt-2 text-[var(--softTextColor)] md:text-2xl font-semibold">
-            {activeMinistry.title}
-          </p>
-          <p className="text-sm text-[var(--softTextColor)] mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="300">
-            {activeMinistry.description}
-          </p>
-          <a href="/ministries">
-            <button className="mt-4 px-4 py-2 rounded-lg bg-[#4c1d95] text-white text-md md:text-lg hover:bg-[#3b0f75] transition">
-              Learn More
-            </button>
-          </a>
-        </div>
-        <img
-          src={activeMinistry.image}
-          className="w-full rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        />
-      </div>
-    </>
-  );
-})()}
+  <div>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1440 320"
+    preserveAspectRatio="none"
+    className="absolute bottom-0 left-0 w-full h-24 z-10"
+    style={{ transform: "rotate(180deg)" }}
+  >
+    <path fill="#4c1d95" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
+    <path fill="#4c1d95" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
+  </svg>
 </div>
+
+<div className="  flex flex-col bg-[#4c1d95] " >
+
+<div className="flex text-white flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+  <div className="md:w-1/2 items-start justify-start md:text-left">
+    <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
+      Youth
+    </p>
+
+  
+    <p className="text-sm mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+    Our Youth Ministry is focused on guiding them through their spiritual journey during these formative years. With a mix of monthly gatherings,
+     worship nights, and fun outings, Praise Church youth creates a space where the youth can deepen their relationship with God, 
+     form strong friendships, and discover their unique purpose. 
+     <br />
+     <br />
+
+     Our desire is to equip and empower the youth to have a personal relationship with God.    </p>
+
+ 
+ </div>
+
+
+ <div className="block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+  data-aos-delay="300"> 
+
+  <img
+  src="/pics51.jpg"
+  className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
+ 
+/>
+
+  </div>
+
+  
+</div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <div>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1440 320"
+    preserveAspectRatio="none"
+    className="absolute bottom-0 left-0 w-full h-24 z-10"
+    style={{ transform: "rotate(180deg)" }}
+  >
+    <path fill="#4c1d95" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
+    <path fill="#4c1d95" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
+  </svg>
+</div>
+
+<div className="  flex flex-col bg-[#4c1d95] " >
+
+<div className="flex text-white flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+  <div className="md:w-1/2 items-start justify-start md:text-left">
+    <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
+        Men 
+   </p>
+
+  
+    <p className="text-sm mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+    Our Mens Ministry is here to help men grow in their God-given calling as a husband, son, brother, father, and leader.
+     Our desire is for each man to be strengthened, loved, challenged, and encouraged by other men.
+     <br />
+     <br />
+
+     We offer mens groups, outdoor activities, one-on-one coffees, and larger gathers for men to connect.  </p>
+
+ 
+ </div>
+
+
+ <div className="block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+  data-aos-delay="300"> 
+
+  <img
+  src="/pics35.jpg"
+  className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
+ 
+/>
+
+  </div>
+
+  
+</div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+  <div>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1440 320"
+    preserveAspectRatio="none"
+    className="absolute bottom-0 left-0 w-full h-24 z-10"
+    style={{ transform: "rotate(180deg)" }}
+  >
+    <path fill="#4c1d95" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
+    <path fill="#4c1d95" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
+  </svg>
+</div>
+
+<div className="  flex flex-col bg-[#4c1d95] " >
+
+<div className="flex text-white flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+  <div className="md:w-1/2 items-start justify-start md:text-left">
+    <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
+        Men 
+   </p>
+
+  
+    <p className="text-sm mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+    Our Womens Ministry provides a nurturing space for women to connect, encourage one another, and grow in their walk with Christ.
+     By engaging in Bible studies, social gatherings, and outreach activities,
+     women of all ages are empowered to strengthen their faith, build meaningful relationships, and serve the church and the wider community.
+     <br />
+     <br />
+ </p>
+
+ 
+ </div>
+
+
+ <div className="block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+  data-aos-delay="300"> 
+
+  <img
+  src="/pics33.jpg"
+  className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
+ 
+/>
+
+  </div>
+
+  
+</div>
+
+
+
+  </div>
+
+
+
+
 
 
 
