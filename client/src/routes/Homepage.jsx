@@ -601,7 +601,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     </div>
     <h3 className="text-lg font-semibold text-[var(--softTextColor)]">Address</h3>
     <p className="text-md text-[var(--softTextColor)]">
-      123 Valley Avenue, Nairobi City, Kenya, 45678
+      123 Valley Avenue, Nairobi City, Kenya.
     </p>
   </div>
 
