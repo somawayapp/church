@@ -29,7 +29,6 @@ const Footer = () => {
               <li><a href="/ministries" className="text-[var(--softTextColor)] hover:text-[var(--softTextColor)]">Youth fellowship</a></li>
               <li><a href="/ministries" className="text-[var(--softTextColor)] hover:text-[var(--softTextColor)]">Women's felowship </a></li>
               <li><a href="/ministries" className="text-[var(--softTextColor)] hover:text-[var(--softTextColor)]">Men's fellowship </a></li>
-              <li><a href="/ministries" className="text-[var(--softTextColor)] hover:text-[var(--softTextColor)]">Discipleship group </a></li>
             </ul>
           </nav>
         </div>
