@@ -161,7 +161,7 @@ No matter your stage of life, we want you to be part of a Christ-centered commun
   {/* Text overlay */}
   <div className="absolute inset-0 flex items-center justify-center">
     <h2 className="text-white text-4xl md:text-6xl font-bold  px-4 py-2 rounded">
-      Send money <br /><br /> <br /><br /><br  /> <br className="hidden md:flex"/>
+      Send money <br /><br /> <br /><br /><br className="hidden md:flex"/> <br className="hidden md:flex"/>
       0703394794
     </h2>
   </div>
