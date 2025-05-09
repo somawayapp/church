@@ -126,11 +126,11 @@ const Give = () => {
       <div className="mb-9  flex flex-col gap-0" >
         <div className=" animate-fadeIn flex flex-col  items-center justify-center" >
   
-       <div className="flex  flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+       <div className="flex  flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[45px] md:py-[100px] md:flex-row">
 
-   <div className=" order-3 md:order-1 md:w-1/2 items-start justify-start md:text-left">
-  <p className="text-3xl md:text-5xl md:pt-9  py-2  font-bold " data-aos="fade-up">Tithes & Offering
-  </p>
+   <div className=" order-1 md:order-1 md:w-1/2 items-start justify-start md:text-left">
+  <p className="text-3xl md:text-5xl  py-2  font-bold " data-aos="fade-up">
+  </p>Tithes & Offering
 
   <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> 
   </p>
@@ -148,15 +148,7 @@ No matter your stage of life, we want you to be part of a Christ-centered commun
   </p>
  </div>
 
- <div className=" order-1 md:hidden items-start justify-start md:text-left">
- <p className="text-3xl md:text-5xl  mb-2  font-bold ">Praise Church
-  </p>
-  <p className="text-sm mb-9" >
-  Praise Church is a Spirit-filled, Bible-based church in Nairobi, Kenya.
-  Founded in 2023 by Pastor saviour, we exist to see people passionately devoted to God.
 
-  </p>
- </div>
 
 
  <div className="order-2 md:order-2 block w-full rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0 relative">
@@ -169,7 +161,7 @@ No matter your stage of life, we want you to be part of a Christ-centered commun
   {/* Text overlay */}
   <div className="absolute inset-0 flex items-center justify-center">
     <h2 className="text-white text-4xl md:text-6xl font-bold  px-4 py-2 rounded">
-      Send money <br /><br /> <br /><br />
+      Send money <br /><br /> <br /><br /><br />
       0703394794
     </h2>
   </div>

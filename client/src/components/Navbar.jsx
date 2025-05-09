@@ -132,14 +132,14 @@ const Navbar = () => {
           <Link to="/about" className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
            onClick={() => setOpen(false)}  > About Us </Link>
 
-         <Link to="/ministries" className="block py-2 text-[var(--TextColor)] font-bold   hover:text-[#0062e3]  p-2 rounded-xl"
+         <Link to="/services" className="block py-2 text-[var(--TextColor)] font-bold   hover:text-[#0062e3]  p-2 rounded-xl"
              onClick={() => setOpen(false)} > Services</Link>
 
-          <Link to="/about" className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
+          <Link to="/give" className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
            onClick={() => setOpen(false)}  >Give </Link>
 
            
-          <Link to="/about" className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
+          <Link to="/gallery" className="block py-2 text-[var(--TextColor)] font-bold  hover:text-[#0062e3]  p-2 rounded-xl"
            onClick={() => setOpen(false)}  >Gallery </Link>
             
   
