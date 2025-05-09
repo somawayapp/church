@@ -332,7 +332,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
   data-aos-delay="300"> 
 
 <div className="flex justify-end">
-  <div className="md:w-1/2">
+  <div className="md:w-1/2 px-4 md:px-0 md:mt-[50px] ">
     <img
       src="/pics2.jpg"
       className=" rounded-full transform hover:scale-105 transition-all duration-300 object-cover"
