@@ -252,7 +252,7 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 <div className="  flex flex-col " >
 
 <div className="flex  flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
-  <div className="md:w-1/2 items-start justify-start md:text-left">
+  <div className=" order-2 md:order-1 md:w-1/2 items-start justify-start md:text-left">
     <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
       Kids
     </p>
@@ -272,7 +272,7 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
  </div>
 
 
- <div className="block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+ <div className=" order-1 md:order-2 block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
   data-aos-delay="300"> 
 
   <img
@@ -298,19 +298,7 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 
 
 
-  <div>
-<svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1440 320"
-    preserveAspectRatio="none"
-    className="absolute top-0 left-0 w-full h-24 z-10"
-    style={{ transform: "rotate(180deg)" }}
-    
-  >
-    <path fill="#4c1d95"  d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
-    <path fill="#4c1d95"  d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
-  </svg>
-</div>
+
 
 <div className="  flex flex-col bg-[#4c1d95] " >
 
@@ -383,7 +371,7 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 <div className="  flex flex-col " >
 
 <div className="flex flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
-  <div className="md:w-1/2 items-start justify-start md:text-left">
+  <div className=" order-2 md:order-1 md:w-1/2 items-start justify-start md:text-left">
     <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
         Men 
    </p>
@@ -401,7 +389,7 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
  </div>
 
 
- <div className="block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+ <div className=" order-1 md:order-2 block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
   data-aos-delay="300"> 
 
   <img
