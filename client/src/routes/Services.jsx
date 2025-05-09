@@ -129,22 +129,17 @@ const Services = () => {
        <div className="flex  flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
    <div className=" order-3 md:order-1 items-start justify-start md:text-left">
-  <p className="text-3xl md:text-5xl md:pt-9  py-2  font-bold " data-aos="fade-up">Service Times
+  <p className="text-3xl md:text-5xl   py-2  font-bold " data-aos="fade-up">Service Times
   </p>
 
   <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> 
   </p>
-  <p className="text-sm  mt-1  md:text-lg" >
-    <span className="hidden md:flex">    Praise Church is a Spirit-filled, Bible-based church in Nairobi, Kenya.
-     <br /> </span> 
-
-  </p>
 
 
 
 
 
-  <div className="pt-[50px] ">
+  <div className="pt-[25px] ">
  
 
  <div className="flex flex-col items-center mt-[50px] mb-6 justify-center">
@@ -216,8 +211,8 @@ const Services = () => {
 
 
 
-<div className=" px-3 md:px-[100px] pb-[50px]">
-<p className="text-3xl md:text-5xl text-white mb-[50px] md:mt-9 font-bold " data-aos="fade-up" >Worship Schedule </p>
+<div className=" pt-[50px] pb-[50px]">
+<p className="text-3xl md:text-5xl  mb-[50px] md:mt-9 font-bold " data-aos="fade-up" >Worship Schedule </p>
 
 <div className="flex flex-col items-center mb-6 justify-center">
       <div className="grid grid-cols-1 mx-auto md:grid-cols-2 gap-6 w-full">
