@@ -207,7 +207,7 @@ className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-al
 <p className="text-3xl md:text-5xl  py-2  md:pt-9  font-bold " data-aos="fade-up">Vision
 </p>
 
-<p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> 
+<p className="text-sm mt-1  md:text-lg" data-aos="fade-up" data-aos-delay="200">
 
 We value the presence of God. Our worship, preaching and teaching, and Children's Ministry are centered
  around each person encountering the Holy Spirit. We want to help you discover truth, find hope, 
@@ -297,10 +297,10 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-  <div className=" bg-[#6402db]   bg-cover bg-no-repeat" style={{ backgroundImage: "url('/bg.svg')" }}>
+  <div className=" bg-[var(--softTextColor)]  bg-cover bg-no-repeat" style={{ backgroundImage: "url('/bg.svg')" }}>
 
 
-<div className="flex flex-col pl-3 pr-3 pt-12 md:pt-0  md:pl-[100px] lg:pl-[200px] md:flex-row items-center justify-between  z-10 text-black">
+<div className="flex flex-col pl-3 pr-3 pt-12 md:pt-0  md:pl-[100px] lg:pl-[200px] md:flex-row items-center justify-between  z-10 bg-[var(--bg)]">
 <div className="flex-1  text-center  md:text-left">
 <h3 className="text-3xl md:text-5xl font-bold mt-4 mb-4">Church Leadership</h3>
 <p className="text-sm md:text-lg max-w-md mb-6">
