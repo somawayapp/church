@@ -12,7 +12,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
 
 
-const Services = () => {
+const Give = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top when this component mounts
   }, []);
@@ -41,7 +41,7 @@ const Services = () => {
   return (
       <div>
       <Helmet>
-  <title>Service Times - Praise Church.</title>
+  <title>About Us - Praise Church.</title>
 
   <meta name="description" content="Praise Church is a welcoming community where faith comes alive. Join us for worship, uplifting sermons, Bible study, events, and spiritual growth. Discover your purpose in Christ with us today." />
 
@@ -126,7 +126,7 @@ const Services = () => {
       <div className="mb-9  flex flex-col gap-0" >
         <div className=" animate-fadeIn flex flex-col  items-center justify-center" >
   
-       <div className="flex  flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px]  md:flex-row">
+       <div className="flex  flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
    <div className=" order-3 md:order-1 items-start justify-start md:text-left">
   <p className="text-3xl md:text-5xl   py-2  font-bold " data-aos="fade-up">Service Times
@@ -168,7 +168,7 @@ const Services = () => {
        },
      ].map((item, index) => (
       
-       <div>
+       <div data-aos="fade-up">
 
        <div
        key={index}
@@ -314,5 +314,5 @@ const Services = () => {
 };
 
 
-export default Services;
+export default Give;
 
