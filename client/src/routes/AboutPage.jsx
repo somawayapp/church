@@ -331,11 +331,9 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
  <div className=" order-1 md:order-2 block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
   data-aos-delay="300"> 
 
-  <img
-  src="/pics31.jpg"
-  className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
- 
-/>
+<div className=" self-end  md:w-1/2 ">
+<img src="/pics2.jpg" className=" h-[500px] rounded-full top-0 md:top-[150px] mr-0 md:mr-[42px] mt-0 md:mt-[300px]   transform hover:scale-105 transition-all duration-300 object-cover" />
+</div>
 
   </div>
 </div>
@@ -344,29 +342,6 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-  <div className="   bg-cover bg-no-repeat">
-
-
-<div className="flex  flex-col pl-3 pr-3 pt-12 md:pt-0  md:pl-[100px] lg:pl-[200px] md:flex-row items-center justify-between  z-10 text-[var(--bg)]">
-<div className="flex-1  text-center  md:text-left">
-<h3 className="text-3xl md:text-5xl font-bold mt-4 mb-4">Church Leadership</h3>
-
-<img 
-src="/love.svg" 
-className="w-8 h-8 mb-6 mx-auto md:mx-0 md:ml-0" 
-/>
-
-<p className="text-sm text-opacity-80"> church leader </p>
-</div>
-
-{/* Adjust vertical alignment with self-start or self-end */}
-<div className=" self-end ">
-<img src="/pics2.jpg" className=" h-[500px] rounded-full top-0 md:top-[150px] mr-0 md:mr-[42px] mt-0 md:mt-[300px] object-cover" />
-</div>
-</div>
-
-
-</div>
 
 
 
