@@ -128,7 +128,7 @@ const Services = () => {
   
        <div className="flex  flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
-   <div className=" order-3 md:order-1 md:w-1/2 items-start justify-start md:text-left">
+   <div className=" order-3 md:order-1 items-start justify-start md:text-left">
   <p className="text-3xl md:text-5xl md:pt-9  py-2  font-bold " data-aos="fade-up">Service Times
   </p>
 
@@ -136,7 +136,6 @@ const Services = () => {
   </p>
   <p className="text-sm  mt-1  md:text-lg" >
     <span className="hidden md:flex">    Praise Church is a Spirit-filled, Bible-based church in Nairobi, Kenya.
-    Founded in 2023 by Pastor saviour, we exist to see people passionately devoted to God.
      <br /> </span> 
 
   </p>
@@ -145,7 +144,7 @@ const Services = () => {
 
 
 
-  <div className="pb-[50px]">
+  <div className="pt-[50px] ">
  
 
  <div className="flex flex-col items-center mt-[50px] mb-6 justify-center">
@@ -212,6 +211,88 @@ const Services = () => {
    </div>
  </div>
 </div>
+
+
+
+
+
+<div className=" px-3 md:px-[100px] pb-[50px]">
+<p className="text-3xl md:text-5xl text-white mb-[50px] md:mt-9 font-bold " data-aos="fade-up" >Worship Schedule </p>
+
+<div className="flex flex-col items-center mb-6 justify-center">
+      <div className="grid grid-cols-1 mx-auto md:grid-cols-2 gap-6 w-full">
+        {[
+          {
+            title: "First Service",
+            time: "6:30AM - 8:30AM",
+            icon: <FaChurch  size={40} />,
+          },
+          {
+            title: "Prayer Tuesday",
+            time: "5:30AM - 6:45PM",
+            icon: <FaPrayingHands  size={40} />,
+          },
+          {
+            title: "Second Service",
+            time: "9:00AM - 11:00AM",
+            icon: <FaClock size={40} />,
+          },
+          {
+            title: "Mid Week Thursday",
+            time: "5:30AM - 6:45PM",
+            icon: <FaBible  size={40} />,
+          },
+          {
+            title: "Third Service",
+            time: "11:30AM - 1:30PM",
+            icon: <FaCross  size={40} />,
+          },
+          {
+            title: "Keshas",
+            time: "EVERY THIRD FRIDAY OF THE MONTH",
+            icon: <FaMoon size={40} />,
+          },
+        ].map((item, index) => (
+          <div data-aos="fade-up">
+          <div
+          key={index}
+          className="group bg-white  text-black shadow-2xl rounded-2xl p-4 flex flex-row items-start text-left transition-all duration-500 cursor-pointer"
+         
+        >
+          
+          {/* Icon wrapper */}
+          <div className="mr-4 transition-all duration-500 group-hover:bg-[#4c1d95] p-3 rounded-full">
+            <div className="text-[#4c1d95] group-hover:text-white transition-all duration-500">
+              {item.icon}
+            </div>
+          </div>
+
+          {/* Text content */}
+          <div className="flex flex-col">
+            <p className="text-lg md:text-2xl font-bold  group-hover:text-[#4c1d95] transition-colors duration-500">
+              {item.title}
+            </p>
+            <p className="text-lg md:text-xl font-medium  mt-1">
+              {item.time}
+            </p>
+          </div>
+        </div>
+        </div>
+        ))}
+      </div>
+    </div>
+   
+
+</div>
+
+
+
+
+
+
+
+
+
  </div>
 
 
