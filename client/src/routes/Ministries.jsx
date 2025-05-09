@@ -136,7 +136,7 @@ const Ministries = () => {
   </p>
   <p className="text-sm  mt-1  md:text-lg" >
     <span className="hidden md:flex">  You were created to grow in Christ through fellowship with others, and one of the best ways to do that at Praise Church is 
-    by joining a felowship ministry! </span> <br /><br />
+    by joining a felowship ministry! <br /> </span> 
 <span data-aos="fade-up" data-aos-delay="200">
 No matter your stage of life, we want you to be part of a Christ-centered community where 
   people come to know Jesus, grow in their faith through Bible reading, experience the joy of baptism, and walk together in 
