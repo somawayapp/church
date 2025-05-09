@@ -100,7 +100,7 @@ const Give = () => {
            <div className="max-w-[500px] flex flex-col mt-[50px]  md:mt-[20px] gap-1 md:gap-4 rounded-md ml-[3px] md:ml-[100px]">
       
            <h1 className="text-4xl mt-[100px] lg:text-6xl font-bold text-white ">
-             Services
+            Give
            </h1>
        
          
@@ -128,179 +128,49 @@ const Give = () => {
   
        <div className="flex  flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
-   <div className=" order-3 md:order-1 items-start justify-start md:text-left">
-  <p className="text-3xl md:text-5xl   py-2  font-bold " data-aos="fade-up">Service Times
+   <div className=" order-3 md:order-1 md:w-1/2 items-start justify-start md:text-left">
+  <p className="text-3xl md:text-5xl md:pt-9  py-2  font-bold " data-aos="fade-up">Tithes & Offering
   </p>
 
   <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> 
   </p>
-
-
-
-
-
-  <div className="pt-[25px] ">
+  <p className="text-sm  mt-1  md:text-lg" >
+    <span className="hidden md:flex">    Praise Church is a Spirit-filled, Bible-based church in Nairobi, Kenya.
+    Founded in 2023 by Pastor saviour, we exist to see people passionately devoted to God.
+     <br /> </span> 
+<span data-aos="fade-up" data-aos-delay="200">
+No matter your stage of life, we want you to be part of a Christ-centered community where 
+  people come to know Jesus, grow in their faith through Bible reading, experience the joy of baptism, and walk together in 
+  spiritual growth and encouragement.
+</span>
  
 
- <div className="flex flex-col items-center mt-[50px] mb-6 justify-center">
-   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-8xl">
-     {[
-       {
-         title: "LIVE SERVICE",
-         description:
-           ' Every Sunday at 6:00am and 8:00am for our morning services or 11:00am and 2:00pm for our mid-day services ',
-         icon: <FaChurch size={24} />,
-         img: "/pics46.jpg",
-       },
-       {
-         title: "MORNING GLORY",
-         description:
-           '  Every day at 6:00am for morning glory. Welcome friends & Followers, to join us for our morning glory serivice.',
-         icon: <FaClock size={24} />,
-         img: "/pics43.jpg",
-       },
-       {
-         title: "DEVOTION",
-         description:
-         '  Every thursday at 6:00pm for devotion service. Welcome friends & Followers, to join us for our devotion service.',
-         icon: <FaCross size={24} />,
-         img: "/pics59.jpg",
-       },
-     ].map((item, index) => (
-      
-       <div data-aos="fade-up">
-
-       <div
-       key={index}
-       className="group relative rounded-2xl overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-500"
-
-     >
-         {/* Image */}
-         <img
-           src={item.img}
-           alt={item.title}
-           className="w-full h-80 object-cover"
-         />
-
-         {/* Text Box Overlay */}
-         <div className="absolute bottom-0 left-0 right-0 bg-white/90 p-6 pt-10 text-center rounded-b-2xl">
-           {/* Floating Icon */}
-           <div className="absolute -top-7 left-1/2 transform -translate-x-1/2">
-             <div className="w-14 h-14 rounded-full bg-[#4c1d95] flex items-center justify-center border-2 border-transparent group-hover:bg-white group-hover:border-[#4c1d95] transition-all duration-500">
-               <div className="text-white group-hover:text-[#4c1d95] transition-colors duration-500">
-                 {item.icon}
-               </div>
-             </div>
-           </div>
-
-           <h3 className="text-xl md:text-2xl font-bold mb-2 text-black group-hover:text-[#4c1d95] transition-colors duration-500">
-             {item.title}
-           </h3>
-           <p className="text-sm md:text-base text-gray-700 leading-snug">
-             {item.description}
-           </p>
-         </div>
-         </div>
-       </div>
-     ))}
-   </div>
+  </p>
  </div>
-</div>
 
+ <div className=" order-1 md:hidden items-start justify-start md:text-left">
+ <p className="text-3xl md:text-5xl  mb-2  font-bold ">Praise Church
+  </p>
+  <p className="text-sm mb-9" >
+  Praise Church is a Spirit-filled, Bible-based church in Nairobi, Kenya.
+  Founded in 2023 by Pastor saviour, we exist to see people passionately devoted to God.
 
-
-
-
-<div className=" pt-[50px] pb-[50px]">
-<p className="text-3xl md:text-5xl  mb-[50px] md:mt-9 font-bold " data-aos="fade-up" >Worship Schedule </p>
-
-<div className="flex flex-col items-center mb-6 justify-center">
-      <div className="grid grid-cols-1 mx-auto md:grid-cols-2 gap-6 w-full">
-        {[
-          {
-            title: "First Service",
-            time: "6:30AM - 8:30AM",
-            icon: <FaChurch  size={40} />,
-          },
-          {
-            title: "Prayer Tuesday",
-            time: "5:30AM - 6:45PM",
-            icon: <FaPrayingHands  size={40} />,
-          },
-          {
-            title: "Second Service",
-            time: "9:00AM - 11:00AM",
-            icon: <FaClock size={40} />,
-          },
-          {
-            title: "Mid Week Thursday",
-            time: "5:30AM - 6:45PM",
-            icon: <FaBible  size={40} />,
-          },
-          {
-            title: "Third Service",
-            time: "11:30AM - 1:30PM",
-            icon: <FaCross  size={40} />,
-          },
-          {
-            title: "Keshas",
-            time: "EVERY THIRD FRIDAY OF THE MONTH",
-            icon: <FaMoon size={40} />,
-          },
-        ].map((item, index) => (
-          <div data-aos="fade-up">
-          <div
-          key={index}
-          className="group bg-white  text-black shadow-2xl rounded-2xl p-4 flex flex-row items-start text-left transition-all duration-500 cursor-pointer"
-         
-        >
-          
-          {/* Icon wrapper */}
-          <div className="mr-4 transition-all duration-500 group-hover:bg-[#4c1d95] p-3 rounded-full">
-            <div className="text-[#4c1d95] group-hover:text-white transition-all duration-500">
-              {item.icon}
-            </div>
-          </div>
-
-          {/* Text content */}
-          <div className="flex flex-col">
-            <p className="text-lg md:text-2xl font-bold  group-hover:text-[#4c1d95] transition-colors duration-500">
-              {item.title}
-            </p>
-            <p className="text-lg md:text-xl font-medium  mt-1">
-              {item.time}
-            </p>
-          </div>
-        </div>
-        </div>
-        ))}
-      </div>
-    </div>
-   
-
-</div>
-
-
-
-
-
-
-
-
-
+  </p>
  </div>
 
 
+ <div className="  order-2 md:order-2 block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"> 
 
+  <img
+  src="/mpesa.jpeg"
+  className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
+ 
+/>
 
   </div>
 </div>
 
-       
-       </div>
-
-
-
+  </div>
 
 
 
@@ -309,10 +179,10 @@ const Give = () => {
 
     
     </div>
+    </div>
 
   );
 };
-
 
 export default Give;
 
