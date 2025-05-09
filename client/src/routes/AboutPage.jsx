@@ -331,9 +331,15 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
  <div className=" order-1 md:order-2 block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
   data-aos-delay="300"> 
 
-<div className="md:w-1/2 ">
-<img src="/pics2.jpg" className=" h-[500px] rounded-full transform hover:scale-105 transition-all duration-300 object-cover" />
+<div className="flex justify-end">
+  <div className="md:w-1/2">
+    <img
+      src="/pics2.jpg"
+      className="h-[500px] rounded-full transform hover:scale-105 transition-all duration-300 object-cover"
+    />
+  </div>
 </div>
+
 
   </div>
 </div>
