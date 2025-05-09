@@ -13,7 +13,7 @@ import { Analytics } from "@vercel/analytics/react"; // Import Vercel Analytics
 import PremiumPage from "./routes/PremiumPage.jsx";
 import Ministries from "./routes/Ministries.jsx";
 const queryClient = new QueryClient();
-
+import Services from "./routes/Services.jsx";
 // Hardcoded Clerk publishable key
 
 const clerkPublishableKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || "pk_live_Y2xlcmsubWFrZXNvbWF3YXkuY29tJA";
@@ -29,7 +29,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Homepage />,
       },
-      
+      {
+        path: "/serices",
+        element: <Services />,
+      },
       {
         path: "/about",
         element: <AboutPage />,
