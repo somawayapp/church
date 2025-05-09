@@ -335,7 +335,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
   <div className="md:w-1/2">
     <img
       src="/pics2.jpg"
-      className="h-[500px] rounded-full transform hover:scale-105 transition-all duration-300 object-cover"
+      className=" rounded-full transform hover:scale-105 transition-all duration-300 object-cover"
     />
   </div>
 </div>
