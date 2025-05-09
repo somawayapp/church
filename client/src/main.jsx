@@ -10,7 +10,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Analytics } from "@vercel/analytics/react"; // Import Vercel Analytics
-import PremiumPage from "./routes/Give.jsx";
+import Give from "./routes/Give.jsx";
 import Ministries from "./routes/Ministries.jsx";
 const queryClient = new QueryClient();
 import Services from "./routes/Services.jsx";
@@ -36,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <AboutPage />,
+      },
+      {
+        path: "/give",
+        element: <Give />,
       },
       {
         path: "/Ministries",
