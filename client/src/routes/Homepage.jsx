@@ -227,11 +227,11 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
   <div className="px-3 md:px-[100px] py-[50px] md:py-[75px] mt-9">
     <div className="max-w-[900px] mx-auto">
-      <p className="text-2xl md:text-3xl mt-4 md:mt-2" data-aos="fade-up">OUR VISION</p>
+      <p className="text-2xl md:text-3xl mt-4 md:mt-2" data-aos="fade-up">OUR MISION</p>
 
       <p className="text-3xl md:text-5xl py-4 font-semibold" data-aos="fade-up" data-aos-delay="100">
-        To see people passionately <br />
-        devoted to God.
+        Equipping people to encounter <br />
+        God and grow in faith.
       </p>
 
       <p className="text-sm mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
@@ -262,7 +262,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
         {
           title: "MORNING GLORY",
           description:
-            '  Every day at 6:00am for morning glory. Welcome friends & Followers, to join us for our morning glory.',
+            '  Every day at 6:00am for morning glory. Welcome friends & Followers, to join us for our morning glory serivice.',
           icon: <FaClock size={24} />,
           img: "/pics43.jpg",
         },
