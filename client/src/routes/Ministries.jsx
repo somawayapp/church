@@ -91,7 +91,7 @@ const Ministries = () => {
 
             <Navbar/>
 
-            <div  className=" bg-cover bg-center h-[50vh] w-full flex  
+            <div  className=" bg-cover bg-center h-[60vh] w-full flex  
        text-white  overflow-y-auto"
     style={{ backgroundImage: "url('/pics38.jpg')" }}>
 
@@ -109,7 +109,7 @@ const Ministries = () => {
       </div>
 
 
-      
+
       <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1440 320"
