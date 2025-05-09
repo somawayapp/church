@@ -307,9 +307,6 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 I never thought I’d have to move out and go house hunting again. But here I am—four years later—and I still can’t find a decent house online. 
 And trust me, I’m not about to spend a whole week under the scorching sun, trudging through mud and dust.
 
-The idea of building an all-in-one real estate marketplace first came to me during my campus days. It was probably the hottest, dustiest day of
- the year—one of those experiences you never want to go through twice.
-
 I know I’m not alone in this. There are countless others who’ve faced the same frustration. That’s why I’m determined to bring this idea to life.
 </p>
 <img 
@@ -323,7 +320,7 @@ className="w-8 h-8 mb-6 mx-auto md:mx-0 md:ml-0"
 
 {/* Adjust vertical alignment with self-start or self-end */}
 <div className=" self-end ">
-<img src="/pics2.jpg" className=" h-[500px] top-0 md:top-[150px] mr-0 md:mr-[42px] mt-0 md:mt-[300px] object-cover" />
+<img src="/pics2.jpg" className=" h-[500px] rounded-full top-0 md:top-[150px] mr-0 md:mr-[42px] mt-0 md:mt-[300px] object-cover" />
 </div>
 </div>
 
