@@ -175,16 +175,6 @@ const Ministries = () => {
   <path fill="var(--bg)" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z"></path>
 </svg>
 
-
-
-
-
-
-
-
-
-
-
 <div className=" animate-fadeIn flex flex-col  items-center justify-center" >
   
   <div className="flex bg-[#4c1d95] text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
@@ -244,6 +234,14 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 
 
 <div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-24 z-10">
+  <path fill="#4c1d95" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z"></path>
+  <path fill="#4c1d95" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z"></path>
+</svg>    
+</div>
+
+
+<div>
 <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1440 320"
@@ -251,14 +249,14 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
     className="absolute bottom-0 left-0 w-full h-24 z-10"
     style={{ transform: "rotate(180deg)" }}
   >
-    <path fill="#4c1d95" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
-    <path fill="#4c1d95" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
+    <path fill="var(--bg)" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
+    <path fill="var(--bg)" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
   </svg>
 </div>
 
-<div className="  flex flex-col bg-[#4c1d95] " >
+<div className="  flex flex-col " >
 
-<div className="flex text-white flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+<div className="flex  flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
   <div className="md:w-1/2 items-start justify-start md:text-left">
     <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
       Kids
