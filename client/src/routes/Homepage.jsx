@@ -40,109 +40,78 @@ const Homepage = () => {
 
   return (
       <div>
-        <Helmet>
-        <title>The #1 Free App to Unlock the Best Ideas from Top Books! - Somaway Best Book Summaries</title>
+      <Helmet>
+  <title>Praise Church - A Home for Worship, Community & Spiritual Growth</title>
 
-        <meta name="description" content="Somaway is the #1 award-winning book summary app and website, trusted by 40M+ users worldwide and 100K+ daily readers. Get smarter in just 15 minutes with our free, concise summaries of best-selling books. Join us today—learn and grow, one book summary at a time! " />
+  <meta name="description" content="Praise Church is a welcoming community where faith comes alive. Join us for worship, uplifting sermons, Bible study, events, and spiritual growth. Discover your purpose in Christ with us today." />
 
-        <meta name="keywords" content="book summaries, knowledge empowerment, bestselling books, transformative ideas, thought leadership, business books, self-help summaries, industry insights, personal growth, productivity hacks, motivation, innovation strategies, creative thinking, mind mastery, leadership skills, financial wisdom, success mindset, breakthrough thinking, wisdom for life, practical knowledge, learning shortcuts, brain boost, rapid reading, book digest, quick reads, success stories, entrepreneurial mindset, modern wisdom, elite knowledge, mastery techniques, global perspectives, future readiness, book analysis, idea extraction, in-depth reviews, concise knowledge, summary breakdowns, book wisdom, mental expansion, critical thinking, intellectual growth, top books, influential reads, advanced thinking, ultimate book digest, life hacks, professional growth, career mastery, mindset shift, paradigm transformation, unconventional wisdom, practical insights, top nonfiction books, skill enhancement, brain optimization, cognitive skills, mind enhancement, top book reviews, wisdom harvesting, fast knowledge, core ideas, rapid insights, strategic intelligence, innovation fuel, personal development, growth mindset, self-mastery, breakthrough books, smart reading, fast tracking wisdom, peak performance, visionary thinking, knowledge domination, unbeatable learning" />
+  <meta name="keywords" content="Praise Church, Christian church, worship service, Bible study, church sermons, spiritual growth, Sunday service, Christian community, Jesus Christ, faith community, online church, gospel teaching, church events, prayer meetings, live sermons, Christian worship, discipleship, church outreach, church mission, youth ministry, faith journey, family church, praise and worship, Christian fellowship, church near me, Bible-based church, non-denominational church, Holy Spirit, grace, salvation, church teachings, grow in Christ, community support, God’s word" />
 
- 
-  <meta property="og:title" content="Somaway - Elevate Your Mind" />
-  <meta property="og:description" content="Achieve greatness with Somaway. Explore groundbreaking book summaries that transform your life." />
-  <meta property="og:image" content="/images/somaway-og.jpg" />
-  <meta property="og:url" content={`${window.location.href}`} />
+  <meta property="og:title" content="Praise Church - A Home for Worship & Faith" />
+  <meta property="og:description" content="Join Praise Church for Christ-centered worship, sermons, and community. Everyone is welcome—experience a deeper walk with God today." />
+  <meta property="og:image" content="/images/praisechurch-og.jpg" />
+  <meta property="og:url" content="https://praisechurch.org" />
   <meta property="og:type" content="website" />
-  
+
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Somaway - Elevate Your Mind" />
-  <meta name="twitter:description" content="Revolutionize your thinking with powerful book insights on Somaway." />
-  <meta name="twitter:image" content="/images/somaway-twitter.jpg" />
-  
+  <meta name="twitter:title" content="Praise Church - Worship, Grow, Connect" />
+  <meta name="twitter:description" content="Experience faith, fellowship, and spiritual growth at Praise Church. Join our loving Christian community today." />
+  <meta name="twitter:image" content="/images/praisechurch-twitter.jpg" />
+
   <script type="application/ld+json">
     {`{
       "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Somaway",
-      "url": "${window.location.href}",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "${window.location.href}/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
+      "@type": "Church",
+      "name": "Praise Church",
+      "url": "https://praisechurch.org",
+      "logo": "https://praisechurch.org/images/logo.png",
+      "sameAs": [
+        "https://facebook.com/praisechurch",
+        "https://instagram.com/praisechurch"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Worship Way",
+        "addressLocality": "YourCity",
+        "addressRegion": "YourState",
+        "postalCode": "12345",
+        "addressCountry": "US"
+      },
+      "description": "Praise Church is a vibrant Christian church focused on worship, biblical teaching, and building a strong community of faith.",
+      "founder": "Pastor John Doe",
+      "foundingDate": "2005"
     }`}
   </script>
-  
-  <link rel="canonical" href={`${window.location.href}`} />
-  
+
+  <link rel="canonical" href="https://praisechurch.org" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 </Helmet>
+
 
 
             <Navbar/>
 
     <div className="mb-9  flex flex-col gap-0">
 
-         
-
-      {/* Floating Section 
-      
-      <div
-  className={` flex items-center hidden sm:block  mx-auto justify-between px-5 py-3 transition-opacity 
-    duration-300 ${isVisible ? "opacity-100" : "opacity-0 pointer-events-none"} sm:opacity-100 sm:pointer-events-auto  `}
- 
->
-
-
-        <Link to="/" className="flex items-center mt-[10px] gap-1 text-lg font-bold md:text-2xl">
-        <img src="/x.png"  className="w-50 h-20 lg:w-50 lg:h-20" />
-
-<span className="text-[var(--textLogo)] text-[30px] lg:text-[90px]"></span>
-
-</Link>  
-
-      
-
- 
-      </div>
-      */}
-
-   {/*
-
-      <div  style={{ zIndex: 100004 }} className="mb-[45px] md:mb-[30px] mt-[15px] md:mt-[20px] sticky top-0.5 md:top-2 ">
-  <Maincategories />
-</div>
-     */}
      
         <Hero />
 
 
-
-
-
-
-
-
-
-
-
-
-
-        
+ 
         <div className=" animate-fadeIn flex flex-col  items-center justify-center" >
   
        <div className="flex bg-[#4c1d95] text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
-<div className="md:w-1/2 items-start justify-start md:text-left">
+   <div className="md:w-1/2 items-start justify-start md:text-left">
   <p className="text-3xl md:text-5xl md:pt-9  font-bold " data-aos="fade-up">Join US this Sunday
   </p>
 
   <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> for un uplifting service
   </p>
   <p className="text-sm  mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
-  Join us every Sunday at 9:30a and 11:45a for our
-   Atlanta Gatherings or 9:30a and 11:30a for our
-   Washington DC Gatherings at passioncity.online.
+  Join us every Sunday at 6:00am and 8:00am for our
+   morning Gatherings or 11:00am and 2:00pm for our 
+  mid-day Gatherings at Praise Church or online.
   </p>
 
 
@@ -196,10 +165,10 @@ const Homepage = () => {
    devoted to God.
   </p>
   <p className="text-sm  mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
-  Legacy Hills Church is a Spirit-filled, Bible-based church in Lone Tree, Colorado.
-   Founded in 2023 by Pastor Matt Washington, we exist to see people passionately devoted to God.
+  Praise Church is a Spirit-filled, Bible-based church in Nairobi, Kenya.
+   Founded in 2023 by Pastor saviour, we exist to see people passionately devoted to God.
  <br />
-
+<br />
 We value the presence of God. Our worship, preaching and teaching, and Children's Ministry are centered
  around each person encountering the Holy Spirit. We want to help you discover truth, find hope, 
  and become all who God has created you to be.
@@ -266,13 +235,13 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
       </p>
 
       <p className="text-sm mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
-        Legacy Hills Church is a Spirit-filled, Bible-based church in Lone Tree, Colorado. Founded in 2023 by Pastor
-        Matt Washington, we exist to see people passionately devoted to God.
+      Our mission is to make disciples of Jesus Christ who love God deeply, grow in faith, serve with purpose, and reach the world with the gospel.
+       
         <br />
         <br />
-        We value the presence of God. Our worship, preaching and teaching, and Children's Ministry are centered around
-        each person encountering the Holy Spirit. We want to help you discover truth, find hope, and become all who God
-        has created you to be.
+        We are committed to building a Christ-centered community where everyone can encounter God, be transformed by His Word,
+        and empowered to live out their calling. Everyone is welcome to join us at Praise church here in Nairobi Kenya for our
+        uplifting service as we all grow together closer to christ.
       </p>
     </div>
 
@@ -286,21 +255,21 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
         {
           title: "LIVE SERVICE",
           description:
-            'Welcome friends & Followers, Thank You for joining us for our devotion. This week we will be focusing on "STRONG FAITH"',
+            ' Every Sunday at 6:00am and 8:00am for our morning services or 11:00am and 2:00pm for our mid-day services ',
           icon: <FaChurch size={24} />,
           img: "/pics46.jpg",
         },
         {
           title: "MORNING GLORY",
           description:
-            'Welcome friends & Followers, Thank You for joining us for our devotion. This week we will be focusing on "The Power Of the Full Gospel"',
+            '  Every day at 6:00am for morning glory. Welcome friends & Followers, to join us for our morning glory.',
           icon: <FaClock size={24} />,
           img: "/pics43.jpg",
         },
         {
           title: "DEVOTION",
           description:
-            'Welcome friends & Followers, Thank You for joining us for our devotion. This week we will be focusing on "WALKING IN THE LIGHT"',
+          '  Every thursday at 6:00pm for devotion service. Welcome friends & Followers, to join us for our devotion service.',
           icon: <FaCross size={24} />,
           img: "/pics59.jpg",
         },
@@ -378,12 +347,15 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     </p>
 
     <p className="text-3xl md:text-5xl :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100">
-      of deliverance church
+      of Praise Church
     </p>
     <p className="text-sm mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
-      Join us every Sunday at 9:30a and 11:45a for our
-      Atlanta Gatherings or 9:30a and 11:30a for our
-      Washington DC Gatherings at passioncity.online.
+     Embark on a meaningful journey with us! Join our vibrant church and be a catalyst for positive change in our community.
+     Together, we can create a lasting impact and bring hope to those in need.
+     <br />
+     <br />
+
+    Visit our church anytime and meet our graceful team that will onboard you to becoming a full member of our church
     </p>
 
     <Link
@@ -392,7 +364,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
   data-aos="fade-up"
   data-aos-delay="300"
 >
-<span className="transform hover:scale-110 block">  Watch Online</span>
+<span className="transform hover:scale-110 block">  Get Started</span>
 </Link>
  </div>
 
@@ -503,42 +475,42 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     {
       id: 'discipleship',
       title: 'Discipleship Classes',
-      description: 'Join our enriching discipleship classes to grow spiritually and strengthen your walk with Christ.',
+      description: 'You were created to grow in Christ through fellowship with others, and one of the best ways to do that at Praise Church is by joining a discipleship group! No matter your stage of life, we want you to be part of a Christ-centered community where people come to know Jesus, grow in their faith through Bible reading, experience the joy of baptism, and walk together in spiritual growth and encouragement.',
       icon: <FaCross />,
       image: '/pics48.jpg',
     },
     {
       id: 'merigoround',
       title: 'Merigoround',
-      description: 'Connect, give, and grow together through our rotating support system rooted in fellowship.',
+      description: 'The merigoround is special group that offers compassionate support and  finacial assistance to those in need within the church group. Whether individuals are facing illness, grief, financial struggles, or other life challenges, we want to provide encouragement through prayer, counseling, and a variety of resources. No one has to face difficult times alone.',
       icon: <FaChurch />,
       image: '/pics38.jpg',
     },
     {
       id: 'kids',
       title: 'Kids School',
-      description: 'Empowering our young ones through fun, faith-based learning and activities.',
+      description: 'Praise Church Kids school is a vibrant ministry designed to help children learn about Gods love in a fun and engaging way. Through age-appropriate lessons, interactive activities, and exciting events, children are introduced to biblical truths, encouraged to grow in their faith, and build a foundation for a lifelong relationship with Jesus. The ministry provides a safe and welcoming environment where kids can explore, discover, and experience the joy of following Christ.',
       icon: <FaChild />,
       image: '/pics31.jpg',
     },
     {
       id: 'youth',
       title: 'Youth Fellowship',
-      description: 'A vibrant space for youth to worship, bond, and grow in faith together.',
+      description: 'Our Youth Ministry is focused on guiding them through their spiritual journey during these formative years. With a mix of monthly gatherings, worship nights, and fun outings, Praise Church youth creates a space where the youth can deepen their relationship with God, form strong friendships, and discover their unique purpose. Our desire is to equip and empower the youth to have a personal relationship with God.',
       icon: <FaPeopleArrows />,
       image: '/pics51.jpg',
     },
     {
       id: 'men',
       title: "Men's Fellowship",
-      description: 'Build character and community among men walking in faith and purpose.',
+      description: 'Our Mens Ministry is here to help men grow in their God-given calling as a husband, son, brother, father, and leader. Our desire is for each man to be strengthened, loved, challenged, and encouraged by other men.We offer mens groups, outdoor activities, one-on-one coffees, and larger gathers for men to connect.',
       icon: <FaMale />,
       image: '/pics35.jpg',
     },
     {
       id: 'women',
       title: "Women's Fellowship",
-      description: 'Women supporting women in Christ through love, prayer, and sisterhood.',
+      description: 'Our Womens Ministry provides a nurturing space for women to connect, encourage one another, and grow in their walk with Christ. By engaging in Bible studies, social gatherings, and outreach activities, women of all ages are empowered to strengthen their faith, build meaningful relationships, and serve the church and the wider community.',
       icon: <FaFemale />,
       image: '/pics33.jpg',
     },
@@ -629,7 +601,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
     </div>
     <h3 className="text-lg font-semibold text-[var(--softTextColor)]">Address</h3>
     <p className="text-md text-[var(--softTextColor)]">
-      123 Faith Avenue, Grace City, Heaven State, 45678
+      123 Valley Avenue, Nairobi City, Kenya, 45678
     </p>
   </div>
 
@@ -641,7 +613,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
         <FaPhoneAlt size={24} className="text-white transition-all group-hover:text-[#4c1d95] duration-500" />
       </div>
       <h3 className="text-md font-semibold text-[var(--softTextColor)]">Call Us</h3>
-      <p className="text-sm text-[var(--softTextColor)]">+1 (234) 567-8900</p>
+      <p className="text-sm text-[var(--softTextColor)]">+(254) 756 789 010</p>
     </div>
 
     {/* Email Box */}
@@ -650,7 +622,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
         <FaEnvelope size={24} className="text-white transition-all group-hover:text-[#4c1d95] duration-500" />
       </div>
       <h3 className="text-md font-semibold text-[var(--softTextColor)]">Email</h3>
-      <p className="text-sm text-[var(--softTextColor)]">contact@church.org</p>
+      <p className="text-sm text-[var(--softTextColor)]">praisechurch@gmail.com</p>
     </div>
   </div>
 </div>

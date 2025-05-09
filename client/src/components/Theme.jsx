@@ -23,7 +23,7 @@ const ThemeToggler = () => {
       onClick={toggleTheme}
       aria-label="Toggle Theme"
       className={`w-14 h-8 flex items-center rounded-full px-1 transition-colors duration-300 ${
-        isDark ? "bg-gray-700" : "bg-gray-200"
+        isDark ? "bg-gray-700" : "bg-gray-400"
       }`}
     >
       <div

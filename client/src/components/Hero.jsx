@@ -39,7 +39,7 @@ const Hero = () => {
   to="/about"
   className="gradient-border mt-2 mt:t-0 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl text-white font-semibold transition-all duration-300 inline-block w-fit"
 >
-  New to church?
+  New to Praise church?
 </Link>
 
 
@@ -60,9 +60,9 @@ const Hero = () => {
 <div className="overflow-hidden relative w-full p-6 border-b border-b-[var(--softBg4)]
 whitespace-nowrap  ">
  <div className="flex  gap-9  md:gap-[80px] animate-scroll ">
-   <h1 className="text-xl md:text-2xl"> John 3:16 "For God so loved the world that He gave His only begotten Son." </h1>
+   <h1 className="text-xl md:text-2xl"> John 3:16 "For God so loved the world that He gave us His only begotten Son." </h1>
 
-   <h1 className="text-xl md:text-2xl"> John 3:16 "For God so loved the world that He gave His only begotten Son." </h1>
+   <h1 className="text-xl md:text-2xl"> John 3:16 "For God so loved the world that He gave us His only begotten Son." </h1>
 
  </div>
  </div>
