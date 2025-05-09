@@ -118,8 +118,8 @@ const Ministries = () => {
     style={{ transform: "rotate(180deg)" }}
   >
 
-    <path fill="var(--bg)" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
-    <path fill="var(--bg)" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
+    <path fill="[#4c1d95])" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
+    <path fill="[#4c1d95]" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
   </svg>
     </div>
 
