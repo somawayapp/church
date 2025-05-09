@@ -297,7 +297,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-  <div className="   bg-cover bg-no-repeat" style={{ backgroundImage: "url('/bg.svg')" }}>
+  <div className="   bg-cover bg-no-repeat">
 
 
 <div className="flex bg-[var(--softTextColor)] flex-col pl-3 pr-3 pt-12 md:pt-0  md:pl-[100px] lg:pl-[200px] md:flex-row items-center justify-between  z-10 text-[var(--bg)]">
@@ -323,16 +323,14 @@ className="w-8 h-8 mb-6 mx-auto md:mx-0 md:ml-0"
 
 {/* Adjust vertical alignment with self-start or self-end */}
 <div className=" self-end ">
-<img src="/ceo.png" className=" h-[500px] top-0 md:top-[150px] mr-0 md:mr-[42px] mt-0 md:mt-[300px] object-cover" />
+<img src="/pics2.jpg" className=" h-[500px] top-0 md:top-[150px] mr-0 md:mr-[42px] mt-0 md:mt-[300px] object-cover" />
 </div>
 </div>
 
 
 </div>
 
-<div className= "bg-[#6402db]  hidden md:block  h-[23vh]">
 
-</div>
 
 
 
