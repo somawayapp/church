@@ -129,12 +129,14 @@ const Ministries = () => {
        <div className="flex  flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
    <div className=" order-3 md:order-1 md:w-1/2 items-start justify-start md:text-left">
-  <p className="text-3xl md:text-5xl md:pt-9  px-2  font-bold " data-aos="fade-up">Discipleship
+  <p className="text-3xl md:text-5xl md:pt-9  py-2  font-bold " data-aos="fade-up">Discipleship
   </p>
 
   <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> 
   </p>
   <p className="text-sm  mt-1  md:text-lg" data-aos="fade-up" data-aos-delay="200">
+    <span className="hidden md:flex">  You were created to grow in Christ through fellowship with others, and one of the best ways to do that at Praise Church is 
+    by joining a felowship ministry! </span>
 
   No matter your stage of life, we want you to be part of a Christ-centered community where 
   people come to know Jesus, grow in their faith through Bible reading, experience the joy of baptism, and walk together in 
@@ -199,7 +201,7 @@ className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-al
 
 
 <div className="md:w-1/2 items-start justify-start md:text-left">
-<p className="text-3xl md:text-5xl  px-2  md:pt-9  font-bold " data-aos="fade-up">Merygoround
+<p className="text-3xl md:text-5xl  py-2  md:pt-9  font-bold " data-aos="fade-up">Merygoround
 </p>
 
 <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> 
@@ -259,7 +261,7 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 
 <div className="flex  flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
   <div className=" order-2 md:order-1 md:w-1/2 items-start justify-start md:text-left">
-    <p className="text-3xl md:text-5xl  px-2  md:pt-9 font-bold" data-aos="fade-up">
+    <p className="text-3xl md:text-5xl  py-2  md:pt-9 font-bold" data-aos="fade-up">
       Kids
     </p>
 
@@ -325,7 +327,7 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 
 
   <div className="md:w-1/2 items-start justify-start md:text-left">
-    <p className="text-3xl md:text-5xl  px-2  md:pt-9 font-bold" data-aos="fade-up">
+    <p className="text-3xl md:text-5xl  py-2  md:pt-9 font-bold" data-aos="fade-up">
       Youth
     </p>
 
@@ -378,7 +380,7 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 
 <div className="flex flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
   <div className=" order-2 md:order-1 md:w-1/2 items-start justify-start md:text-left">
-    <p className="text-3xl md:text-5xl md:pt-9  px-2  font-bold" data-aos="fade-up">
+    <p className="text-3xl md:text-5xl md:pt-9  py-2  font-bold" data-aos="fade-up">
         Men 
    </p>
 
@@ -453,7 +455,7 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 
  
   <div className="md:w-1/2 items-start justify-start md:text-left">
-    <p className="text-3xl md:text-5xl md:pt-9 px-2 font-bold" data-aos="fade-up">
+    <p className="text-3xl md:text-5xl md:pt-9 py-2 font-bold" data-aos="fade-up">
         Women 
    </p>
 
