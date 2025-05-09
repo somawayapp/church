@@ -374,9 +374,9 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
   </svg>
 </div>
 
-<div className="  flex flex-col " >
+<div className="  flex flex-col bg-[#4c1d95] " >
 
-<div className="flexflex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+<div className="flex text-white flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
   <div className="md:w-1/2 items-start justify-start md:text-left">
     <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
         Men 
@@ -438,7 +438,7 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 <div className="flex flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
   <div className="md:w-1/2 items-start justify-start md:text-left">
     <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
-        Womeen 
+        Men 
    </p>
 
   
