@@ -118,42 +118,33 @@ const Ministries = () => {
     style={{ transform: "rotate(180deg)" }}
   >
 
-    <path fill="[#4c1d95])" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
+    <path fill="[#4c1d95]" d="M0,0 C 480,225 975,-180 1440,32 L1440,0 L0,0 Z" />
     <path fill="[#4c1d95]" d="M0,0 C 480,305 975,-180 1440,96 L1440,0 L0,0 Z" />
   </svg>
     </div>
 
     <div className="mb-9  flex flex-col gap-0" >
 
-     
-
-
- 
         <div className=" animate-fadeIn flex flex-col  items-center justify-center" >
   
        <div className="flex bg-[#4c1d95] text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
    <div className="md:w-1/2 items-start justify-start md:text-left">
-  <p className="text-3xl md:text-5xl md:pt-9  font-bold " data-aos="fade-up">Join US this Sunday
+  <p className="text-3xl md:text-5xl md:pt-9  font-bold " data-aos="fade-up">Discipleship
   </p>
 
-  <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> for un uplifting service
+  <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> 
   </p>
   <p className="text-sm  mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
-  Join us every Sunday at 6:00am and 8:00am for our
-   morning Gatherings or 11:00am and 2:00pm for our 
-  mid-day Gatherings at Praise Church or online.
+  You were created to grow in Christ through fellowship with others, and one of the best ways to do that at Praise Church is 
+  by joining a discipleship group! 
+  <br />
+  <br />
+  No matter your stage of life, we want you to be part of a Christ-centered community where 
+  people come to know Jesus, grow in their faith through Bible reading, experience the joy of baptism, and walk together in 
+  spiritual growth and encouragement.
+
   </p>
-
-
-  <Link
-  to="/about"
-  className="inline-block gradient-border mt-4 mb-4 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold transition-all duration-300 transform hover:scale-110"
-  data-aos="fade-up"
-  data-aos-delay="300"
->
-<span className="transform hover:scale-110 block">  Watch Online</span>
-</Link>
  </div>
 
 
@@ -161,7 +152,7 @@ const Ministries = () => {
   data-aos-delay="300"> 
 
   <img
-  src="/pics44.jpg"
+  src="/pics48.jpg"
   className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
  
 />
@@ -171,9 +162,6 @@ const Ministries = () => {
 
        
        </div>
-
-
-
 
 
 <div>
@@ -186,28 +174,51 @@ const Ministries = () => {
 
 
 
-  <div className="px-3 md:px-[100px] py-[50px] md:py-[75px] ">
-    <div className="max-w-[900px] mx-auto ">
-    <p className="text-2xl md:text-3xl mt-4 md:mt-2   " data-aos="fade-up">
-  OUR VISION </p>
 
-  <p className="text-3xl md:text-5xl py-4 font-semibold" data-aos="fade-up" data-aos-delay="100">
-  To see people passionately <br />
-   devoted to God.
-  </p>
-  <p className="text-sm  mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
-  Praise Church is a Spirit-filled, Bible-based church in Nairobi, Kenya.
-   Founded in 2023 by Pastor saviour, we exist to see people passionately devoted to God.
- <br />
+
+
+
+
+
+<div className=" animate-fadeIn flex flex-col  items-center justify-center" >
+  
+  <div className="flex bg-[#4c1d95] text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+
+
+  <div className="block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+data-aos-delay="300"> 
+
+<img
+src="/pics38.jpg"
+className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
+
+/>
+
+</div>
+
+
+<div className="md:w-1/2 items-start justify-start md:text-left">
+<p className="text-3xl md:text-5xl md:pt-9  font-bold " data-aos="fade-up">Merygoround
+</p>
+
+<p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> 
+</p>
+<p className="text-sm  mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
+The merigoround is special group that offers compassionate support and  finacial assistance to those in need within the church group.
+
 <br />
-We value the presence of God. Our worship, preaching and teaching, and Children's Ministry are centered
- around each person encountering the Holy Spirit. We want to help you discover truth, find hope, 
- and become all who God has created you to be.
-  </p>
-    </div>
- 
+<br />
+Whether individuals are facing illness, grief, financial struggles, or other life challenges, we want to provide encouragement through
+prayer, counseling, and a variety of resources. No one has to face difficult times alone.
+
+</p>
+</div>
 
 
+
+</div>
+
+  
   </div>
 
   
@@ -245,29 +256,21 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 <div className="flex text-white flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
   <div className="md:w-1/2 items-start justify-start md:text-left">
     <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
-      Become a member
+      Kids
     </p>
 
-    <p className="text-3xl md:text-5xl :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100">
-      of Praise Church
-    </p>
+  
     <p className="text-sm mt-1 md:mt-2 md:text-lg" data-aos="fade-up" data-aos-delay="200">
-     Embark on a meaningful journey with us! Join our vibrant church and be a catalyst for positive change in our community.
-     Together, we can create a lasting impact and bring hope to those in need.
+    Praise Church Kids school is a vibrant ministry designed to help children learn about Gods love in a fun and engaging way. 
+    Through age-appropriate lessons, interactive activities, and exciting events, children are introduced to biblical truths,
+     encouraged to grow in their faith, and build a foundation for a lifelong relationship with Jesus.
      <br />
      <br />
 
-    Visit our church anytime and meet our graceful team that will onboard you to becoming a full member of our church
+     The ministry provides a safe and welcoming environment where kids can explore, discover, and experience the joy of following Christ.
     </p>
 
-    <Link
-  to="/about"
-  className="inline-block gradient-border mt-4 mb-4 rounded-full px-6 md:px-12 py-3 md:py-3 text-lg md:text-xl font-semibold transition-all duration-300 transform hover:scale-110"
-  data-aos="fade-up"
-  data-aos-delay="300"
->
-<span className="transform hover:scale-110 block">  Get Started</span>
-</Link>
+ 
  </div>
 
 
@@ -275,7 +278,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
   data-aos-delay="300"> 
 
   <img
-  src="/pics44.jpg"
+  src="/pics31.jpg"
   className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
  
 />
@@ -303,27 +306,9 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 {(() => {
   const ministries = [
-    {
-      id: 'discipleship',
-      title: 'Discipleship Classes',
-      description: 'You were created to grow in Christ through fellowship with others, and one of the best ways to do that at Praise Church is by joining a discipleship group! No matter your stage of life, we want you to be part of a Christ-centered community where people come to know Jesus, grow in their faith through Bible reading, experience the joy of baptism, and walk together in spiritual growth and encouragement.',
-      icon: <FaCross />,
-      image: '/pics48.jpg',
-    },
-    {
-      id: 'merigoround',
-      title: 'Merigoround',
-      description: 'The merigoround is special group that offers compassionate support and  finacial assistance to those in need within the church group. Whether individuals are facing illness, grief, financial struggles, or other life challenges, we want to provide encouragement through prayer, counseling, and a variety of resources. No one has to face difficult times alone.',
-      icon: <FaChurch />,
-      image: '/pics38.jpg',
-    },
-    {
-      id: 'kids',
-      title: 'Kids School',
-      description: 'Praise Church Kids school is a vibrant ministry designed to help children learn about Gods love in a fun and engaging way. Through age-appropriate lessons, interactive activities, and exciting events, children are introduced to biblical truths, encouraged to grow in their faith, and build a foundation for a lifelong relationship with Jesus. The ministry provides a safe and welcoming environment where kids can explore, discover, and experience the joy of following Christ.',
-      icon: <FaChild />,
-      image: '/pics31.jpg',
-    },
+   
+
+   
     {
       id: 'youth',
       title: 'Youth Fellowship',
