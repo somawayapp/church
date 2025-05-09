@@ -135,10 +135,7 @@ const Ministries = () => {
   <p className="text-3xl md:text-5xl  :text-2xl font-semibold" data-aos="fade-up" data-aos-delay="100"> 
   </p>
   <p className="text-sm  mt-1  md:text-lg" data-aos="fade-up" data-aos-delay="200">
-  You were created to grow in Christ through fellowship with others, and one of the best ways to do that at Praise Church is 
-  by joining a discipleship group! 
-  <br />
-  <br />
+
   No matter your stage of life, we want you to be part of a Christ-centered community where 
   people come to know Jesus, grow in their faith through Bible reading, experience the joy of baptism, and walk together in 
   spiritual growth and encouragement.
@@ -147,8 +144,9 @@ const Ministries = () => {
  </div>
 
  <div className=" order-1 md:hidden items-start justify-start md:text-left">
-
-  <p className="text-sm  mt-9 mb-9" >
+ <p className="text-3xl md:text-5xl  mb-2  font-bold ">Fellowships & groups
+  </p>
+  <p className="text-sm mb-9" >
   You were created to grow in Christ through fellowship with others, and one of the best ways to do that at Praise Church is 
   by joining a felowship ministry! 
 
@@ -156,8 +154,7 @@ const Ministries = () => {
  </div>
 
 
- <div className="  order-2 md:order-2 block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
-  data-aos-delay="300"> 
+ <div className="  order-2 md:order-2 block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"> 
 
   <img
   src="/pics48.jpg"
