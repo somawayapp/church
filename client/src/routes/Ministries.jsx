@@ -91,8 +91,25 @@ const Ministries = () => {
 
             <Navbar/>
 
-    <div className="mb-9  flex flex-col gap-0 h-[50vh]"     style={{ backgroundImage: "url('/pics38.jpg')" }}>
-    >
+            <div  className=" bg-cover bg-center h-[50vh] w-full flex flex-col 
+       text-white  overflow-y-auto"
+    style={{ backgroundImage: "url('/pics38.jpg')" }}>
+
+      <div className="flex flex-col p-3 lg:flex-row gap-[100px]">
+        {/* Left Section */}
+        <div className="max-w-[500px] flex flex-col mt-[50px]  md:mt-[20px] gap-1 md:gap-4 rounded-md ml-[3px] md:ml-[100px]">
+      
+          <h1 className="text-4xl mt-[100px] lg:text-6xl font-bold text-white ">
+            Ministries
+          </h1>
+       
+         
+         
+        </div>
+      </div>
+    </div>
+
+    <div className="mb-9  flex flex-col gap-0" >
 
      
 
