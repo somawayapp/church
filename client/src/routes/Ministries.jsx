@@ -126,9 +126,9 @@ const Ministries = () => {
       <div className="mb-9  flex flex-col gap-0" >
         <div className=" animate-fadeIn flex flex-col  items-center justify-center" >
   
-       <div className="flex  text-white flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+       <div className="flex  flex-col max-w-full  gap-2 md:gap-4  px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
 
-   <div className="md:w-1/2 items-start justify-start md:text-left">
+   <div className=" order-2 md:order-1 md:w-1/2 items-start justify-start md:text-left">
   <p className="text-3xl md:text-5xl md:pt-9  font-bold " data-aos="fade-up">Discipleship
   </p>
 
@@ -147,7 +147,7 @@ const Ministries = () => {
  </div>
 
 
- <div className="block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+ <div className="  order-1 md:order-2 block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
   data-aos-delay="300"> 
 
   <img
@@ -315,6 +315,21 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 <div className="  flex flex-col bg-[#4c1d95] " >
 
 <div className="flex text-white flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+
+
+
+<div className="block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+  data-aos-delay="300"> 
+
+  <img
+  src="/pics51.jpg"
+  className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
+ 
+/>
+
+  </div>
+
+
   <div className="md:w-1/2 items-start justify-start md:text-left">
     <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
       Youth
@@ -333,17 +348,6 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
  
  </div>
 
-
- <div className="block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
-  data-aos-delay="300"> 
-
-  <img
-  src="/pics51.jpg"
-  className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
- 
-/>
-
-  </div>
 
   
 </div>
@@ -437,7 +441,23 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
 
 <div className="  flex flex-col bg-[#4c1d95] " >
 
-<div className="flex flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+<div className="flex  text-white flex-col max-w-full gap-2 md:gap-4 px-3 md:px-[100px] py-[70px] md:py-[100px] md:flex-row">
+ 
+ 
+ 
+
+<div className="block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
+  data-aos-delay="300"> 
+
+  <img
+  src="/pics33.jpg"
+  className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
+ 
+/>
+
+  </div>
+
+ 
   <div className="md:w-1/2 items-start justify-start md:text-left">
     <p className="text-3xl md:text-5xl md:pt-9 font-bold" data-aos="fade-up">
         Women 
@@ -456,16 +476,6 @@ prayer, counseling, and a variety of resources. No one has to face difficult tim
  </div>
 
 
- <div className="block w-full  rounded-lg md:rounded-[20px] md:w-1/2 mx-auto md:mx-0"  data-aos="fade-up"
-  data-aos-delay="300"> 
-
-  <img
-  src="/pics33.jpg"
-  className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
- 
-/>
-
-  </div>
 
   
 </div>
