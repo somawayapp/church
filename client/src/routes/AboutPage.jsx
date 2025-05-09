@@ -297,10 +297,10 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
 
 
-  <div className=" bg-[var(--softTextColor)]  bg-cover bg-no-repeat" style={{ backgroundImage: "url('/bg.svg')" }}>
+  <div className="   bg-cover bg-no-repeat" style={{ backgroundImage: "url('/bg.svg')" }}>
 
 
-<div className="flex flex-col pl-3 pr-3 pt-12 md:pt-0  md:pl-[100px] lg:pl-[200px] md:flex-row items-center justify-between  z-10 bg-[var(--bg)]">
+<div className="flex bg-[var(--softTextColor)] flex-col pl-3 pr-3 pt-12 md:pt-0  md:pl-[100px] lg:pl-[200px] md:flex-row items-center justify-between  z-10 text-[var(--bg)]">
 <div className="flex-1  text-center  md:text-left">
 <h3 className="text-3xl md:text-5xl font-bold mt-4 mb-4">Church Leadership</h3>
 <p className="text-sm md:text-lg max-w-md mb-6">
