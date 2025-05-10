@@ -158,14 +158,14 @@ const Gallery = () => {
 
       <div className="overflow-hidden px-3 md:px-[100px]  mt-9 md:mt-[50px] w-full">
   <div className="grid grid-cols-3 md:grid-cols-5 gap-2 md:gap-4 flex items-center justify-center ">
-    {images.map((src, index) => {
-      const isSquare = index % 2 === 0;
-      return (
+             {images.map((img, index) => {
+              const isSquare = index % 2 === 0;
+              return (
         <div
           key={index}
           className={`flex-shrink-0 rounded-lg overflow-hidden relative ${
             isSquare ? "aspect-[3/4] w-24 md:w-60" : "aspect-[3/4] w-24 md:w-60"
-          }`}                   onClick={() => openModal(img)}
+          }`}   onClick={() => openModal(img)}
 
         >
           <div
@@ -193,11 +193,11 @@ const Gallery = () => {
 
         {/* MODAL */}
         {isModalOpen && selectedImage && (
-          <div className="fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center p-4">
-            <div className="bg-white rounded-lg p-6 max-w-[90vw] max-h-[90vh] overflow-auto shadow-xl">
+          <div className="fixed inset-0 bg-black  bg-opacity-70 z-50 flex items-center justify-center p-4"onClick={closeModal}>
+            <div className="bg-[var(--bg)] rounded-lg p-6 max-w-[90vw] max-h-[90vh] overflow-auto shadow-xl">
               <button
                 onClick={closeModal}
-                className="ml-auto mb-4 text-gray-700 hover:text-black font-semibold"
+                className="ml-auto mb-4 text-[var(--softTextColor)] hover:text-extrabold transform hover:scale-105 transition-all duration-300 font-semibold"
               >
                 ✖ Close
               </button>
