@@ -109,8 +109,8 @@ const Gallery = () => {
         
 
 
-      <div className="overflow-hidden w-full">
-  <div className="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-6">
+      <div className="overflow-hidden px-3 md:px-[100px]  w-full">
+  <div className="grid grid-cols-1 md:grid-cols-5 gap-2 md:gap-4 flex items-center justify-center ">
     {images.map((src, index) => {
       const isSquare = index % 2 === 0;
       return (
