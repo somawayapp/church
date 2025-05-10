@@ -23,7 +23,7 @@ const Gallery = () => {
   return (
       <div>
       <Helmet>
-  <title>About Us - Praise Church.</title>
+  <title>Gallery - Praise Church.</title>
 
   <meta name="description" content="Praise Church is a welcoming community where faith comes alive. Join us for worship, uplifting sermons, Bible study, events, and spiritual growth. Discover your purpose in Christ with us today." />
 
@@ -82,7 +82,7 @@ const Gallery = () => {
            <div className="max-w-[500px] flex flex-col mt-[50px]  md:mt-[20px] gap-1 md:gap-4 rounded-md ml-[3px] md:ml-[100px]">
       
            <h1 className="text-4xl mt-[100px] lg:text-6xl font-bold text-white ">
-            Give
+            Gallery
            </h1>
        
          
@@ -109,32 +109,36 @@ const Gallery = () => {
         
 
 
-
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-6 w-full">
-  {images.map((src, index) => {
-    const isSquare = index % 2 === 0;
-    return (
-      <div
-        key={index}
-        className={`rounded-lg overflow-hidden relative ${
-          isSquare ? "aspect-[3/4]" : "aspect-[3/4]"
-        }`}
-      >
+      <div className="overflow-hidden w-full">
+  <div className="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-6">
+    {images.map((src, index) => {
+      const isSquare = index % 2 === 0;
+      return (
         <div
-          className={`w-full h-full ${
-            isSquare ? "" : "flex items-center justify-center"
+          key={index}
+          className={`flex-shrink-0 rounded-lg overflow-hidden relative ${
+            isSquare ? "aspect-[3/4] w-48 md:w-60" : "aspect-[3/4] w-48 md:w-60"
           }`}
         >
-          <img
-            src={src}
-            alt={`Image ${index + 1}`}
-            className={`object-cover rounded-lg w-full h-full`}
-          />
+          <div
+            className={`w-full h-full ${
+              isSquare ? "" : "flex items-center justify-center"
+            }`}
+          >
+            <img
+              src={src}
+              alt={`Image ${index + 1}`}
+              className={`object-cover rounded-lg ${
+                isSquare ? "w-full h-full" : "w-48 h-48 md:w-60 md:h-60"
+              }`}
+            />
+          </div>
         </div>
-      </div>
-    );
-  })}
+      );
+    })}
+  </div>
 </div>
+
 
 
 
