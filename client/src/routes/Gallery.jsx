@@ -110,14 +110,14 @@ const Gallery = () => {
 
 
       <div className="overflow-hidden px-3 md:px-[100px]  w-full">
-  <div className="grid grid-cols-1 md:grid-cols-5 gap-2 md:gap-4 flex items-center justify-center ">
+  <div className="grid grid-cols-3 md:grid-cols-5 gap-2 md:gap-4 flex items-center justify-center ">
     {images.map((src, index) => {
       const isSquare = index % 2 === 0;
       return (
         <div
           key={index}
           className={`flex-shrink-0 rounded-lg overflow-hidden relative ${
-            isSquare ? "aspect-[3/4] w-48 md:w-60" : "aspect-[3/4] w-48 md:w-60"
+            isSquare ? "aspect-[3/4] w-40 md:w-60" : "aspect-[3/4] w-40 md:w-60"
           }`}
         >
           <div
@@ -129,7 +129,7 @@ const Gallery = () => {
               src={src}
               alt={`Image ${index + 1}`}
               className={`object-cover rounded-lg ${
-                isSquare ? "w-full h-full" : "w-48 h-48 md:w-60 md:h-60"
+                isSquare ? "w-full h-full" : "w-40 h-40 md:w-60 md:h-60"
               }`}
             />
           </div>
