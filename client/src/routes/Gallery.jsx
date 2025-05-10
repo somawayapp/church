@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 import { ThemeProvider } from "../../themecontext";
 import Navbar from "../components/Navbar";
@@ -151,30 +152,44 @@ const Gallery = () => {
       </div>
 
       <div className="mb-9 flex flex-col gap-0">
-        <div className="overflow-hidden px-3 md:px-[100px] mt-9 md:mt-[50px] w-full">
-          <div className="grid grid-cols-3 md:grid-cols-5 gap-2 md:gap-4 items-center justify-center">
-            {images.map((img, index) => {
-              const isSquare = index % 2 === 0;
-              return (
-                <div
-                  key={index}
-                  className={`flex-shrink-0 rounded-lg overflow-hidden relative cursor-pointer ${
-                    isSquare ? "aspect-[3/4] w-24 md:w-60" : "aspect-[3/4] w-24 md:w-60"
-                  }`}
-                  onClick={() => openModal(img)}
-                >
-                  <img
-                    src={img.src}
-                    alt={`Image ${index + 1}`}
-                    className={`object-cover rounded-lg transform hover:scale-105 transition-all duration-300 ${
-                      isSquare ? "w-full h-full" : "w-24 h-24 md:w-60 md:h-60"
-                    }`}
-                  />
-                </div>
-              );
-            })}
+
+
+
+
+      <div className="overflow-hidden px-3 md:px-[100px]  mt-9 md:mt-[50px] w-full">
+  <div className="grid grid-cols-3 md:grid-cols-5 gap-2 md:gap-4 flex items-center justify-center ">
+    {images.map((src, index) => {
+      const isSquare = index % 2 === 0;
+      return (
+        <div
+          key={index}
+          className={`flex-shrink-0 rounded-lg overflow-hidden relative ${
+            isSquare ? "aspect-[3/4] w-24 md:w-60" : "aspect-[3/4] w-24 md:w-60"
+          }`}                   onClick={() => openModal(img)}
+
+        >
+          <div
+            className={`w-full h-full ${
+              isSquare ? "" : "flex items-center justify-center"
+            }`}
+          >
+            <img
+              src={src}
+              alt={`Image ${index + 1}`}
+              className={`object-cover rounded-lg transform hover:scale-105 transition-all duration-300 ${
+                isSquare ? "w-full h-full" : "w-24 h-24 md:w-60 md:h-60"
+              }`}
+            />
           </div>
         </div>
+      );
+    })}
+  </div>
+</div>
+
+
+
+
 
         {/* MODAL */}
         {isModalOpen && selectedImage && (
@@ -204,4 +219,9 @@ const Gallery = () => {
 
 export default Gallery;
  
+
+  
+
+
+    
 
