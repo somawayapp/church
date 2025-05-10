@@ -174,7 +174,7 @@ const Gallery = () => {
             }`}
           >
             <img
-              src={src}
+              src={img.src}
               alt={`Image ${index + 1}`}
               className={`object-cover rounded-lg transform hover:scale-105 transition-all duration-300 ${
                 isSquare ? "w-full h-full" : "w-24 h-24 md:w-60 md:h-60"
