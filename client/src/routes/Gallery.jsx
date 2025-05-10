@@ -117,7 +117,7 @@ const Gallery = () => {
         <div
           key={index}
           className={`flex-shrink-0 rounded-lg overflow-hidden relative ${
-            isSquare ? "aspect-[3/4] w-25 md:w-60" : "aspect-[3/4] w-25 md:w-60"
+            isSquare ? "aspect-[3/4] w-20 md:w-60" : "aspect-[3/4] w-20 md:w-60"
           }`}
         >
           <div
@@ -128,8 +128,8 @@ const Gallery = () => {
             <img
               src={src}
               alt={`Image ${index + 1}`}
-              className={`object-cover rounded-lg ${
-                isSquare ? "w-full h-full" : "w-25 h-25 md:w-60 md:h-60"
+              className={`object-cover rounded-lg transform hover:scale-105 transition-all duration-300 ${
+                isSquare ? "w-full h-full" : "w-20 h-20 md:w-60 md:h-60"
               }`}
             />
           </div>
