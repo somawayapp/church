@@ -377,7 +377,7 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
   className=" rounded-lg md:rounded-[20px] transform hover:scale-105 transition-all duration-300"
  
 />
-
+                   
   </div>
 
   
