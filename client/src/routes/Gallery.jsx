@@ -206,7 +206,7 @@ const Gallery = () => {
                 alt="Selected"
                 className="w-full max-h-[60vh] object-contain rounded-md mb-4"
               />
-              <p className="text-gray-800 text-lg">{selectedImage.description}</p>
+              <p className="text-[var(--softTextColor)] text-lg">{selectedImage.description}</p>
             </div>
           </div>
         )}
