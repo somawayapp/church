@@ -12,7 +12,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
 
 
-const Give = () => {
+const Gallery = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top when this component mounts
   }, []);
@@ -148,5 +148,5 @@ const Give = () => {
   );
 };
 
-export default Give;
+export default Gallery;
 

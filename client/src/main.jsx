@@ -14,6 +14,7 @@ import Give from "./routes/Give.jsx";
 import Ministries from "./routes/Ministries.jsx";
 const queryClient = new QueryClient();
 import Services from "./routes/Services.jsx";
+import Gallery from "./routes/Gallery.jsx";
 // Hardcoded Clerk publishable key
 
 const clerkPublishableKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || "pk_live_Y2xlcmsubWFrZXNvbWF3YXkuY29tJA";
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "/give",
         element: <Give />,
+      },
+      {
+        path: "/gallery",
+        element: <Gallery />,
       },
       {
         path: "/Ministries",
