@@ -33,7 +33,7 @@ const Navbar = () => {
       sticky top-0 justify-between bg-[var(--bg)] border-b border-b-[var(--softBg4)] ">
 
 <div className="flex items-center justify-between gap-12">
-  <Link to="/home" className="flex items-center text-xl font-bold md:text-3xl">
+  <Link to="/" className="flex items-center text-xl font-bold md:text-3xl">
     <img src="/logo3.png" className=" h-[20px]  md:h-[40px]" />
     <span className="text-[#4c1d95] text-lg  md:text-xl">CHURCH</span>
   </Link>

@@ -1,15 +1,8 @@
 import { useEffect, useState, useRef } from "react";
-import { ThemeProvider } from "../../themecontext";
 import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
-import Images from "../components/Images";
 import { Helmet } from "react-helmet";
 import { FaChurch, FaPrayingHands, FaClock, FaBible, FaCross, FaMoon } from "react-icons/fa";
-import { FaChild, FaPeopleArrows, FaMale, FaFemale } from 'react-icons/fa';
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
-
 
 
 const Services = () => {

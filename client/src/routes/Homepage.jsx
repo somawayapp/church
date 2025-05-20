@@ -1,5 +1,4 @@
 import { useEffect, useState, useRef } from "react";
-import { ThemeProvider } from "../../themecontext";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
@@ -20,23 +19,7 @@ const Homepage = () => {
   const [selected, setSelected] = useState('discipleship');
 
 
-  const cardVariants = {
-    offscreen: {
-      opacity: 0,
-      scale: 0.8,
-      y: 100,
-    },
-    onscreen: {
-      opacity: 1,
-      scale: 1,
-      y: 0,
-      transition: {
-        type: "spring",
-        bounce: 0.2,
-        duration: 0.8,
-      },
-    },
-  };
+  
 
   return (
       <div>

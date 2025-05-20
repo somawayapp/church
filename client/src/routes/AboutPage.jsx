@@ -1,13 +1,7 @@
 import { useEffect, useState, useRef } from "react";
-import { ThemeProvider } from "../../themecontext";
 import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
-import Images from "../components/Images";
 import { Helmet } from "react-helmet";
-import { FaChurch, FaPrayingHands, FaClock, FaBible, FaCross, FaMoon } from "react-icons/fa";
-import { FaChild, FaPeopleArrows, FaMale, FaFemale } from 'react-icons/fa';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
 
@@ -17,26 +11,9 @@ const AboutPage = () => {
     window.scrollTo(0, 0); // Scrolls to the top when this component mounts
   }, []);
 
-  const [selected, setSelected] = useState('discipleship');
 
 
-  const cardVariants = {
-    offscreen: {
-      opacity: 0,
-      scale: 0.8,
-      y: 100,
-    },
-    onscreen: {
-      opacity: 1,
-      scale: 1,
-      y: 0,
-      transition: {
-        type: "spring",
-        bounce: 0.2,
-        duration: 0.8,
-      },
-    },
-  };
+  
 
   return (
       <div>
@@ -309,17 +286,14 @@ We value the presence of God. Our worship, preaching and teaching, and Children'
 
   
     <p className="text-sm mt-1  md:text-lg" data-aos="fade-up" data-aos-delay="200">
-    I never thought I’d have to move out and go house hunting again. But here I am—four years later—and I still can’t find a decent house online. 
-       And trust me, I’m not about to spend a whole week under the scorching sun, trudging through mud and dust.
-       I know I’m not alone in this. There are countless others who’ve faced the same frustration. That’s why I’m determined to bring this idea to life.
-
-       
+    No matter your stage of life, we want you to be part of a Christ-centered community where 
+  people come to know Jesus, grow in their faith through Bible reading, experience the joy of baptism, and walk together in 
+  spiritual growth and encouragement.
        <br />
        <br />
-       I never thought I’d have to move out and go house hunting again. But here I am—four years later—and I still can’t find a decent house online. 
-       And trust me, I’m not about to spend a whole week under the scorching sun, trudging through mud and dust.
-       I know I’m not alone in this. There are countless others who’ve faced the same frustration. That’s why I’m determined to bring this idea to life.
-
+       No matter your stage of life, we want you to be part of a Christ-centered community where 
+  people come to know Jesus, grow in their faith through Bible reading, experience the joy of baptism, and walk together in 
+  spiritual growth and encouragement.
       </p>
       <p className="font-semibold mt-5 text-md">Rev saviour</p>
 

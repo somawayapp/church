@@ -1,7 +1,4 @@
 import { Link } from "react-router-dom";
-import Image from "./Image";
-import axios from "axios";
-import { useQuery } from "@tanstack/react-query";
 
 
 const Hero = () => {

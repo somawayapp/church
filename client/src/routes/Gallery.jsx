@@ -1,15 +1,8 @@
 
 import { useEffect, useState } from "react";
-import { ThemeProvider } from "../../themecontext";
 import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
-import Images from "../components/Images";
 import { Helmet } from "react-helmet";
-import { FaChurch, FaPrayingHands, FaClock, FaBible, FaCross, FaMoon } from "react-icons/fa";
-import { FaChild, FaPeopleArrows, FaMale, FaFemale } from 'react-icons/fa';
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
 const Gallery = () => {
   useEffect(() => {
@@ -134,7 +127,7 @@ const Gallery = () => {
         <div className="flex flex-col p-3 lg:flex-row gap-[100px]">
           <div className="max-w-[500px] flex flex-col mt-[50px] md:mt-[20px] gap-1 md:gap-4 rounded-md ml-[3px] md:ml-[100px]">
             <h1 className="text-4xl mt-[100px] lg:text-6xl font-bold text-white">
-              Gallery
+            Church <br /><br />  Gallery
             </h1>
           </div>
         </div>
