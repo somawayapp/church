@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container mx-auto grid pt-5  grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {/* Home Section */}
         <div>
-          <h4 className="text-lg font-semibold mb-4">Holy Christ Church</h4>
+          <h4 className="text-lg font-semibold mb-4">Praise Church</h4>
           <nav>
             <ul className="space-y-2">
               <li><a href="/" className="text-[var(--softTextColor)] hover:text-[var(--softTextColor)]">Home</a></li>
