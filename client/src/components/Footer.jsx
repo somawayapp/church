@@ -38,7 +38,7 @@ const Footer = () => {
           <h4 className="text-lg font-semibold mb-4">Give</h4>
           <nav>
             <ul className="space-y-2">
-              <li><a href="/give" className="text-[var(--softTextColor)] hover:text-[var(--softTextColor)]">Offering</a></li>
+              <li><a href="/give" className="text-[var(--softTextColor)] hover:text-[var(--softTextColor)]">Offeing</a></li>
               <li><a href="/give" className="text-[var(--softTextColor)] hover:text-[var(--softTextColor)]">Tithes</a></li>
               <li><a href="/give" className="text-[var(--softTextColor)] hover:text-[var(--softTextColor)]">Donations</a></li>
               <li><a href="/give" className="text-[var(--softTextColor)] hover:text-[var(--softTextColor)]">Fundraiser</a></li>
